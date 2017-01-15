@@ -1,0 +1,679 @@
+/*   全局公共css   */
+*html, *html body { background-image: url(about:blank); background-attachment: fixed; }
+dl, dd, h1, h2, h3, h4, h5, form, p { margin: 0; }
+ul, ol, li { margin: 0; padding: 0; list-style: none; }
+body { margin: 0; font-size: 12px; font-family: "Microsoft YaHei",'微软雅黑',Arial,"宋体",sans-serif; background: #fff; }
+input, td{padding:0}
+input:focus { outline: none}
+img { border: none; }
+.fb { font-weight: bold; }
+.fn { font-weight: normal; }
+.f12 { font-size: 12px; }
+.f14 { font-size: 14px; }
+.tc { text-align: center; }
+.tl { text-align: left; }
+.tr { text-align: right; }
+.ml15 { margin-left: 15px; }
+.fl, .ufl li, .dfl dd {  float: left; }
+.fr, .ufr li, .dfr dd { float: right; }
+.db { display: block; }
+.dn { display: none; }
+.di { display: inline; }
+.cl { clear: both; display: block; font-size: 0; }
+.cler { clear: both; width: 100%; height: 0; overflow: hidden; }
+.clear { clear: both; }
+.h18 { padding: 3px 0 0 3px; height: 15px; }
+address, em, i, cite, q, quote { font-style: normal; }
+.ul li, .dl dd, .hid { display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+table, th, td { border-spacing: 0; overflow: hidden; word-break: break-all; }
+.table, .table th, .table td, .th, .td { word-break: keep-all; white-space: nowrap; }
+.hand { cursor: pointer; }
+.strog { font-weight: bold; }
+a { color: #000; text-decoration: none; }
+a:hover { color: #f00; text-decoration: none; }
+.hlink { display: block; height: 100%; overflow: hidden; text-indent: -9999px; }
+.limit_w { width: 970px; margin: 0 auto; }
+.red { color: #f00; }
+.f60 { color: #f60; }
+.fff { color: #fff; }
+.ooo { color: #000; }
+.ccc { color: #ccc; }
+.f333 { color: #333; }
+.ff6000 { color: #ff6000; }
+/*新 头部 by qdb*/
+#top { height: 30px; background: #efefef; }
+#top .sj_jj { height: 30px; margin: 0 auto; color: #666666; width: 970px; line-height: 25px; }
+#top .sj_jj a { margin-right: 10px; color: #666666; }
+#top .sj_jj span { background: url(http://img.to8to.com/front_end/bg/sucai.png?20130415) no-repeat; height: 16px; width: 16px; display: inline-block; margin-top: 3px; margin-right: 5px; }
+#top .sj_jj span.mobile_fg { display: inline-block; margin-right: 10px; width: 2px; background: url(http://img.to8to.com/front_end/bg/index_top_fg.png?20140920); width: 1px; height: 8px; margin-top: 7px; overflow: hidden; }
+#top .top_left { float: left; height: 30px; }
+#top .top_left a { padding: 0px 3px; }
+#top .top_left a.header_top_mobile { display: inline-block; padding-left: 18px; background: url(http://img.to8to.com/front_end/bg/to8to_index_icon.gif?20131009) scroll -237px -560px no-repeat; }
+#top .top_left a.header_top_email { display: inline-block; padding-left: 20px; background: url(http://img.to8to.com/front_end/bg/to8to_index_icon.gif?20131009) scroll -229px -292px no-repeat; }
+#top .top_left a.top_on { height: 29px; line-height: 28px; border-top: solid 1px #bebebe; background: #FFFFFF; padding: 0px 8px; display: inline-block; }
+#top .top_right { float: right; position: relative; height: 24px; z-index: 2000; }
+#top .user_data, #top .gz_to8to_gg { float: left; }
+#top .user_data span.qq_login { background-position: -152px -10px; }
+#top .user_data span.sina_login { background-position: -177px -10px; }
+#top .user_data span, #top .user_data a { float: left; }
+#top .top_right .gz_to8to_gg a { display: inline-block; background: url(http://img.to8to.com/front_end/bg/sucai.png?20130415); height: 16px; width: 18px; margin-top: 3px; margin-right: 5px; }
+#top .top_right a.r3 { background-position: -203px -10px; }
+#top .top_right a.r4 { background-position: -233px -10px; }
+#top .top_right a.r5 { background-position: -262px -10px; }
+#top .top_right span.mobile_400 { background-position: -303px -10px; }
+#top .top_right .gz_to8to_gg i { color: #ff7f02; font-family: "黑体"; font-size: 15px; font-weight: bold; }
+#top .top_right .gz_to8to_gg a, #top .top_right .gz_to8to_gg span, #top .top_right .gz_to8to_gg i { float: left; }
+#top .top_right .erweima { display: none; }
+#top .top_right ul { position: absolute; width: 115px; border: 1px solid #c6c6c6; background-color: #ffffff; }
+#top .top_right ul li { line-height: 22px; height: 22px; }
+#top .top_right ul li:hover { background-color: #f3f3f3; }
+#top .top_right ul a { display: block; margin-left: 10px; }
+#top .top_right ul a:hover { text-decoration: none; color: #508800; }
+#top .top_right ul .b_bttm { border-bottom: 1px solid #EBEBEB; }
+#top .top_right .erweima { position: absolute; background-color: #ffffff; border: 1px solid #e3e3e3; color: #538900; width: 261px; height: 301px; right: 0px; top: 25px; display: none; z-index: 99999; }
+#top .top_right .gz_tbt { float: left; font-weight: normal; *margin-top: 3px; }
+#top .top_right .erweima .img { }
+/**end**/
+#mainnav, #content, #footer { width: 970px; margin: 0 auto; clear: both; overflow: hidden; }
+#content { padding-top: 0px; overflow: visible; }
+.w_960 { width: 960px!important; }
+/*#header { background-color: #fff; position:relative }*/
+#header { background-color: #fff;}
+#header .t { height: 90px; position:relative;z-index:999; }
+#header .logo { float: left; }
+#header .city_list { float: left; padding: 22px 0 0 0; font-size: 12px; margin-left: 12px; color: #666666; width: 94px; height: 57px; position: relative; }
+#header .city_list p { height: 22px; display: block; margin-bottom: 10px; text-indent: -999em; width: 94px; /*background:url("http://img.to8to.com/front_end/bg/to8to_index_icon.gif?20131009") no-repeat scroll 0 -300px transparent;
+	*/ }
+#header .city_list .qh_box { height: 15px; display: inline; background: #00ad29; color: #ffffff; font-weight: bolder; padding: 5px 9px; height: 15px; font-weight: normal; overflow: hidden; position: absolute; bottom: 0; left: 0; }
+#header .city_list .qh_box #current_city { margin-right: 3px; }
+#header .limit_w .top_ad { height: 60px; width: 120px; float: left; margin-top: 5px; margin-left: 14px; *display: inline; }
+#header .search { margin-top: 22px; margin-left: 10px; width: 242px; height: 32px; background: #00ad28; float: left; position: relative; }
+#header .search .txt { float: left; margin: 3px 0px 0px 3px; _margin: 2px 0px 0px 2px; height: 25px; width: 158px; border-top: solid 1px #d6d6d6; border-left: solid 1px #c9ffb1; background: #fff; _display: inline; }
+#header .search .smt_ss { float: left; height: 25px; }
+#header .search .keyword_zh { border: 0; margin: 0; outline: medium none; padding: 0; width: 142px; font-size: 13px; color: #999999; height: 24px; line-height: 24px; margin-left: 5px; color: #000; z-index: 2; background: none; position: absolute; }
+#header .search .search_up_zh { border: 0; padding: 0; margin: 0; cursor: pointer; color: #fff; background: #38b801; font-size: 14px; font-weight: bold; height: 26px; width: 80px; margin-top: 4px; *margin-top: 3px; }
+#header .search label { position: absolute; top: 6px; left: 10px; color: #666; z-index: 1; display: block; }
+#header .xc { float: right; width: 219px; margin-top: 15px; }
+#header .xc p { height: 22px; line-height: 22px; color: #38b801; font-size: 12px; text-align: center; }
+#header .xc p.myhfk { height: 39px; background: #fff; line-height: 39px; color: #2e2e2e; font-size: 14px; text-align: center; font-weight: bold; cursor: pointer; background: url(http://img.to8to.com/front_end/bg/to8to_hreader_bg.gif) no-repeat 0 0; width: 181px; padding-left: 38px; }
+#header .xc p.myhfk:hover { background-color: #ff8500; }
+#header .xc a { text-decoration: none; }
+#header .xc a:hover { background-color: #ff8500; color: #fff; }
+#header .xc a:hover p.myhfk { color: #fff; }
+/*新导航 by qdb*/
+.limit_nav_new { height: 38px; background: #00ad28; position: relative; z-index:1;}
+.nav_jifen_new { width: 970px; margin: 0 auto; border-left: solid 1px #FFFFFF; }
+.nav_jifen_new_xiaoguotu ul { background-color: #00ad28; border-top: 1px solid #33af00; height: 30px; margin: 0 auto; }
+.nav_new_list { background-color: #00ad28; height: 38px; }
+.nav_new_list li { float: left; text-align: center; line-height: 38px; height: 38px; border-left: 1px solid #00ad28; border-right: 1px solid #00ad28; }
+.nav_new_list li.zxsq { width: 200px; position: relative; border: 0px; text-align: left; z-index: 990; }
+.nav_new_list li.zxsq .zxsq_more { background: url(http://img.to8to.com/front_end/bg/to8to_index_w_icon.gif?2014214282) no-repeat scroll -217px -447px transparent; width: 13px; height: 13px; position: absolute; right: 16px; top: 10px; }
+.nav_new_list .zxsq .zx5b { position: absolute; top: 38px; left: 0px; width: 200px; background: #38b801; z-index: 999; display: none; }
+.nav_new_list .zxsq .zx5b ul { position: relative; height: 58px; border-top: solid 1px #60c136; text-align: left; padding: 18px 12px 0px 12px; line-height: 20px; }
+.nav_new_list .zxsq .zx5b ul.the_last_one { border-bottom: 2px solid #37b901; height: 56px; }
+.nav_new_list .zxsq .zx5b ul.on { background-color: #FFFFFF; border-left: 1px solid #35b806; }
+.nav_new_list .zxsq .zx5b ul.on dt a { color: #38b801; }
+.nav_new_list .zxsq .zx5b ul.on dt span { background: none; }
+.nav_new_list .zxsq .zx5b ul.on dl a { color: #38b801; }
+.nav_new_list .zxsq .zx5b dt { font-size: 14px; color: #fff; font-weight: bold; }
+.nav_new_list .zxsq .zx5b dt span { +margin-top:-20px; float: right; display: inline-block; background: url(http://img.to8to.com/front_end/bg/to8to_index_w_icon.gif?2014214282) no-repeat scroll -222px -398px transparent; width: 5px; height: 7px; margin-top: 5px; }
+.nav_new_list .zxsq .zx5b dl a { font-size: 12px; margin-right: 10px; color: #cbecbd; font-weight: normal; }
+.nav_new_list .zxsq .zx5b dd .show_some { display: none; left: 199px; top: -1px; _top: 0; position: absolute; width: 439px; height: 351px; _height: 353px; background-color: #fff; z-index: 5000; border: 2px solid #37b901; border-left: 0; border-top: 0; padding: 32px 58px 0 65px; }
+.nav_new_list .zx5b .show_some .for_free { float: left; width: 69px; height: 69px; background: url(http://img.to8to.com/front_end/bg/to8to_index_for_free.png?20140920)no-repeat scroll transparent; margin-right: 10px; }
+.nav_new_list .zx5b .show_some .free_xm { float: left; width: 330px; padding-top: 10px; }
+.nav_new_list .zx5b .show_some .free_xm h3 { font-family: "微软雅黑"; font-size: 28px; font-weight: normal; line-height: 28px; color: #3ab701; }
+.nav_new_list .zx5b .show_some .free_xm p { color: #72899b; font-size: 14px; margin-top: 8px; }
+.nav_new_list .zx5b .show_some .detail { border-left: 1px solid #ACACAC; color: #6B7E8D; font-size: 18px; line-height: 30px; margin-left: 25px; margin-top: 20px; padding-left: 10px; font-family: "微软雅黑"; font-weight: bold; }
+.nav_new_list .zx5b .show_some .btn_box { text-align: right; margin-top: 15px; margin-bottom: 12px; }
+.nav_new_list .zx5b .show_some .btn_box a { display: inline-block; width: 128px; height: 46px; color: #ffffff; line-height: 46px; text-align: center; background: url(http://img.to8to.com/front_end/bg/to8to_index_tcbtn_bg.png?20140920)no-repeat scroll transparent; font-size: 14px; }
+.nav_new_list .zx5b .show_some .yyell { color: #fd7d00; }
+.nav_new_list li .icon { background: url("http://img.to8to.com/front_end/bg/to8to_index_icon.gif?20131009") no-repeat scroll -221px -208px transparent; display: inline-block; height: 18px; position: absolute; right: -5px; top: -9px; width: 27px; }
+.nav_new_list li a { font-weight: bold; color: #FFFFFF; font-size: 14px; text-decoration: none; display: inline-block; }
+.nav_new_list li a:hover { color: #FFFFFF; text-decoration: none; }
+.nav_new_list li a.url_1_qdb { height: 38px; padding: 0 17px; }
+.nav_new_list li a.shen_money { margin-left: 0; padding-left: 15px; display: block; }
+.nav_new_list li.on { background-color: #ff7f02; border: 0px; border-left: 1px solid #fff; border-right: 1px solid #fff; }
+.nav_new_list .jy_sq { position: relative; z-index: 300; width: 127px; }
+.nav_new_list .jy_sq_zgs { position: relative; }
+.nav_new_list .small_icon { background: url("http://img.to8to.com/front_end/bg/to8to_index_icon.gif?20131009") no-repeat -172px -139px transparent; width: 7px; height: 8px; *height: 9px; display: inline-block; margin-left: 10px; overflow: hidden; }
+.nav_new_list .f_zb_tc { display: none; position: absolute; background-color: #FFFFFF; width: 150px; padding: 19px 13px 13px 17px; top: 39px; line-height: 26px; border: 1px solid #32a002; left: 0; }
+.nav_new_list .f_zb_tc p { text-align: left; }
+.nav_new_list .f_zb_tc a { color: #787878; }
+.nav_new_list #f_zb { position: relative; }
+.nav_new_list #f_zb .new_free { background: url(http://img.to8to.com/front_end/bg/header_bg.gif) no-repeat; width: 27px; height: 19px; display: inline-block; position: absolute; top: -9px; right: 4px; background-position:0 -98px}
+.nav_new_list .jy_sq_tc { display: none; position: absolute; background-color: #FF7F02; width: 127px; top: 29px; line-height: 26px; border: 1px solid #ffffff; border-top: 0; left: -1px; z-index: 3000; }
+.nav_new_list .jy_sq_tc p { overflow: hidden; height: 26px; padding-left: 8px; }
+.nav_new_list .jy_sq_tc span { color: #787878; font-weight: bold; font-size: 14px; float: left; display: inline-block; margin-right: 11px; }
+.nav_new_list .jy_sq_tc span a { font-size: 14px; }
+.nav_new_list .jy_sq_tc a { color: #ffffff; font-weight: normal; font-size: 13px; float: left; display: inline-block; margin-right: 8px; }
+.nav_new_list .jy_sq_tc .more_jysq { margin-right: 0; }
+.nav_new_list .zwj, .nav_new_list .jy_sq_zgs, .nav_new_list .jy_yc { position: relative; }
+.nav_new_list .zwj .icon { background: url("http://img.to8to.com/front_end/bg/jc_index_bg.gif?1") no-repeat scroll -62px -78px transparent; height: 20px; right: -14px; top: -9px; width: 52px; }
+.nav_new_list .jy_sq_zgs .icon {  background: url(http://img.to8to.com/front_end/bg/header_bg.gif) no-repeat  scroll 0px -117px transparent; display: inline-block; height: 19px; position: absolute; right: 4px; top: -9px; width: 27px; }
+.nav_new_list .jy_yc .icon { background: url("http://img.to8to.com/front_end/bg/jc_index_bg.gif?1") no-repeat scroll -61px -25px transparent; height: 20px; right: -14px; top: -9px; width: 52px; }
+.nav_new_list .zxgj { float: right; text-align: center; position: relative; width: 116px; padding-left: 10px; }
+.nav_new_list li.bz_on { background-color: #33a701; border: 0px; border-left: 1px solid #fff; border-right: 1px solid #fff; }
+.nav_new_list .zxgj .phone_zxgj { display: inline-block; float: left; background: url("http://img.to8to.com/front_end/bg/to8to_index_icon.gif?20131009") no-repeat -200px -136px transparent; width: 23px; height: 28px; margin-right: 8px; margin-top: 6px; }
+.nav_new_list .zxgj .new { display: inline-block; background: url("http://img.to8to.com/front_end/bg/to8to_index_icon.gif?20131009") no-repeat -223px -238px transparent; width: 27px; height: 18px; position: absolute; top: -11px; right: 1px; }
+.nav_new_list .zxgj a { display: inline-block; float: right; margin-right: 3px; }
+/***/
+.enew_subnav, .inew_subnav { margin: 0px; background: #f5f3f2; }
+.lw_zx { line-height: 32px; font-size: 12px; color: #8D8b8b; }
+.lw_company { color: #8D8b8b; line-height: 36px; }
+.lw_company a, .enew_subnav .lw_zx a { padding: 0px 14px; display: inline-block; color: #8D8b8b; }
+.lw_company a.on, .lw_company a:hover, .lw_zx a.on, .lw_zx a:hover { color: #01a469; text-decoration: none; }
+.limit_w .new_subnav_sub { display: block; width: 100%; }
+.limit_w .new_subnav_sub b { background: url("http://img.to8to.com/front_end/bg/jysq_header.gif") no-repeat -108px -179px; width: 12px; height: 6px; font-size: 0px; float: left; margin: 3px 0 0 518px; }
+.limit_w .new_subnav { color: #DADADA; font-family: "宋体"; overflow: auto; padding-left: 10px; border: 3px solid #35ad01; height: 55px; clear: both; line-height: 55px; }
+.new_subnav li { float: left; text-align: center; margin: 0 10px; height: 55px; line-height: 55px; display: inline; }
+.new_subnav li span { float: left; background: url(http://img.to8to.com/front_end/bg/fl_scfl_bg_3.gif?2) repeat-x 0 -58px; height: 46px; padding: 0 12px; }
+.new_subnav li a { color: #fff; display: inline-block; height: 26px; line-height: 26px; font-size: 14px; padding: 2px 15px 0 0; color: #666; margin-top: 10px; }
+.new_subnav li b { width: 3px; height: 28px; float: left; margin: -2px 12px 0 0; }
+.new_subnav li.on a { background: url("http://img.to8to.com/front_end/bg/jysq_header.gif") no-repeat right -141px; color: #ffffff; }
+.new_subnav li.on b { background: url("http://img.to8to.com/front_end/bg/jysq_header.gif") no-repeat -108px -141px; width: 3px; height: 28px; float: left; margin-right: 12px; }
+.new_subnav li.fst .b1 { float: left; background: url(http://img.to8to.com/front_end/bg/fl_scfl_bg_3.gif?2) no-repeat -64px 0; width: 4px; height: 46px; }
+.new_subnav li.fston span { background-position: 0 -108px; }
+.new_subnav li.fston span a { color: #ff9c00; font-size: 16px; }
+.new_subnav li.fston .b1 { background: url(http://img.to8to.com/front_end/bg/fl_scfl_bg_3.gif?2) no-repeat -3px 0; width: 4px; height: 46px; }
+.new_subnav li.fston .b2 { background-position: -11px 0px; width: 14px; height: 46px; }
+.new_subnav li.endn .b2 { background-position: -45px 0; width: 13px; height: 46px; }
+.new_subnav li.endon span { background-position: 0 -157px; }
+.new_subnav li.endon span a { color: #ff9c00; font-size: 16px; }
+.new_subnav li.endon .b1 { background: url(http://img.to8to.com/front_end/bg/fl_scfl_bg_3.gif?2) no-repeat -71px 0; width: 15px; height: 46px; margin-left: -13px; position: relative; }
+.new_subnav li.endon .b2 { background-position: -90px 0; width: 15px; height: 46px; }
+/********************end**************************************************/
+/*脚部*/
+.footer { /*height: 159px; background-color: #f3f3f3;*//* padding-top: 30px;*/ }
+.footer p { text-align: center; line-height: 14px; color: #666666; margin-bottom: 18px; font-size: 12px; font-weight: normal; }
+.footer .some_icon { text-align: center; }
+.footer .some_icon span { background: url(http://img.to8to.com/front_end/bg/to8to_index_w_icon.gif?2014214282) no-repeat scroll 0 0 transparent; display: inline-block; margin-right: 20px; }
+.footer .some_icon span.icon_1 { background-position: -7px -150px; width: 30px; height: 31px; }
+.footer .some_icon span.icon_2 { background-position: -61px -147px; width: 34px; height: 34px; }
+.footer .some_icon span.icon_3 { background-position: -113px -150px; width: 28px; height: 33px; }
+/*分页*/
+.pages { text-align: center; clear: both; }
+.pages a, .pages strong, .pages em { padding: 3px 6px; margin: 0 1px; display: -moz-inline-box; display: inline-block; }
+.pages em { margin-right: 20px; }
+.pages input { vertical-align: bottom; height: 18px; width: 30px; }
+.pages a { border: 1px solid #d9e6ee; color: #0177a7; background-color: #fff; }
+.pages strong { background-color: #056db4; color: #fff; font-weight: bold; border: 1px solid #d9e6ee; }
+.pages em { color: #0177a7; font-weight: bold; }
+#eMeng { +position:absolute; +top:0px; +display:none; +overflow:hidden; }
+.g_blog_login_hint { position: fixed; display: block; right: 10px; bottom: 10px; border: 0px; text-align: left; width: 281px; height: 0px; color: #333; z-index: 99; overflow: hidden; }
+.g_blog_login_hint a { color: red; text-decoration: underline; }
+.g_blog_login_hint .hintTitle { background-image: url(http://img.to8to.com/logo/logo4.gif); background-repeat: no-repeat; height: 29px; }
+.g_blog_login_hint .hintTitle .hintClose { width: 27px; height: 20px; margin-right: 10px; margin-top: 20px; background-repeat: no-repeat; }
+.g_blog_login_hint .hintBody { line-height: 20px; padding-bottom: 5px; padding-top: 15px; padding-left: 15px; padding-right: 15px; background-color: #fff; border: 1px solid #45bb2f; border-top: 0px; }
+.g_blog_login_hint .button { FONT-SIZE: 12px; width: 58px; height: 20px; margin-bottom: 20px; }
+.g_blog_login_hint .txt { width: 65px; height: 12px; line-height: 12px; border: 1px solid #ddd; padding: 2px 3px; color: #333; margin-right: 8px; }
+.g_blog_login_hint .cxt-input { position: relative; width: 80px; z-index: 2000; }
+.g_blog_login_hint .cxt-input .cxt-input-cxt { z-index: 1000; position: absolute; bottom: 24px; left: 0px; width: 200px; line-height: 20px; font-size: 12px; color: #000; background-color: #fff; border: 1px solid #cfcfcf; cursor: default; }
+.g_blog_login_hint .cxt-input .cxt-input-cxt div { padding-left: 5px; }
+.g_blog_login_hint .cxt-input .cxt-input-cxt .hint { font-size: 12px; font-weight: bold; color: #000; z-index: 200; }
+.g_blog_login_hint .cxt-input .cxt-input-cxt .cur { background-color: #ddd; }
+/*城市切换框*/
+.select_city { width: 475px; height: 275px; background: #C1E0C1; z-index: 12; }
+.select_city .border { width: 471px; height: 271px; position: relative; top: -3px; left: -3px; background: #fff; border: 2px solid #098409; }
+.select_city .close { float: right; display: inline; margin: 5px 5px 0 0; width: 18px; height: 18px; background: url(http://img.to8to.com/front_end/bg/ibg1.gif) no-repeat -206px -109px; cursor: pointer; }
+.select_city .tit { padding: 0 3px; margin: 0 12px; height: 22px; clear: both; font-size: 14px; color: #098409; border-bottom: 1px solid #098409; }
+.select_city .tit span { border: 1px solid #098409; border-bottom-color: #fff; display: inline-block; font-weight: bold; padding: 3px 10px 0; height: 17px; position: relative; top: 1px; }
+.select_city .citys { height: 100px; margin: 0 10px; padding: 10px 5px; border-bottom: 1px dashed #DEDEDE; }
+.select_city .citys span { float: left; font-size: 14px; color: #666; }
+.select_city .citys p a, .select_city .citys2 p a { font-size: 14px; color: #000; white-space: nowrap; display: inline-block; margin: 0 20px 10px 0; height: 16px; text-decoration: underline; }
+.select_city .citys2 { margin: 0 10px; padding: 10px 5px; }
+.select_city .citys2 .title { font-size: 14px; padding-bottom: 10px; }
+.select_city .citys2 a.on { font-weight: bold; color: #098409; }
+.select_city .citys2 p, .select_city .citys2 p a { color: #666; }
+.select_city a:hover { color: red!important; }
+/*浮动免费咨询*/
+.ifloat_online_zx .bar { width: 36px; height: 167px; background: url(http://img.to8to.com/front_end/bg/ifloat1.gif) no-repeat; text-indent: -999em; }
+.ifloat_online_zx .sidefloat { width: 235px; height: 182px; padding: 0 8px; background: url(http://img.to8to.com/front_end/bg/ifloat1.gif) no-repeat -39px 0; }
+.ifloat_online_zx .tit { color: #fff; font-weight: bold; font-size: 14px; height: 25px; line-height: 25px; padding: 0 0 5px 5px; }
+.ifloat_online_zx .c_logo { float: left; width: 81px; height: 81px; border: 2px solid #F8674D; }
+.ifloat_online_zx .info { float: left; padding-left: 5px; width: 140px; }
+.ifloat_online_zx .nick { padding: 3px 0 5px; }
+.ifloat_online_zx .nick a { font-size: 14px; font-weight: bold; color: #FF3C00; }
+.ifloat_online_zx .demo { line-height: 160%; }
+.ifloat_online_zx .lxfs { clear: both; font-weight: bold; margin: 8px 0 16px; }
+.ifloat_online_zx .lxfs span { display: inline-block; height: 26px; line-height: 26px; padding-left: 25px; width: 92px; }
+.ifloat_online_zx .lxfs a { color: #000; }
+.ifloat_online_zx .site { color: #fff; text-align: right; font-family: "宋体"; }
+/*返回顶部CSS*/
+#goTopBtn { background: url(http://img.to8to.com/front_end/bg/top_up.gif) no-repeat; position: fixed; width: 50px; right: 21px; top: 70px; width: 50px; height: 353px; line-height: 50px; color: #FFF; text-align: center; font-size: 12px; _position: absolute; _right: 21; }
+#goTopBtn .feed { height: 182px; width: 50px; float: left; }
+#goTopBtn .back { height: 121px; float: left; width: 50px; position: relative; z-index: 111; background: #fff; }
+.h_news { position: relative; }
+.h_news lable { background: url(http://img.to8to.com/front_end/bg/new.gif) no-repeat; width: 23px; height: 14px; float: left; position: absolute; right: -16px; top: -12px; }
+#new_footer { background: #fff; color: #656565; width: 970px; margin: 0 auto; margin-top: 20px; }
+#new_footer .index_top_yj2 { background: url(http://img.to8to.com/front_end/bg/to8to_index_yj2.gif) no-repeat 0 0; height: 4px; overflow: hidden; }
+#new_footer a { color: #656565; }
+#new_footer dl { float: left; width: 192px; text-align: left; line-height: 26px; }
+#new_footer dl dd span { font-family: '宋体'; font-size: 13px; }
+#new_footer dl dt { color: #518900; font-family: "宋体"; font-weight: bold; }
+#new_footer .f_shangbiao { background: url(http://img.to8to.com/front_end/bg/to8to_footer_logo_new.png?20140920)no-repeat 0px 0px; width: 146px; height: 58px; float: left; }
+#new_footer .f_hezuo { }
+#new_footer .f_fuwu { width: 140px; }
+#new_footer .f_qixia { margin-top: 10px; }
+#new_footer .f_c { width: 912px; margin: 0 auto; border-right: 1px solid #d9d9d9; border-left: 1px solid #d9d9d9; padding: 30px 24px 0 32px; }
+#new_footer .f_about { float: left; clear: both; text-align: left; }
+#new_footer .f_icp { float: right; text-align: right; }
+#new_footer .f_line { border-bottom: 1px dashed #ddd; width: 100%; font-size: 0px; clear: both; height: 12px; margin-bottom: 12px; }
+#new_footer .f60 { color: #f60; }
+#new_footer .cl { clear: both; font-size: 0; height: 0; display: block; line-height: 0; padding: 0; margin: 0; }
+#new_footer ul { line-height: 24px; }
+#new_footer .f_sina, #new_footer .f_tx, #new_footer .f_xl { background: url(http://img.to8to.com/front_end/bg/foor_bg.gif) no-repeat -9px -87px; width: 16px; height: 16px; float: left; margin: 8px 0 0 8px; }
+#new_footer .f_tx { background-position: -30px -87px; }
+#new_footer .f_xl { background-position: -52px -87px; }
+#new_footer .f_gz { height: 31px; line-height: 31px; float: left; }
+#new_footer .f_gz span { float: left; }
+#new_footer a:hover { color: #f00; }
+/*footer页面中最右下角三个小图标由img标签转换为css合成图片 m by duanjiefeng*/
+.span_an_pic { display: inline-block; width: 22px; height: 27px; background: url(http://img.to8to.com/front_end/bg/common_img.gif); margin: 0 3px; }
+.span_an_pic1 { background-position: 0 -328px; }
+.span_an_pic2 { background-position: 0 -374px; }
+.span_an_pic3 { background-position: 0 -408px; margin-right: 0px; }
+p span.span_an_pic1 { background-position: 0 -328px; }
+/****************************2012/5/29***************************************/
+#top .zx { color: #666; display: inline-block; padding-left: 18px; height: 14px; margin: 0 10px 0 2px; background: url(http://img.to8to.com/front_end/bg/common_img.gif) no-repeat; line-height: 14px; }
+#top .zxkf_kf { background-position: -32px -301px; }
+#top .zxkf_dh { background-position: -32px -315px; color: #ff6f4a; }
+#top .fr { padding-top: 6px; }
+#top .fr img { vertical-align: middle; }
+.header_slid ul { height: 20px; overflow: hidden; margin-top: 10px; }
+.header_slid li { height: 20px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; width: 249px; }
+.header_slid ul strong { color: #FF6600; margin-right: 14px; }
+.header_slid ul li a { color: #666666; }
+.header_url_here { border-radius: 7px 7px 7px 7px; padding: 2px 8px 3px; background: none repeat scroll 0 0 #287813; }
+.header_dh_fl { font-size: 14px; font-weight: bold; padding-top: 7px; }
+.header_limit { float: right; background: url(http://img.to8to.com/front_end/bg/header_top_zx_1.png?20140920)no-repeat scroll -98px 0px; height: 42px; }
+.limit_mfbys { background: url(http://img.to8to.com/front_end/bg/header_mfybj.png?20120828) no-repeat; width: 170px; height: 26px; margin-top: 7px; padding: 0px 5px; overflow: auto; color: #333; }
+.limit_mfbys div { height: 25px; line-height: 25px; overflow: hidden; float: left; }
+.limit_mfbys div a { color: #333; width: auto; margin: 0px; padding: 0px; height: auto; }
+.limit_mfbys div a:hover { color: #000; }
+.limit_mfbys li { height: 25px; line-height: 25px; overflow: hidden; }
+.limit_mfbys li a { color: #333; width: auto; margin: 0px; padding: 0px; height: auto; }
+.limit_mfbys li a:hover { color: #000; }
+#gdmfxx { background-color: #FFFFFF; position: absolute; width: 80px; border: solid #CCCCCC 1px; text-align: center; z-index: 999; }
+#gdmfxx dl { margin: 0px 3px; border-bottom: solid #CCCCCC 1px; height: 30px; line-height: 30px; }
+#gdmfxx dl a { margin-left: 6px; }
+.h_news lable { background: url("http://img.to8to.com/front_end/bg/new.gif") no-repeat scroll 0 0 transparent; float: left; height: 14px; position: absolute; right: -16px; top: -12px; width: 23px; }
+.block { margin: auto; width: 970px; clear: both; }
+.block .url { background: #FFFFFF; border-radius: 0px 5px 5px 5px; overflow: hidden; }
+.block .url .cs_weizhi { height: 46px; background: url(http://img.to8to.com/front_end/icon/xzx1.gif) no-repeat scroll 12px -128px transparent; line-height: 38px; padding-left: 35px; }
+.yezhu_block { border: 3px solid #666; border-top: 0; width: 964px; margin: -3px auto 0; position: relative; background: #fff; }
+.yezhu_block .url { background: #FFF; overflow: hidden; margin: 0; border-radius: 0; }
+.yezhu_block .url .cs_weizhi { height: 46px; background: url(http://img.to8to.com/front_end/icon/xzx1.gif) no-repeat scroll 12px -128px transparent; line-height: 38px; padding-left: 35px; }
+.blank20 { margin: auto; width: 960px; *height: 30px; _height: 0px; *line-height: 30px; _line-height: 0px; clear: both; visibility: hidden; }
+#content .list_left { background: #FFFFFF; border-radius: 5px 5px 5px 5px; }
+#content .xc_dan_l { background: #FFFFFF; border-radius: 5px 5px 5px 5px; }
+#content .xc_dan_r { background: #FFFFFF; border-radius: 5px 5px 5px 5px; }
+.nav_new #tuan_hot { position: relative; }
+/***********首页右侧靠边滚动按钮弹框样式start**************/
+#right_win { position: fixed; right: -1px; z-index: 125564552652201; }
+#left { width: 39px; height: 191px; float: left; background: url(http://img.to8to.com/front_end/bg/cOnline.png?20140920)no-repeat; _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=scale,src="http://img.to8to.com/front_end/bg/cOnline.png"); _background: none; cursor: pointer; display: none; }
+#right { width: 122px; height: 318px; float: left; display: block; background: url(http://img.to8to.com/front_end/bg/cOnline2.png?20140920)no-repeat; _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=scale,src="http://img.to8to.com/front_end/bg/cOnline2.png"); _background: none; cursor: pointer; }
+#right2 { position: absolute; width: 122px; height: 318px; top: 0; left: 0; }
+#right2 #close_r { width: 16px; height: 16px; float: right; margin-top: 5px; cursor: pointer; }
+#right2 div.div_btn { width: 114px; height: 159px; margin: 68px 0 0 4px; cursor: pointer; }
+#btn { height: 13px; width: 12px; cursor: pointer; margin: 83px 0 0 8px; }
+.btn1 { background: url(http://img.to8to.com/front_end/bg/cOnline_btn.gif) no-repeat 0 -28px; }
+.btn2 { background: url(http://img.to8to.com/front_end/bg/cOnline_btn.gif) no-repeat; }
+/***********首页右侧靠边滚动按钮弹框样式end**************/
+.top_zxgj_ad { width: 262px; height: 42px; overflow: hidden; float: left; margin-top: 14px; }
+/***********综合搜索页面样式********************/
+.search_content { width: 970px; margin: 0 auto; margin-top: 18px; font-size: 14px; color: #666666; }
+.search_content strong { font-weight: normal; color: #ee6100; }
+.search_content a { color: #518900; }
+.search_box_rel { font-size: 14px; color: #666666; line-height: 30px; }
+.zhsearch_box { height: 25px; width: 225px; border: 1px solid #cccccc; background-color: #ffffff; padding: 5px 0 0 7px; float: left; margin-right: 20px; }
+.zhsearch_box .txt { float: left; }
+.zhsearch_box .txt input { border: 0; width: 194px; }
+.zhsearch_box .smt .dh_gi_ud { float: left; background: url(http://img.to8to.com/front_end/bg/to8to_index_icon.gif?20131009) no-repeat -227px -174px; width: 17px; height: 17px; border: 0; cursor: pointer; }
+.serach_result { float: left; width: 710px; }
+.serach_result a { font-weight: bold; }
+.result_detail { margin-top: 28px; }
+.result_detail .left { float: left; width: 478px; margin-bottom: 10px; }
+.result_detail .re_list { border: 1px solid #d9d9d9; padding: 15px 34px; }
+.result_detail .re_list li { border-bottom: 1px dashed #dddddd; height: 41px; line-height: 41px; }
+.result_detail .re_list li.nob { border-bottom: 0; }
+.result_detail .re_list li a { float: left; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; width: 320px; height: 41px; line-height: 41px; color: #1a1a1a; }
+.result_detail .re_list li a:hover { color: #1a1a1a; }
+.result_detail .re_list li span { float: right; width: 87px; height: 41px; line-height: 41px; }
+.result_detail .title { color: #666666; margin-bottom: 15px; }
+.result_detail .title strong { font-size: 25px; font-weight: normal; font-family: "微软雅黑"; color: #1a1a1a; margin-right: 18px; }
+.result_detail .title a { font-family: "宋体"; margin-left: 10px; }
+.result_detail .data_detail { border: 1px solid #d9d9d9; background-color: #FFFFFF; padding: 0 20px 0 19px; }
+.result_detail .data_detail .zxgs_first { float: left; padding-top: 17px; width: 531px; border-right: 1px solid #cccccc; padding-bottom: 22px; }
+.data_detail .zxgs_first .zxgs_logo { float: left; width: 162px; height: 147px; margin-right: 23px; }
+.data_detail .zxgs_first .zxgs_logo .zxgs_logo_img { background: url(http://img.to8to.com/front_end/bg/search_zh_img_bg.png?20140920)no-repeat; margin: 0 auto; width: 158px; height: 142px; text-align: center; padding-top: 25px; overflow: hidden; position: relative; }
+.data_detail .zxgs_first .zxgs_logo .zxgs_logo_img .zxgs_zxb_bz { position: absolute; background: url(http://img.to8to.com/front_end/bg/to8to_index_sjbq.gif?534534) no-repeat -112px 0; width: 48px; height: 48px; top: 0; left: 0; }
+.data_detail .zxgs_first .zxgs_mess { float: left; padding-top: 12px; line-height: 21px; width: 345px; }
+.data_detail .loupan_list { overflow: hidden; }
+.data_detail .loupan_list li { width: 50%; float: left; padding: 10px 0; border-bottom: 1px dotted #ccc; }
+.data_detail .loupan_img { float: left; width: 160px; }
+.data_detail .loupan_intro { float: left; width: 280px; padding: 10px; font-size: 13px; color: #888; }
+.data_detail .loupan_name { font-size: 14px; margin-bottom: 6px; }
+.data_detail .loupan_address { margin-bottom: 6px; }
+.data_detail .dark { color: #222; }
+.zxgs_first .zxgs_mess .zxgs_name { margin-bottom: 15px; }
+.zxgs_first .zxgs_name a { margin-left: 10px; color: #1a1a1a; display: inline-block; width: 150px; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; }
+.zxgs_first .zxgs_mess .zx_zc { height: 45px; }
+.zxgs_first .zxgs_mess .fw_qy { }
+.zxgs_first .zxgs_mess .cj_jw { margin-bottom: 12px; }
+.result_detail .data_detail .zxgs_list { float: left; padding: 29px 0 0 28px; width: 368px; line-height: 23px; }
+.data_detail .zxgs_list a { display: inline-block; height: 21px; line-height: 21px; overflow: hidden; }
+.data_detail .zxgs_list .gs_name { width: 295px; color: #1a1a1a; float: left; width: 277px; white-space: nowrap; text-overflow: ellipsis; }
+.data_detail .zxgs_list .more { float: right; }
+.data_detail .zx_pic { margin-top: 17px; font-size: 13px; line-height: 21px; margin-bottom: 20px; overflow: hidden; }
+.data_detail .zx_pic .ml { margin-right: 19px; }
+.data_detail .zx_pic li { float: left; width: 218px; }
+.data_detail .zx_pic .img_box { width: 218px; height: 157px; margin-bottom: 5px; }
+.data_detail .zx_pic .img_title { border-bottom: 1px solid #cccccc; margin-bottom: 13px; height: 42px; overflow: hidden; }
+.data_detail .zx_pic .img_title a { color: #1a1a1a; }
+.data_detail .zx_pic .style_price { padding: 0 10px; }
+.data_detail .zx_pic .style_price span { display: inline-block; }
+.data_detail .zx_pic .style_price .style { float: left; }
+.data_detail .zx_pic .style_price .price { float: right; }
+.data_detail .aks_anwer { padding: 35px 0 10px 10px; }
+.data_detail .aks_anwer strong { color: #FF0000; }
+.data_detail .ask_ss { margin-bottom: 25px; }
+.data_detail .ask_ss a { color: #261cdc; }
+.data_detail .ask_ss dt a { font-size: 16px; text-decoration: underline; }
+.data_detail .ask_ss dd { line-height: 160%; color: #1a1a1a; }
+.data_detail .ask_ss dd.info { color: #666666; font-size: 12px; }
+.data_detail .ask_ss dd.info a { color: #028002; text-decoration: none; }
+.data_detail .yijieda_ask { background: url("http://img.to8to.com/front_end/icon/yijiejue_ask.png") no-repeat scroll 0 0 transparent; display: inline-block; height: 18px; margin-left: 17px; width: 52px; }
+/*********周年庆*********/
+.zhounq_six { position: fixed; bottom: 65px; left: 15px; width: 144px; height: 220px; _position: absolute; _bottom: auto; _top: expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||65)-(parseInt(this.currentStyle.marginBottom,10)||0))); _left: 15px; overflow: hidden; z-index: 1000; }
+/****在线咨询***/
+#consult_win { position: fixed; width: 79px; overflow: hidden; bottom: 180px; right: 10px; _right: -1px; z-index: 9999; _position: absolute; _bottom: auto; _top: expression(eval(document.documentElement.scrollTop)+100); }
+#consult_win .float_peek { cursor: pointer; display: block; float: right; height: 206px; width: 41px; display: none; }
+#consult_win #peek_go_top { padding-left: 6px; }
+#consult_win #consult_board { color: white; font-weight: bold; background: url("http://img.to8to.com/front_end/bg/float_consult_board.png?2") no-repeat scroll 0 0 transparent; height: 150px; padding: 37px 0 0 7px; }
+#consult_win #live800icon { display: none; }
+#consult_win #consult_bg { height: 196px; width: 79px; }
+#consult_win .float_close { cursor: pointer; height: 19px; width: 19px; margin-left: 60px; background: url(http://img.to8to.com/front_end/bg/float_close.png?2); }
+#consult_win .con_msg { width: 66px; height: 19px; font-size: 12px; margin-bottom: 18px; text-align: center; line-height: 19px; cursor: pointer; }
+#consult_win .msg_green { background: url("http://img.to8to.com/front_end/bg/float_msg_green.png") no-repeat scroll 0 0 transparent; _background: none; _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://img.to8to.com/front_end/bg/float_msg_green.png",sizingMethod="crop",enabled="true"); }
+#consult_win .msg_orange { background: url("http://img.to8to.com/front_end/bg/float_msg_orange.png") no-repeat scroll 0 0 transparent; _background: none; _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://img.to8to.com/front_end/bg/float_msg_orange.png",sizingMethod="crop",enabled="true"); }
+#consult_win #zxzx { font-size: 14px; font-style: italic; cursor: pointer; margin-bottom: 12px; }
+#consult_win .float_drcode { background: url("http://img.to8to.com/front_end/bg/float_drcode.png"); width: 105px; height: 147px; position: fixed; bottom: 10px; right: 10px; }
+#consult_win .drcode_close { width: 19px; height: 19px; cursor: pointer; margin-left: 86px; }
+#consult_win #go_top { background: url("http://img.to8to.com/front_end/bg/float_go_top.png") no-repeat scroll 0px 0px transparent; width: 51px; height: 34px; margin-top: 9px; margin-left: 8px; display: none; }
+#consult_win .click_drcode { display: block; width: 105px; height: 105px; }
+/***建材二级导航***/
+.jc_erji_nav { background-color: #666666; height: 18px; margin: 0 auto; overflow: hidden; padding: 10px 0 10px 30px; width: 940px; }
+.jc_erji_nav a { display: block; float: left; height: 18px; line-height: 18px; color: #fff; }
+.jc_erji_nav a.on { color: #ffd927; }
+.jc_erji_nav a:hover { color: #ffd927; text-decoration: none; }
+.jc_erji_nav span { display: block; float: left; background: url("http://img.to8to.com/front_end/bg/jc_findprice_bg.gif") no-repeat scroll -299px 0px transparent; height: 17px; width: 1px; margin: 0 13px; }
+.limit_w .new_company_subnav { border: 0; background: #666666; height: 37px; padding: 0; line-height: 37px; overflow: hidden; }
+.limit_w .new_company_subnav li { height: 15px; text-align: center; padding: 0 20px; border-right: 1px dotted #444; line-height: 37px; float: none; }
+.limit_w .new_company_subnav li a { color: #ffffff; }
+.limit_w .new_company_subnav li b { display: none; }
+.limit_w .new_company_subnav li a { margin: 0; padding: 0; line-height: 15px; height: 37px; line-height: 37px; }
+.limit_w .new_company_subnav li.on a { background: none; color: #ffd929; }
+.new_zxxt_li { position: relative; }
+.new_zxxt_li .new_zxxt { background: url(http://img.to8to.com/front_end/bg/zxxt_bg.gif) 0 0 no-repeat; width: 19px; height: 15px; display: inline-block; position: absolute; right: -8px; top: 17px; }
+.new_enew_subnav { background: #1a8b38; }
+.new_lw_zx { height: 37px; line-height: 37px; background: #1a8b38; font-size: 14px; width: auto; }
+.new_lw_zx a { display: inline-block; width: auto; height: 37px; cursor: pointer; text-align: center; color: #FFFFFF; font-size: 13px; }
+.new_lw_zx a.on { color: #ffd929; font-weight: bold; }
+.new_lw_zx span { color: #fff; margin-left: 5px; }
+/**********footer********/
+.footer p.footer_nav { background: #525252; height: 41px; line-height: 41px; color: #ffffff; font-size: 14px; }
+.footer p.footer_nav a { color: #ffffff; font-weight: bold; padding: 0px 8px; }
+.footer p.footer_nav span { margin: 0 18px; }
+/*********new_head********************/
+
+#header .city_list .qh_box .switch { width: 11px; height: 6px; background: url(http://img.to8to.com/front_end/bg/header_bg.gif) no-repeat; *margin-top: -10px; color: #7F7F7F; font-weight: normal; display: inline-block; overflow: hidden; cursor: pointer; background-position:-22px -92px }
+.head_top { float: right; margin-top: 8px; color: #575757; }
+.head_top a { color: #575757; }
+.head_top span { margin: 0 6px; }
+.head_top .top_right .user_img { background: url(http://img.to8to.com/front_end/bg/sucai.png?20130415) no-repeat; height: 20px; width: 20px; display: inline-block; margin-top: 0px; margin-right: 5px; float: right; }
+.head_top .top_right ul { box-shadow: -1px -1px 8px 2px #c2c2c2; background-color: #ffffff; }
+.head_top .top_right ul li { line-height: 22px; height: 30px; }
+.head_top .top_right ul a { display: block; color: #999; }
+.head_top .top_right ul#username_sublist a:hover { text-decoration: none; background: #e8e8e8; }
+.head_top #user_data { margin: 0; position: relative; float: left; z-index: 1000; width: 141px; text-align: right; }
+.head_top #user_data a.on { color: #fff; }
+.head_top #user_data ul li { display: inline-block; width: 100%; }
+.head_top #user_data .warp_ul { top: 20px; left: 66px; position: absolute; display: none; }
+.head_top #user_data .warp_ul li.line { margin: 0px 10px; padding: 0px; height: 1px; background: #e8e8e8; width: 65px; font-size: 0; line-height: 0; overflow: hidden; }
+.head_top #user_data .warp_ul li a { margin: 4px 0; font-size: 12px; }
+.warp_ul .new_xxzx { position: relative; }
+.warp_ul .msg_number { background: #de3635; position: relative; color: #FFFFFF; display: inline-block; height: 10px; left: 30px; line-height: 10px; top: -25px; width: 18px; border-radius: 6px; background: url(http://img.to8to.com/front_end/bg/to8to_index_w_icon.gif?2014214282) no-repeat 0px -1212px\9; background-color: none\9; font-family: 'Arial'; font-size: 10px; }
+#username_sublist { width: 85px; text-align: center; border: 1px solid #e8e8e8\9; }
+.head_top .logarea span.top_follow_to8to { background: url(http://img.to8to.com/front_end/bg/to8to_index_w_icon.gif?2014214282) no-repeat scroll 64px -381px transparent; *background-position: 64px -385px; padding-right: 14px; position: relative; z-index: 999; margin: 0; background-position: 64px -381px; }
+.head_top .logarea span.top_follow_to8to .warp_follow_list { z-index: 999; left: -20px; top: 14px; position: absolute; width: 109px; display: none; }
+.head_top .logarea span.top_follow_to8to .warp_follow_list .gree_arrow, #user_data .gree_arrow { margin: 0 auto; width: 10px; height: 8px; background: url(http://img.to8to.com/front_end/bg/to8to_index_w_icon.gif?2014214282) no-repeat 0px -398px; }
+.head_top .logarea span.top_follow_to8to ul { width: 109px; border: 1px solid #e8e8e8\9; }
+.head_top .logarea span.top_follow_to8to ul li { border-bottom: 1px solid #e8e8e8; margin: 0 7px; clear: both; }
+.head_top .logarea span.top_follow_to8to ul li { height: 30px; line-height: 30px; *line-height: 25px; }
+.warp_ul #username_sublist, span.top_follow_to8to .warp_follow_list ul { *margin-top: -8px; }
+.head_top .logarea span.top_follow_to8to ul li.follow_weibo { *margin-top: 5px; }
+.head_top .logarea span.top_follow_to8to ul li.follow_weixin { height: 140px; border: none; }
+.head_top .logarea span.top_follow_to8to ul li span { display: inline-block; width: 21px; height: 21px; background: url(http://img.to8to.com/front_end/bg/to8to_index_w_icon.gif?2014214282) no-repeat scroll transparent; float: left; margin: 5px 5px 0 2px; *margin: 0; *margin-top: 3px; margin-right: 3px !important; }
+.head_top .logarea span.top_follow_to8to ul li.follow_qzone span { background-position: -3px -698px; }
+.head_top .logarea span.top_follow_to8to ul li.follow_weibo span { background-position: -3px -668px; }
+.head_top .logarea span.top_follow_to8to ul li.follow_weixin span { background-position: -3px -726px; }
+.head_top .logarea span.top_follow_to8to ul li a { color: #999; margin-left: 0; text-decoration: none; }
+.head_top .top_right span.top_follow_to8to ul li { background-color: #fff; }
+.head_top .top_right span.top_follow_to8to ul li.follow_weibo a:hover { color: #e55958; }
+.head_top .top_right span.top_follow_to8to ul li.follow_qzone a:hover { color: #37bafe; }
+.head_top .logarea a.news_center { font-weight: bolder; padding-right: 21PX; background: url(http://img.to8to.com/front_end/bg/to8to_index_w_icon.gif?2014214282) right -1179px no-repeat; }
+.head_top .logarea span.line { width: 6px; float: none; padding: 0px; display: inline-block; background: url(http://img.to8to.com/front_end/bg/to8to_index_w_icon.gif?2014214282) no-repeat scroll 0px -300px transparent; }
+.head_top span.tel { color: #00ad4d; margin: 0; font-weight: bolder; }
+.head_top .zxb { text-align: right; margin-top: 20px; }
+.head_top .zxb a { display: inline-block; height: 33px; line-height: 33px; padding-left: 33PX; background: url(http://img.to8to.com/front_end/bg/header_bg.gif?201406181442) no-repeat; margin-left: 23px; }
+.head_top .zxb a.money { background-position: 0 -33px; }
+.head_top .zxb a span { font-weight: bolder; }
+#header .search { margin: 6px 0; float: right; width: auto; }
+#header .search .keyword_zh { height: 24px; line-height: 21px; width: 150px; padding: 2px 0; }
+#header .search .txt { background-color: #fafafa; margin-top: 0; border: none; height: 26px; overflow: hidden; }
+#header .search { margin-top: 6px; margin-bottom: 0px; }
+#header .search .search_up_zh { background: url(http://img.to8to.com/front_end/bg/header_bg.gif?201406181442) no-repeat scroll 0px -66px transparent; width: 33px; margin: 0; }
+.nav_new_list { float: left; }
+.nav_new_list li { border: none; }
+.nav_new_list li.on { background: #009724; border: none; }
+.nav_jifen_new { border-left: none; }
+
+/*弹窗*/
+.window_box{position:relative; z-index:999; width:456px; background:#fff; margin:0 auto }
+.window_box .window_close{position:absolute; right:0; top:0; width:32px; height:32px; background:#01a469; cursor:pointer}
+.window_box .window_close em,.window_title span,.window_title em{background:url(http://img.to8to.com/front_end/bg/window_bg.png?20140920)no-repeat; display:inline-block; *display;inline; *zoom:1; overflow:hidden}
+.window_box .window_close em{background-position:-32px 0 ; width:13px; height:12px; margin:10px 0 0 9px;}
+.window_title{ display:inline-block; *display:inline; *zoom:1; width:350px; height:37px; border-bottom:1px solid #d8d8d8; text-align:center; margin:53px 0 0 54px}
+.window_title span{ width:29px; height:29px; }
+.window_title em{width:110px; height:23px; background-position:0 -30px; position:relative; top:-3px; left:5px  }
+.window_title em.sdxzcs{background-position:0 -53px; width:144px; height:24px; top:2px; left:0px}
+.window_mes{margin-top:12px; text-align:center;font-size:14px; color:#666}
+.window_mes em{color:#ff9000; font-size:16px; font-weight:bold; font-style:normal}
+.window_hint{text-align:center; color:#999; margin-top:15px}
+.window_city_select{ height:26px; margin:19px 0 0 71px; display:inline-block; *display:inline; *zoom:1}
+.window_city_select dl dt{float:left; height:26px; margin-right:13px; display:inline; line-height:26px}
+.window_city_select dl dd{float:left; margin-right:11px; height:26px}
+.window_city_select dl dd select{padding:5px 0 5px 3px; width:120px}
+.window_button{ margin-top:41px; height:31px; text-align:center; padding-bottom:28px}
+.window_button a{width:105px; height:31px;border-radius:3px; display:inline-block; *display:inline; *zoom:1; line-height:31px; font-size:14px;color:#fff; text-decoration:none}
+.window_button a.wb_one,.window_button a.wb_confirm{background:#01a469; margin-right:6px}
+.window_button a.wb_two{background:#898989; margin-left:6px}
+
+
+/* 按钮样式--全站公用 
+ *****  by  sisi.yuan
+ */
+.btn_org{display:inline-block;height: 36px;line-height: 36px;color: #fff;background-color: #f36f20;border:none;cursor: pointer;padding: 0 20px;}
+.btn_org:hover{background-color: #e7691e;color: #fff;}
+.btn_white{display:inline-block;height: 34px;line-height: 34px;border: 1px solid #d8d8d8;background-color: #FFF;padding: 0 20px;white-space: nowrap;color: #333;}
+.btn_white:hover{color: #333;border-color: #ccc;}
+input.btn_white{height: 36px;cursor: pointer;}
+input.btn_org,input.btn_white{*overflow: visible;}
+input.btn_green{display:inline-block;height: 32px;line-height: 32px;color: #fff;background-color: #01af63;border:none;cursor: pointer;padding: 0 20px;}
+input.btn_green_a{display:inline-block;height:18px;line-height: 18px;color: #01af63;background:none;border:none;cursor: pointer;vertical-align: middle;}
+input.btn_grey{ background:#f8f8f8; border:1px solid #e4e4e4; padding:0 8px; line-height:18px;vertical-align: middle; cursor: pointer;color:#999;}
+input.btn_grey_a{background:none;border:none;line-height:18px;vertical-align: middle; color:#999;cursor: pointer;}
+
+
+.mod_form .form_hd{padding-left: 20px;color: #999;margin-bottom: 16px;}
+.mod_form .form_hd .ico_info_s{float: left;margin-left: -20px;margin-top: 2px;}
+.mod_form .text{padding: 7px 10px;width: 184px;border:1px solid #ddd;}
+.mod_form .select{width: 206px;border:1px solid #ddd;height: 34px;line-height: 28px;}
+.mod_form .select_s{width: 90px;}
+.mod_form .form_line{zoom:1;}
+.mod_form .form_line:after{display:block;clear:both;content:"\0020";visibility:hidden;height:0;}
+.mod_form .label{width: 24.6%;padding-right: 8px;margin-left: -8px;float: left;text-align: right;line-height: 34px;}
+.mod_form .element{width: 75.4%;float: right;padding-bottom: 15px;}
+.mod_form .form_error{margin-top: 3px;color: #f66;}
+.mod_form .text_wrap{position: relative;}
+.mod_form .text_wrap .unit{margin-left: -20px;}
+.mod_form .text_wrap .text_lbl{color: #bbb;position: absolute;left: 10px;top: 8px;}
+.mod_form .btn_org,.mod_form .btn_white{float: left;}
+.mod_form .btn_org{margin-right: 12px;}
+
+/* 发标结果完善资料V2--全站公用 */
+.mod_fbbox_wxserviceV2 {
+    position:relative;
+	width: 290px;
+	margin: 0 auto;
+}
+.mod_fbbox_wxserviceV2 .help-link {
+	position: absolute;
+	bottom: 20px;
+	right: 0;
+	color: #655E5E;
+}
+.mod_fbbox_wxserviceV2 .help-link:hover {
+	color: #f25618;
+}
+.mod_fbbox_wxserviceV2 .fbbox_s1 {
+    padding-top: 22px;
+}
+.mod_fbbox_wxserviceV2 .fbbox_s1 .s1_hd {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.mod_fbbox_wxserviceV2 .fbbox_s1 .s1_hd_sub {
+    color: #333;
+    font-size: 14px;
+    width: 252px;
+    margin: 0 auto 20px;
+}
+.mod_fbbox_wxserviceV2 .fbbox_s1 .s1_hd_sub span {
+    color: #f25618;
+}
+.mod_fbbox_wxserviceV2 .mod_form .label {
+    width: 60px;
+    margin-left: 0;
+    text-align: left;
+    padding-right: 0;
+}
+.mod_fbbox_wxserviceV2 .mod_form .element {
+    width: 230px;
+}
+.mod_fbbox_wxserviceV2 .mod_form .height_auto {
+    padding-bottom: 0;
+}
+.mod_fbbox_wxserviceV2 .mod_form .select {
+    width: 230px;
+    padding: 7px 0 7px 7px;
+    *height: 24px;
+}
+.mod_fbbox_wxserviceV2 .mod_form .text {
+    width: 208px;
+}
+.mod_fbbox_wxserviceV2 .mod_form .text_wrap .unit {
+    margin-left: 0;
+    position: absolute;
+    top: 8px;
+    right: 5px;
+}
+.mod_fbbox_wxserviceV2 .mod_form .btn_org {
+    margin-right: 0;
+    width: 230px;
+    padding: 0;
+}
+.mod_fbbox_wxserviceV2 .mod_fbbox_code {
+    width: 224px;
+    margin: 0 auto;
+}
+.mod_fbbox_wxserviceV2 .mod_fbbox_code p {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #333;
+}
+.mod_fbbox_wxserviceV2 .mod_fbbox_code p a {
+    color: #01af63;
+    text-decoration: underline;
+}
+.mod_fbbox_wxserviceV2 .mod_fbbox_code .mod_fbbox_code_refresh {
+    display: block;
+    margin: 15px auto 0;
+    width: 100px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    color: #fff;
+    border-radius: 4px;
+    background-color: #27b571;
+}
+.mod_fbbox_wxserviceV2 .mod_pagetip_s .mod_pagetip_ico {
+    padding-left: 60px;
+}
+.mod_fbbox_wxserviceV2 .mod_pagetip_s {
+    margin-top: 15px;
+    padding-bottom: 0;
+}
+.mod_fbbox_wxserviceV2 .mod_fbbox_code .mod_fbbox_code_refresh:hover {
+    background-color: #00aa46;
+}
+.mod_fbbox_wxserviceV2 .mod_fbbox_code_img {
+    width: 222px;
+    width: 222px;
+    background: url(http://img.to8to.com/to8to_img/to8to_wx_bg.png) no-repeat;
+    padding: 1px;
+}
+.mod_fbbox_wxserviceV2 .mod_fbbox_code_img img {
+    display: block;
+    width: 222px;
+    height: 222px;
+    display: block;
+}
+
+
+
+/*全局分页样式*/ 
+.pages {padding-top: 60px;margin-top: 0!important; text-align: center; clear: both; } 
+.pages a, .pages strong, .pages em { height: 32px;padding: 3px 6px; margin: 0 0 0 -1px !important;line-height: 32px;display: -moz-inline-box; display: inline-block; } 
+.pages em { margin-right: 20px;;display: none!important;} 
+.pages input { vertical-align: bottom; height: 18px; width: 30px; }
+.pages a { width: 26px;border: 1px solid #eee!important; color: #999!important; background-color: #fff;
+} 
+.pages a:hover{color: #01af63!important;}
+.pages i{width: 40px;height: 40px;line-height: 34px;display: -moz-inline-box; display: inline-block;}
+.pages strong{ width: 28px;height: 34px;background-color: #01af63!important; color: #fff!important;font-weight: 400!important;line-height: 34px; border: 0 !important; } 
+.pages .prev,.pages .next{position: relative;width: 79px;}
+.pages .next b,.pages .prev b{position: absolute;width: 6px; height: 11px;margin-top: 11px; background:url(http://img.to8to.com/decorate_gallery/images/png/global.png?20141020) no-repeat; _background:url(http://img.to8to.com/decorate_gallery/images/gif/global.gif?20141020) no-repeat; _overflow:hidden;*margin-top: 3px;}
+.ielt8 .pages .next b,.ielt8 .pages .prev b{top: 3px;}
+.pages .prev b{left: 15px; float: left;background-position: -173px 0;}
+.pages .next b{right: 15px; float: right;background-position: -180px 0;}
+.pages .prev:hover b{background-position: -187px 0;}
+.pages .next:hover b{background-position: -194px 0;}
+
+/* 分页效果 */
+.pages{ margin-top: 43px;}
+.pages em{color:#01a469;}
+.pages strong{background: #01a469;padding: 3px 6px;}
+.pages a {color:#aaa; border: 1px solid #dfdfdf;padding: 3px 6px;cursor: pointer;}
+
+/*微信二维码*/
+.my_wechat_bar,.my_wechat_cancel,.my_wechat_broadside{background: url(http://img.to8to.com/to8to_img/my_wechat_bar.png?201503170207) no-repeat;display: block;}
+.wechat_barcode{position: fixed;left: 50%;bottom: 260px;margin-left: 510px;z-index: 2001;}
+.narrow_1220 .wechat_barcode{margin-left: 630px;}
+.wechat_barcode .my_wechat_bar{width: 106px;height: 199px;background-position: 0 0;}
+.wechat_barcode .we_inwrap{position: relative;}
+.wechat_barcode .my_wechat_cancel{position: absolute;right: 5px;top: 72px;width: 9px;height: 9px;background-position: -107px -56px;cursor: pointer;}
+.wechat_broadside{position: fixed;right: 0;bottom: 295px;display: none;z-index: 2001;}
+.wechat_broadside .my_wechat_broadside{width: 41px;height: 132px;background-position:-109px -67px;cursor: pointer;}
+.ielt7 .wechat_barcode{position: absolute;}
+.ielt7 .wechat_broadside{position: absolute;}
