@@ -1,0 +1,124 @@
+/*<link href="http://s2.17house.com/common/css/common.css?v22" rel="stylesheet">*/
+ .mb30{margin-bottom:30px;}
+ #box input {border: 1px solid #ececec; padding: 10px;}
+/* ******** 弹框 start *********** */
+.popmask{position:fixed;display:none;top:0;right:0;bottom:0;left:0;width:100%;height:100%;background:#000;opacity:0.5;filter:alpha(opacity=50);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";z-index:99999;}/*遮罩层*/
+.poplayer{position:fixed;top:50%;left:50%;min-width:200px;min-height:100px;border-radius:10px;background:#fff;display:none;font-family:'microsoft yahei';z-index:100000;}/*总容器*/
+
+/*poplayer的公用*/
+.poplayer .radius5{-webkit-border-radius:5px;-moz-border-radius:5px;-ms-border-radius:5px;-o-border-radius:5px;border-radius:5px;}
+.poplayer .mb20{margin-bottom:20px;}
+.poplayer .mt10{margin-top:10px;}
+.poplayer .mt20{margin-top:20px;}
+.poplayer .close{position:absolute;top:0;right:0;width:16px;height:16px;box-sizing:content-box;padding:18px 26px 12px 18px ;line-height:16px;font-size:16px;font-weight:bold;color:#999;cursor:pointer;}
+.poplayer .close:hover{color:#666;}
+.poplayer .btn-pop{display:inline-block;cursor:pointer;outline:none;font-family:'microsoft yahei';font-size:18px;min-width:120px;height:38px;line-height:38px;}/* 基本按钮 */
+.poplayer .btn-ok{background:#ea5404;color:#fff;}
+.poplayer .btn-cancel{background:#cccccc;color:#fff;margin-left:11px;}
+.poplayer .ipt{outline:none;font-family:'microsoft yahei';font-size:14px;line-height:32px;height:34px;color:#999;padding:0 20px;border:1px solid #ececec;box-sizing:border-box;}
+.poplayer .ipt:focus{border:1px solid #ff7200;}
+.poplayer .error-tip{height:28px;line-height:28px;font-size:12px;color:#ea5504;}/*输入框的错误提示*/
+.poplayer .ipt-error{height:28px;line-height:28px;font-size:12px;color:#ea5504;}/* 输入框的错误提示 */
+.poplayer .title{font-size:24px;line-height:24px;font-weight:bold;color:#eb6100;margin:20px;padding-top:30px;text-align:center;font-family:'microsoft yahei';}
+.poplayer .p18-gray{padding:16px 0;margin-left:20px;margin-right:20px;background:#f9f9f9;color:#333;}/* 灰背景 */
+.poplayer .p18{font-size:18px;line-height:24px;color:#333;word-wrap:break-word;}
+.poplayer .p14-gray{padding:16px 0;margin-left:20px;margin-right:20px;background:#f9f9f9;color:#333;}/* 灰背景 */
+/* 公用:左右布局。灵感图集 */
+.poplayer .layout580{width:580px;overflow:hidden;}/*宽的*/
+.poplayer .layout580-head{display:block;padding:33px 33px 28px 33px;}
+.poplayer .layout580-head .t1{font-size:20px;line-height:20px;font-weight:bold;color:#333;}
+.poplayer .layout580-head .t2{font-size:14px;line-height:14px;font-weight:normal;color:#999;margin-left:11px;margin-top:6px;}
+.poplayer .layout580-body{padding-bottom:35px;}
+.poplayer .layout580-body .img{float:left;width:190px;min-height:100px;border:1px solid #ececec;margin-left:32px;margin-right:25px;}
+.poplayer .layout580-body .popcon-r{float:left;border-left:1px solid #ececec;padding-left:25px;width:270px;}
+.poplayer .layout580-body .popcon-r-title{background:#f9f9f9;color:#999;line-height:24px;font-size:14px;padding:0 20px;}
+.poplayer .layout580-body .ipt{width:100%;}
+.poplayer .layout580-body textarea{outline:none;font-family:'microsoft yahei';width:248px;font-size:14px;line-height:20px;height:88px;color:#999;padding:10px;border:1px solid #ececec;}
+
+/* 特殊:感谢您预约一起装修网设计服务 */
+.poplayer .layout430x515{width:430px;height:515px;overflow:hidden;}
+.poplayer .layout430x515-head{margin:0 10px;padding:38px 0 17px 0;text-align:center;font-family:'microsoft yahei';font-size:22px;line-height:1;font-weight:bold;border-bottom:1px solid #ececec;}
+.poplayer .layout430x515-body{margin:0 40px;}
+.poplayer .layout430x515-body .p1{padding:27px 0 12px 0;}
+.poplayer .layout430x515-body .times{margin-top:15px;font-size:14px;line-height:38px;color:#999;}
+.poplayer .layout430x515-body .iptbox{position:relative;width:345px;height:42px;}
+.poplayer .layout430x515-body .iptbox .sprite-yy{position:absolute;display:block;left:10px;top:12px;width:16px;height:16px;background-image:url("../images/sprite_yy.png");background-repeat:no-repeat;}
+.poplayer .layout430x515-body .sp-yuyue1{background-position:0 -0px;}
+.poplayer .layout430x515-body .sp-yuyue2{background-position:0 -16px;}
+.poplayer .layout430x515-body .sp-yuyue3{background-position:0 -32px;}
+.poplayer .layout430x515-body .sp-yuyue4{background-position:0 -48px;}
+.poplayer .layout430x515-body select{outline:none;width:343px;height:40px;line-height:40px;border:1px solid #ececec;padding-left:30px;}
+.poplayer .layout430x515-body input{outline:none;width:343px;height:40px;line-height:40px;border:1px solid #ececec;}
+.poplayer .layout430x515-body input[type=text]{padding-left:30px;}
+.poplayer .layout430x515-body input[type=submit]{cursor:pointer;}
+
+
+/* 公用:各种430宽度弹窗，标题为橙色字 */
+.poplayer .layout430{width:430px;overflow:hidden;text-align:center;}
+.poplayer .layout430 .title{width:auto;height:auto;border-bottom:none;font-size:24px;line-height:24px;font-weight:bold;color:#eb6100;margin:20px;padding-top:30px;text-align:center;font-family:'microsoft yahei';}
+.poplayer .layout430 .p18-gray{padding:16px 0;margin-left:20px;margin-right:20px;background:#f9f9f9;color:#333;}/* 灰背景 */
+.poplayer .layout430 .p18{font-size:18px;line-height:24px;color:#333;word-wrap:break-word;}
+.poplayer .layout430 .p14-gray{padding:16px 0;margin-left:20px;margin-right:20px;background:#f9f9f9;color:#333;}/* 灰背景 */
+.poplayer .layout430 .p14{font-size:14px;line-height:24px;color:#333;word-wrap:break-word;}
+.poplayer .layout430 .close-know{display:block;margin-left:auto;margin-right:auto;outline:none;font-family:'microsoft yahei';font-size:14px;width:100px;height:30px;line-height:30px;box-sizing:content-box;background:#f9f9f9;color:#999;border:1px solid #ececec;padding:0;cursor:pointer;}
+.poplayer .layout430 .close-know:hover{color:#666;}
+.poplayer .layout430 .msg{padding:0 20px;text-align:center;}/* 任意提示信息 js控制 */
+
+/* 特殊:免费帮您设计3套 */
+.poplayer .layout400{width:400px;height:350px;overflow:hidden;}
+.poplayer .layout400-head{padding:33px 0 40px 0;margin-left:33px;}
+.poplayer .layout400-head .t1{font-size:20px;line-height:20px;font-weight:bold;color:#333;}
+.poplayer .layout400-head .t2{font-size:14px;line-height:14px;font-weight:normal;color:#999;margin-left:11px;margin-top:6px;}
+.poplayer .layout400-body{width:300px;margin:0 auto;}
+.poplayer .layout400-body .iptbox{position:relative;}
+.poplayer .layout400-body .iptbox .ipt{width:245px;}
+.poplayer .layout400-body .error-tip{margin-left:45px;}
+.poplayer .layout400-body .ipt-error{margin-left:45px;}
+
+/* 首页登陆框 */
+.poplayer .layout650{width:650px; height:365px; }
+.poplayer .layout650-body{width:535px; padding-top:30px; line-height:24px; margin:0 auto; }
+.poplayer .layout650-body .wx-login{float:left; width:180px; padding-right:40px; border-right:1px solid #ececec; color:#666; }
+.poplayer .layout650-body dd{margin-top:10px; }
+.poplayer .layout650-body .btn-qq-login,.poplayer .layout650-body .btn-weibo-login{display: inline-block; width:80px; height:30px; line-height: 30px; cursor: pointer; background:#eee; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; }
+.poplayer .layout650-body .normal-login{float:left; text-align:left; color:#999; width:280px; margin-left:30px; }
+.poplayer .layout650-body .label{position: relative; }
+.poplayer .layout650-body .icon-user{position: absolute; width: 34px; height: 34px; background: #f7f7f7; }
+.poplayer .layout650-body .input{position: relative; width:228px; height:34px; padding-left:40px; color:#999; vertical-align: top; }
+.poplayer .layout650-body .forget-password{float:right; font-size:12px; }
+.poplayer .layout650-body .btn-ok{margin-top:10px; width:160px; }
+
+/* ******** 免费设计、建材询问报名成功 start *********** */
+.poplayer .layout620{width:620px;padding-bottom: 20px;}
+.poplayer .layout620 .weixin-l{float:left; width:270px; height:130px; border-right:1px solid #ececec; margin:30px 0 0 30px; padding-top:30px;}
+.poplayer .layout620 .weixin-l img.l{width:95px; height:95px;}
+.poplayer .layout620 .weixin-l ul{float:left; width:150px; margin-left:10px; line-height:1.4;}
+.poplayer .layout620 .recommend{float:left; width:250px; margin-top:50px;padding-left:30px;}
+.poplayer .layout620 .recommend ul{float:left;margin:10px 30px 0 0;text-align:center;font-size:14px;}
+.poplayer .layout620 .title{font-size:32px;padding-bottom:10px;height:auto;border-bottom:none;}
+/* ******** 免费设计、建材询问报名成功 end *********** */
+
+/* ******** 弹框 end *********** */
+/*应用在装修公司单独弹出属性*/
+.popcon-l{float: left; padding: 0 52px 40px 52px;}
+.poplayer .layout580-body .img.newimg{margin:15px 0 11px 0; display: inline; float: none; width: 120px;height: 120px; border: none;}
+.poplayer .layout620{width: 620px; overflow: hidden;zoom:0;}
+.poplayer .layout580-head.new-tit{height: 56px;line-height: 56px; padding: 12px 0px 0 40px;border-bottom: 1px solid #f4f4f4;margin: 0 10px;}
+.poplayer .layout580-body.newbod{margin-top: 22px;}
+.new-poe{height: 23px;line-height: 23px;color: #666; font-size: 14px;display: block;}
+.newbod p{line-height: 28px;height: 28px;}
+.poplayer .layout580-body .popcon-r.new-r .popcon-r-title{background: #fff;width: 345px;padding: 0;line-height: 23px;margin-bottom: 6px;}
+.bot-txt{height: 20px;line-height: 20px; padding-left: 26px; color: #999;background: url(../images/pop-msg.png) left center no-repeat; margin-top: 20px;}
+
+.free-form.new-form .input{width:90%;line-height:34px;height:34px;padding:0 12px;border:1px solid #e3e3e3;color:#999;}
+.free-form.new-form .error{display:block;font-size:12px;color:#ea5504;line-height:52px;height:52px;padding-left:1em;}
+.free-form.new-form .error.h17{height: 17px;line-height: 17px;}
+.free-form.new-form .error.h22{height: 22px;line-height: 22px;}
+.free-form.new-form .freeformbtn{width:120px;text-align:center;line-height:38px;background:#ea5404;color:#fff;cursor:pointer;border-radius:5px;font-size:20px;}
+.free-form.new-form .count{font-size:12px;color:#999;margin-top:15px;}
+.mb18{margin-bottom: 18px;}
+.free-form.new-form .fr-in{width: 325px;height:41px;border: 1px solid #ececec}
+.free-form.new-form .fr-in i{float: left;}
+.free-form.new-form .fr-in input{border: none; height: 41px;line-height: 41px; width: 85%;float: left; padding: 0 5px}
+
+

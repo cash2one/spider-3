@@ -1,0 +1,1574 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>中国加盟网——品牌招商加盟连锁第一门户（创业项目搜索）</title>
+		<meta name = "keywords" content = "加盟,连锁,创业,投资,招商,代理,找项目,创业项目,加盟店,加盟网,中国加盟网"/>
+		<meta name = "description" content = '中国加盟网,国内权威招商加盟连锁互动门户,创业项目首选搜索引擎,专注招商加盟领域10年!以"让天下人轻松创业"为使命,独创18道加盟审核门槛,将创业者选择的加盟项目风险降至最低!创业加盟找项目,就上中国加盟网!'/>
+		<link rel="stylesheet" type="text/css" href="http://image1.jmw.com.cn/ydynew/css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="http://image1.jmw.com.cn/ydynew/css/chajian.css" />
+		<link rel="stylesheet" type="text/css" href="http://image1.jmw.com.cn/ydynew/css/guidance.css" />
+		<link rel="stylesheet" type="text/css" href="http://image1.jmw.com.cn/ydynew/css/gaiIndex.css" />
+		<script type="text/javascript" src="http://image1.jmw.com.cn/industry/js/jquery-1.8.3.min.js"></script>
+		<script type="text/javascript" src="http://function.jmw.com.cn/location/getlocationjs.php?type=index"></script>
+		<script type="text/javascript" src="http://image1.jmw.com.cn/ydynew/js/checkandclear.js"></script>
+		
+		<script language="javascript">
+			//统计功能和引用留言弹框功能
+			var yindao = 'yindao';
+		</script>
+		<script type="text/javascript" src="http://image1.jmw.com.cn/hangye/public/js/tongji.js"></script>
+		
+		<!--判断是否登录-->
+		<script type="text/javascript" src="http://function.jmw.com.cn/YdloginStatus.js"></script>
+	</head>
+
+	<body onmouseover="over();">
+			<div id="guidance">
+
+			<div class="guidance-top">
+				<div class="guidance-top-mian">
+					<!--展会LOGO-->
+					<a href="http://zch.jmw.com.cn/"  target="_blank" title="第十届品牌加盟投资博览会" style="display: block;position: absolute;top:51px;left: 264px;"><img src="http://image1.jmw.com.cn/ydynew/img/showLogo.png"/></a>
+										<ul id="List">
+						<li>
+							<a href="http://jmw.com.cn" target="_blank" title="中国加盟网首页">综合</a>
+													</li>
+						<li>
+							<a href="http://www.cy.jmw.com.cn/" target="_blank" title="餐饮加盟">餐饮</a>
+													</li>
+						<li>
+							<a href="http://www.fz.jmw.com.cn/" target="_blank" title="服装加盟">服装</a>
+													</li>
+						<li>
+							<a href="http://www.jy.jmw.com.cn/" target="_blank" title="教育加盟">教育</a>
+													</li>
+						<li>
+							<a href="http://www.jf.jmw.com.cn/" target="_blank" title="家纺加盟">家纺</a>
+							<img src="http://image1.jmw.com.cn/ydynew/img/hot1.gif"/ style="position: relative;top: -49px;left: 19px;">						</li>
+						<li>
+							<a href="http://jj.jmw.com.cn/" target="_blank" title="家居加盟">家居</a>
+													</li>
+						<li>           
+							<a href="http://www.yr.jmw.com.cn/" target="_blank" title="幼儿加盟">幼儿</a>
+													</li>          
+						<li>
+							<a href="http://www.zb.jmw.com.cn/" target="_blank" title="珠宝加盟">珠宝</a>
+													</li>
+						<li>
+							<a href="http://www.sp.jmw.com.cn/" target="_blank" title="饰品加盟">饰品</a>
+													</li>
+						<li style="margin:0">
+							<a href="http://www.jc.jmw.com.cn/" target="_blank" title="建材加盟">建材</a>
+													</li>
+						<li>
+							<a href="http://www.mr.jmw.com.cn/" target="_blank" title="美容加盟">美容</a>
+													</li>
+						<li>
+							<a href="http://jr.jmw.com.cn/" target="_blank" title="金融加盟">金融</a>
+						</li>
+						<li>
+							<a href="http://www.qc.jmw.com.cn/" target="_blank" title="汽车加盟">汽车</a>
+													</li>
+						<li>
+							<a href="http://www.hb.jmw.com.cn/" target="_blank" title="环保加盟">环保</a>
+													</li>
+						<li>
+							<a href="http://jiudian.jmw.com.cn/" target="_blank" title="酒店加盟">酒店</a>
+													</li>
+						<li>
+							<a href="http://xs.jmw.com.cn/" target="_blank" title="零售加盟">零售</a>
+						</li>
+						<li>
+							<a href="http://www.ganxi.jmw.com.cn/" target="_blank" title="干洗加盟">干洗</a>
+													</li>
+						<li>
+							<a href="http://www.js.jmw.com.cn/" target="_blank" title="酒水加盟">酒水</a>
+													</li>
+						<li>
+							<a href="http://www.wj.jmw.com.cn/" target="_blank" title="五金加盟">五金</a>
+						</li>
+						<li>
+							<a href="http://www.jp.jmw.com.cn/" target="_blank" title="精品加盟">精品</a>
+						</li>
+					</ul>
+					
+					<!--导航-->
+					<div class="guidance-mian-top">
+						<a href="http://jmw.com.cn" title="中国加盟网" class="main-top-left" target="_blank">
+						<h1 style="width:239px;height:110px;" title="中国加盟网">
+							<img src="http://image1.jmw.com.cn/ydynew/img/logo_g.png" />
+						</h1>
+						</a>
+						<div class="main-top-right">
+							<p id="yindiaoye">
+								
+							</p>
+							
+							<div class="tan-cover" onclick="message_check(11,34)">
+								马上帮我找项目
+							</div>
+						</div>
+					</div>
+					<!--导航-->
+
+					<!--搜索框-->
+					<div class="center-search">
+						<div class="oneP">
+							<span></span><input type="text" readonly="true" value="我的意向加盟行业" />
+							<ul id="most-List">
+								<li>
+									<a href="http://search.jmw.com.cn/i1/" target="_blank" title="服装加盟">服装</a>
+								</li>
+								<li>
+									<a href="http://search.jmw.com.cn/i2/" target="_blank" title="餐饮加盟">餐饮</a>
+								</li>
+								<li>
+									<a href="http://search.jmw.com.cn/i3/" target="_blank" title="美容加盟">美容</a>
+								</li>
+								<li>
+									<a href="http://search.jmw.com.cn/i4/" target="_blank" title="干洗加盟">干洗</a>
+								</li>                 
+								<li>                  
+									<a href="http://search.jmw.com.cn/i7/" target="_blank" title="饰品加盟">饰品</a>
+								</li>                 
+								<li>                  
+									<a href="http://search.jmw.com.cn/i11/" target="_blank" title="教育加盟">教育</a>
+								</li>                 
+								<li>                  
+									<a href="http://search.jmw.com.cn/i13/" target="_blank" title="幼儿加盟">幼儿</a>
+								</li>                 
+								<li>                  
+									<a href="http://search.jmw.com.cn/i15/" target="_blank" title="零售加盟">零售</a>
+								</li>                 
+								<li>                  
+									<a href="http://search.jmw.com.cn/i16/" target="_blank" title="家居加盟">家居</a>
+								</li>                 
+								<li>                  
+									<a href="http://search.jmw.com.cn/i17/" target="_blank" title="环保加盟">环保</a>
+								</li>                 
+								<li>                  
+									<a href="http://search.jmw.com.cn/i19/" target="_blank" title="五金加盟">五金</a>
+								</li>                 
+								<li>                  
+									<a href="http://search.jmw.com.cn/i21/" target="_blank" title="珠宝加盟">珠宝</a>
+								</li>                 
+								<li>                  
+									<a href="http://search.jmw.com.cn/i22/" target="_blank" title="家纺加盟">家纺</a>
+								</li>                 
+								<li>                  
+									<a href="http://search.jmw.com.cn/i23/" target="_blank" title="汽车加盟">汽车</a>
+								</li>                 
+								<li>                  
+									<a href="http://search.jmw.com.cn/i24/" target="_blank" title="建材加盟">建材</a>
+								</li>                 
+								<li>                  
+									<a href="http://search.jmw.com.cn/i196/" target="_blank" title="酒水加盟">酒水</a>
+								</li>                 
+								<li>                  
+									<a href="http://search.jmw.com.cn/i211/" target="_blank" title="金融加盟">金融</a>
+								</li>                 
+								<li>                  
+									<a href="http://search.jmw.com.cn/i236/" target="_blank" title="数码加盟">数码</a>
+								</li>                 
+								<li>                  
+									<a href="http://search.jmw.com.cn/i235/" target="_blank" title="家电加盟">家电</a>
+								</li>                 
+								<li>                  
+									<a href="http://search.jmw.com.cn/i234/" target="_blank" title="食品加盟">食品</a>
+								</li>                 
+								<li>                  
+									<a href="http://search.jmw.com.cn/i233/" target="_blank" title="健身加盟">健身</a>
+								</li>                 
+								<li>                  
+									<a href="http://search.jmw.com.cn/i232/" target="_blank" title="娱乐加盟">娱乐</a>
+								</li>                 
+								<li>                  
+									<a href="http://search.jmw.com.cn/i230/" target="_blank" title="服务加盟">服务</a>
+								</li>                 
+								<li>                  
+									<a href="http://search.jmw.com.cn/i245/" target="_blank" title="宠物店加盟">宠物店</a>
+								</li>                 
+								<li>                  
+									<a href="http://search.jmw.com.cn/i5/" target="_blank" title="精品加盟">精品</a>
+								</li>                 
+								<li>                  
+									<a href="http://search.jmw.com.cn/i223/" target="_blank" title="超市加盟">超市</a>
+								</li>                 
+								<li>                  
+									<a href="http://search.jmw.com.cn/i147/" target="_blank" title="酒店加盟">酒店</a>
+								</li>                 
+								<li>                  
+									<a href="http://search.jmw.com.cn/i308/" target="_blank" title="众筹加盟">众筹</a>
+								</li>                 
+								<li>                  
+									<a href="http://search.jmw.com.cn/i301/" target="_blank" title="微商加盟">微商</a>
+								</li>                 
+								<li>                  
+									<a href="http://search.jmw.com.cn/i231/" target="_blank" title="新行业加盟">新行业</a>
+								</li>								
+							</ul>
+
+						</div>
+
+						<p class="twoP"><span></span>
+							<input autocomplete="off" searchautocomplete="true" name="keyword" id="keyword_fenci" type="text" value="输入加盟品牌" onblur="if(this.value==''){this.value='输入加盟品牌';}" onfocus="if(this.value=='输入加盟品牌'){this.value='';}" />
+						</p>
+						<p><input type="button" value="立即搜索" class="three" style="border:none;" onclick="goSub();"/></p>
+						
+					</div>
+					<script>
+					   function goSub()
+						{
+							var keyword = $("#keyword_fenci").val();
+							if(keyword=='输入加盟品牌'||keyword.replace(/\s/g, "")=='')
+							{
+								//window.location.href="http://search.jmw.com.cn/"; 
+								window.open("http://search.jmw.com.cn/");
+							}
+							else
+							{
+								//window.location.href="http://search.jmw.com.cn/newSearch/newList.php?keyword="+encodeURIComponent(keyword); 
+								window.open("http://search.jmw.com.cn/newSearch/newList.php?keyword="+encodeURIComponent(keyword)+"");
+							}
+						}
+						$(function(){
+							$('#keyword_fenci').bind('keypress',function(event){
+								if(event.keyCode == "13")    
+								{
+									goSub();
+								}
+							});
+						});
+					</script>
+					<link rel="stylesheet" href="http://search.jmw.com.cn/fenci/v9_jquery-ui.css">
+					<script src="http://search.jmw.com.cn/fenci/jquery-ui.js"></script>
+					<script>
+					  $(function() {
+						$.ajax();
+							var availableTags = [
+							  "ActionScript",
+							  "AppleScript",
+							  "Asp",
+							  "BASIC",
+							  "C",
+							  "C++",
+							  "Clojure",
+							  "COBOL",
+							  "ColdFusion",
+							  "Erlang",
+							  "Fortran",
+							  "Groovy",
+							  "Haskell",
+							  "Java",
+							  "JavaScript",
+							  "Lisp",
+							  "Perl",
+							  "PHP",
+							  "Python",
+							  "Ruby",
+							  "Scala",
+							  "Scheme"
+							];
+						$("#keyword_fenci").autocomplete({
+							source: "http://search.jmw.com.cn/Search.php",
+							minLength: 1,
+							select: function( event, ui ) {
+							// event 是当前事件对象
+								//window.location.href = ui.item.active;
+								window.open(ui.item.active);
+							// ui对象仅有一个item属性，它表示当前被选中的菜单项对应的数据源对象
+							// 该对象具有label和value属性，以及其它自定义(如果有的话)的属性
+							}
+						});
+					  });
+					  </script>
+					<!--搜索框-->
+					
+					<!--无加盟目标-->
+					<div class="jony-us">
+						<ul>
+							<li>
+								<div class="jony_us_div">
+									<h3 title="挑合适的加盟项目"><b>帮你挑项目</b></h3>
+									<span style="margin-top: 19px;margin-bottom: 5px;"><i>Q</i>&nbsp;加盟项目挑花眼怎么办？</span>
+									<span style="margin-left:-24px"> &nbsp;<i>A</i>&nbsp;不如找专业顾问聊聊?</span>
+									<button class="button" onclick="_MEIQIA._SHOWPANEL()">询投资顾问</button>
+								</div>
+
+							</li>
+							<li>
+								<div class="jony_us_div">
+									<h3 title="对接企业招商经理"><b>帮你对接</b></h3>
+									<span style="margin-top: 19px;margin-bottom: 5px;margin-left:-20px"><i>Q</i>&nbsp;我想找某品牌项目，</span>
+									<span style="text-align: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>A</i>&nbsp;要不找招商经理唠唠?</span>
+									<button class="button" onclick="message_check(11,35)">找招商经理</button>
+								</div>
+							</li>
+							<li>
+								<div class="jony_us_div">
+									<h3 title="查找项目加盟优惠"><b>帮你砍价</b></h3>
+									<span style="margin-top: 19px;margin-bottom: 5px;"><i>Q</i>&nbsp;我决定干了, 优惠还能多吗,</span>
+									<span style="text-align: left;margin-left:3px">&nbsp;&nbsp;<i>A</i>&nbsp;找我们帮你砍砍?</span>
+									<button class="button" onclick="message_check(11,36)">预约砍价</button>
+								</div>
+							</li>
+							<li style="margin: 0;">
+								<div class="jony_us_div">
+									<h3 title="加盟顾问1对1指导"><b style="color: #1faf93;">帮你定制</b></h3>
+									<span style="margin-top: 19px;margin-bottom: 5px;margin-left:-26px;">&nbsp;<i>Q</i>&nbsp;我就有钱，能干点什么,</span>
+									<span style="text-align: left;">&nbsp;&nbsp;&nbsp;<i>A</i>&nbsp;那就找顾问量身定制吧！</span>
+									<i style="background: #1faf93;" class="star-make"><a href="#one-footer">开始定制</a></i>
+								</div>
+							</li>
+						</ul>
+
+					</div>
+					<!--无加盟目标-->
+				</div>
+				<!--main-->
+			</div>
+			<!--guidance-top-->
+
+			<!--别等了，我已经当老爸-->
+			<div class="no-wait">
+				<div class="top-wait">
+					<h2 class="one-span" style="font-weight:normal" title="创业成功案例">别等了，我已当<b>BOSS</b></h2>
+					<span class="two-span">
+						<p>12年(4380天)里平均每天帮助30人开店</p>
+						<p>截止目前已帮助
+							<b>
+								132030							</b>
+							人成功开店
+							<b>当老板</b>
+						</p>
+					</span>
+				</div>
+				<!--修改-->
+					<div id="bigDisblock">
+						<ul>
+							<!--广告位1-->
+							
+<li class="li-one">
+	<img src="http://attachment.jmw.com.cn/uploadfile/2017/0110/20170110014507561.jpg" style="width: 820px; height: 326px;" alt="娇兰佳人品牌加盟"/>
+	<!--<span id="find">查看</span>-->
+	<a href="http://jmw.com.cn/zhcygs/17547741.html" title="娇兰佳人品牌加盟" class="Acover" target="_blank"></a>
+</li>
+
+
+							<!--广告位3-->
+								<li class="li-three">
+		<img src="http://attachment.jmw.com.cn/uploadfile/2017/0109/20170109100018377.jpg" style="width: 400px;height: 325px;" alt="福汽启腾品牌加盟"/>
+		<a target="_blank" href="http://www.jmw.com.cn/xm6676136/" title="福汽启腾品牌加盟" class="Acover"></a>
+	</li>
+	<li class="li-four">
+		<img src="http://attachment.jmw.com.cn/uploadfile/2017/0110/20170110015003201.jpg" style="width: 400px;height: 325px;" alt="能力风暴机器人加盟"/>
+		<a target="_blank" href="http://www.jmw.com.cn/xm6597666/" title="能力风暴机器人加盟" class="Acover"></a>
+	</li>
+							<!--广告位2-->
+							<li class="li-two">
+	<img src="http://attachment.jmw.com.cn/uploadfile/2017/0110/20170110014921458.jpg" style="width: 400px;height: 673px;" alt="千叶珠宝品牌加盟"/>
+	<a target="_blank" href="http://www.jmw.com.cn/xm6584328/" title="千叶珠宝品牌加盟" class="Acover"></a>
+</li>
+
+							<!--广告位4-->
+							
+<li class="li-five">
+	<img src="http://attachment.jmw.com.cn/uploadfile/2017/0109/20170109100713496.jpg" style="width: 400px;height: 325px;" alt="实体项目新玩法，2017年谁最值得期待？"/>
+	<div id="coverBlock">
+		
+	</div>
+	<div id="TopHead">
+		<h3>加盟头条</h3>
+		<a target="_blank" href="http://video.jmw.com.cn/" title="中国加盟网创业视频" class="video"><span id="video">视频</span></a>
+		<p class="p-tex"><a target="_blank" href="http://jmw.com.cn/zhppdt/17547709.html" title="实体项目新玩法，2017年谁最值得期待？">实体项目新玩法，2017年谁最值得期待？</a></p>
+		<p class="p-tex2"><a target="_blank"  href="http://jmw.com.cn/zhppdt/17547263.html" title="特许经营模式再度受宠 消费升级领域迎春天">特许经营模式再度受宠 消费升级领域迎春天</a></p>
+	</div>
+	<a target="_blank" href="http://jmw.com.cn/zhppdt/17547709.html" title="实体项目新玩法，2017年谁最值得期待？" class="Acover"></a>
+</li>
+
+							<!--广告位5-->
+							
+<li class="li-six">
+	<img src="http://attachment.jmw.com.cn/uploadfile/2017/0110/20170110014710265.jpg" style="width: 820px; height: 326px;" alt="名创优品加盟"/>
+	<!--<span id="find">查看</span>-->
+	<a target="_blank" href="http://jmw.com.cn/zhppdt/17547740.html" title="名创优品加盟" class="Acover"></a>
+</li>
+
+
+						</ul>
+					</div>
+				<!--修改-->
+			</div>
+			<!--no-wait-->
+						<div class="one-footer" id="one-footer">
+				<!--差一步-->
+				<div class="no-wait on-waite">
+					<!--top-->
+					<div class="top-wait">
+						<h2 class="one-span" style="font-weight:normal" title="创业投资指导">只需一步，投资顾问1对1指导</h2>
+						<span class="two-span">
+						<p>已有
+							<b>
+								27160							</b>
+							人与私人顾问1对1交流
+						</p>
+						<p><b>18</b> 人资深顾问团队 时时为您提供咨询</p>
+					  </span>
+					</div>
+					<!--top-->
+
+					<!--输入框和指导-->
+					<div class="direction">
+						<!--左边-->
+						<div class="dir-left">
+							<h4>私人定制</h4>
+							<p>为您提供独一无二的个性化定制服务</p>
+							<span><b>18</b>人资深顾问团队 时时为您提供咨询</span>
+
+							<ul>
+								<li class="important">
+									<div id="imporzitt">
+										<input type="text" placeholder="选择想要投资的行业" / id="souhangye" readonly="true">
+										<div id="want-tou">
+											<p>服装</p>
+											<p>餐饮</p>
+											<p>美容</p>
+											<p>干洗</p>
+											<p>饰品</p>
+											<p>教育</p>
+											<p>幼儿</p>
+											<p>零售</p>
+											<p>家居</p>
+											<p>环保</p>
+											<p>五金</p>
+											<p>珠宝</p>
+											<p>家纺</p>
+											<p>汽车</p>
+											<p>建材</p>
+											<p>酒水</p>
+											<p>金融</p>
+											<p>数码</p>
+											<p>家电</p>
+											<p>食品</p>
+											<p>健身</p>
+											<p>娱乐</p>
+											<p>服务</p>
+											<p>宠物店</p>
+											<p>精品</p>
+											<p>超市</p>
+											<p>酒店</p>
+											<p>众筹</p>
+											<p>新行业</p>
+											<p>微商</p>
+										</div>
+									</div>
+								</li>
+								<li><input type="text" placeholder="可投资金额  如：50万" id="moneys" value=""  maxlength="20"/></li>
+								<li><input type="text" placeholder="我的投资区域  如：四川成都"  id="address" value=""  maxlength="20"/></li>
+								<li style="border: none; width: 100%;"><span class="input-span1"><input  maxlength="6" id="myName" type="text" placeholder="我的名字" /></span><span class="input-span2"><input id="myPhone" maxlength="11" type="text" placeholder="我的手机号码"/></span></li>
+								<input type="hidden" name="MFoot_lasturl" id="MCeng_lasturl_3"/>
+								<input type="hidden" name="MFoot_fromurl" id="MCeng_fromurl_3"/>
+								<input type="hidden" name="target_id" id="pids" value="11" >
+								<input type="hidden" value="39" name="origin" id="sub_origin">							
+								<input type="hidden" value="2" name="sex" id="sub_sex">							
+							</ul>
+							<div class="btn" onclick="subMess($(this))">
+								点击提交<i>私人顾问给您回电</i>
+							</div>
+
+						</div>
+						<script>
+							function subMess(obj){
+								if(obj.attr("message_pop_up") ==1)
+								{
+									alert("正在提交中。。请稍后");
+									return false;
+								}
+								var message1 = $("#souhangye").val();
+								var message2 = $("#moneys").val();
+								var message3 = $("#address").val();
+								var message = "私人订制服务,"+message1+'行业,'+message2+','+message3;
+								var MCeng_lasturl_1 = $("#MCeng_lasturl_3").val();
+								var MCeng_fromurl_1 = $("#MCeng_fromurl_3").val();
+								
+								var name = $("#myName").val();
+								var phone = $("#myPhone").val();
+								var target_id = $('#pids').val();
+								var origin = $('#sub_origin').val();
+								var sex = $('#sub_sex').val();
+								if(message1 == "" || message1 == "输入想投资的行业"){
+									alert("投资行业不能为空！");
+									return false;	
+								}else if(message2 == "" || message2 == "可投资金额"){
+									alert("可投资金额不能为空！");
+									return false;
+								}else if(message3 == "" || message3 == "我的投资的商圈"){
+									alert("我的投资的商圈不能为空！");
+									return false;
+								}else if(name == "" || name == "我的名字"){
+									alert("姓名不能为空！");
+									return false;
+								}else if(phone == "" || phone == "我的手机号码"){
+									alert("联系方式不能为空！");  
+									return false ; 
+								}else if(!phone.match(/^(13[0-9]|14[0-9]|15([0-9])|18([0-9])|17([0-9]))[0-9]{8}$/)) {
+									alert("请输入正确的手机号码！");
+									return false ;
+								}else{
+									obj.attr("message_pop_up",1);
+
+									function show()
+									{
+										obj.attr("message_pop_up",0);
+									} 
+									window.setTimeout(show,2000);
+									$.ajax({
+										type:"get",
+										url:"http://liuyan.jmw.com.cn/message/v9_message_check.php",
+										dataType:"jsonp",
+										jsonp:"callback",
+										data:{sex:sex,name:name,telephone:phone,message:message,target_id:target_id,origin:origin,MFoot_lasturl:MCeng_lasturl_1,MFoot_fromurl:MCeng_fromurl_1},
+										success:function(html){
+											obj.attr("message_pop_up",0);
+											if(html.status == "login"){
+												alert("留言成功！");
+												window.location.reload();
+											}else if(html.status == "unlogin"){
+												$("#cover-Black").show();
+												$("#rightNow3").show();
+												v9_Auto_trigger();
+												$("#first_message_id").val(html.id);
+												$("#first_telephone").val(phone);
+											}
+										}
+									});
+
+								}	
+							}
+						
+						</script>
+						
+						<!--右边-->
+						<div class="dir-right" id="most-people">
+							<!--most-people-->
+							<ul class="ul-one" id="first-ul">
+															<li class="move-left">
+									<div class="englishName tuijian-bg">
+										<p class="logo-p"><img src="http://attachment.jmw.com.cn/comp_uploadfile/pic/2016/12/27/36961482820342.jpg" alt="加盟投资顾问"/></p>
+										<p class="english_name">Cassiel</p>
+										<span>好评度
+											<b>
+																								<img src="http://image1.jmw.com.cn/ydynew/img/star5.png"/>
+											</b>
+										</span>
+									</div>
+																			<div class="move-Block move-infor">
+											<p>6年客户顾问经验</p>
+											<span>总服务人次：<b>26531</b>人</span>
+											<span>擅长<b>餐饮、干洗、家居</b></span>
+											<button style="background: #f5992a;margin-left: 13px;margin-right: 5px;" onclick="_MEIQIA._SHOWPANEL()">在线咨询</button><button style="background: #49c4ac;" class="sever" onclick="dianping('Cassiel','http://attachment.jmw.com.cn/comp_uploadfile/pic/2016/12/27/36961482820342.jpg','92','892',1)">服务评价</button>
+											<!--二维码-->
+											<div class="erweima">
+												<img src="http://attachment.jmw.com.cn/comp_uploadfile/pic/2016/12/26/22021482747769.jpg" / >
+											</div>
+											<!--二维码-->
+										</div>
+									
+																	</li>
+															<li class="move-left">
+									<div class="englishName tuijian-bg">
+										<p class="logo-p"><img src="http://attachment.jmw.com.cn/comp_uploadfile/pic/2016/12/27/23161482820363.jpg" alt="加盟投资顾问"/></p>
+										<p class="english_name">Cathy</p>
+										<span>好评度
+											<b>
+																								<img src="http://image1.jmw.com.cn/ydynew/img/star5.png"/>
+											</b>
+										</span>
+									</div>
+																			<div class="move-Block move-infor">
+											<p>8年客户顾问经验</p>
+											<span>总服务人次：<b>41860</b>人</span>
+											<span>擅长<b>服装、美容、幼儿</b></span>
+											<button style="background: #f5992a;margin-left: 13px;margin-right: 5px;" onclick="_MEIQIA._SHOWPANEL()">在线咨询</button><button style="background: #49c4ac;" class="sever" onclick="dianping('Cathy','http://attachment.jmw.com.cn/comp_uploadfile/pic/2016/12/27/23161482820363.jpg','95','1025',2)">服务评价</button>
+											<!--二维码-->
+											<div class="erweima">
+												<img src="http://attachment.jmw.com.cn/comp_uploadfile/pic/2016/12/26/93711482754849.jpg" / >
+											</div>
+											<!--二维码-->
+										</div>
+									
+																	</li>
+															<li class="move-left">
+									<div class="englishName tuijian-bg">
+										<p class="logo-p"><img src="http://attachment.jmw.com.cn/comp_uploadfile/pic/2016/12/27/43101482820828.jpg" alt="加盟投资顾问"/></p>
+										<p class="english_name">Mariah</p>
+										<span>好评度
+											<b>
+																								<img src="http://image1.jmw.com.cn/ydynew/img/star5.png"/>
+											</b>
+										</span>
+									</div>
+																			<div class="move-Block move-infor">
+											<p>6年客户顾问经验</p>
+											<span>总服务人次：<b>38643</b>人</span>
+											<span>擅长<b>珠宝、饰品、美容</b></span>
+											<button style="background: #f5992a;margin-left: 13px;margin-right: 5px;" onclick="_MEIQIA._SHOWPANEL()">在线咨询</button><button style="background: #49c4ac;" class="sever" onclick="dianping('Mariah','http://attachment.jmw.com.cn/comp_uploadfile/pic/2016/12/27/43101482820828.jpg','94','769',3)">服务评价</button>
+											<!--二维码-->
+											<div class="erweima">
+												<img src="http://attachment.jmw.com.cn/comp_uploadfile/pic/2016/12/26/83371482755071.jpg" / >
+											</div>
+											<!--二维码-->
+										</div>
+									
+																	</li>
+															<li class="move-left">
+									<div class="englishName tuijian-bg">
+										<p class="logo-p"><img src="http://attachment.jmw.com.cn/comp_uploadfile/pic/2016/12/27/16781482820841.jpg" alt="加盟投资顾问"/></p>
+										<p class="english_name">Sunny</p>
+										<span>好评度
+											<b>
+																								<img src="http://image1.jmw.com.cn/ydynew/img/star4.png"/>
+											</b>
+										</span>
+									</div>
+																			<div class="move-Block move-infor">
+											<p>5年客户顾问经验</p>
+											<span>总服务人次：<b>35698</b>人</span>
+											<span>擅长<b>建材、零售、教育</b></span>
+											<button style="background: #f5992a;margin-left: 13px;margin-right: 5px;" onclick="_MEIQIA._SHOWPANEL()">在线咨询</button><button style="background: #49c4ac;" class="sever" onclick="dianping('Sunny','http://attachment.jmw.com.cn/comp_uploadfile/pic/2016/12/27/16781482820841.jpg','88','581',4)">服务评价</button>
+											<!--二维码-->
+											<div class="erweima">
+												<img src="http://attachment.jmw.com.cn/comp_uploadfile/pic/2016/12/26/54131482755117.jpg" / >
+											</div>
+											<!--二维码-->
+										</div>
+									
+																	</li>
+															<li class="move-right">
+									<div class="englishName tuijian-bg">
+										<p class="logo-p"><img src="http://attachment.jmw.com.cn/comp_uploadfile/pic/2016/12/27/27181482821086.jpg" alt="加盟投资顾问"/></p>
+										<p class="english_name">Phoebe</p>
+										<span>好评度
+											<b>
+																								<img src="http://image1.jmw.com.cn/ydynew/img/star5.png"/>
+											</b>
+										</span>
+									</div>
+																			<div class="move-rightBlock move-infor right-left">
+											<p>4年客户顾问经验</p>
+											<span>总服务人次：<b>18867</b>人</span>
+											<span>擅长<b>精品、饰品、家纺</b></span>
+											<div class="left-btn">
+												<button style="background: #f5992a;margin-right: 5px;" onclick="_MEIQIA._SHOWPANEL()">在线咨询</button><button style="background: #49c4ac;" class="sever" onclick="dianping('Phoebe','http://attachment.jmw.com.cn/comp_uploadfile/pic/2016/12/27/27181482821086.jpg','92','655',5)">服务评价</button>
+											</div>
+
+											<!--二维码-->
+											<div class="erweima">
+												<img src="http://attachment.jmw.com.cn/comp_uploadfile/pic/2016/12/26/72411482755238.jpg" / >
+											</div>
+										</div>
+																	</li>
+															<li class="six move-right">
+									<div class="englishName tuijian-bg">
+										<p class="logo-p"><img src="http://attachment.jmw.com.cn/comp_uploadfile/pic/2016/12/27/57781482821101.jpg" alt="加盟投资顾问"/></p>
+										<p class="english_name">Eason</p>
+										<span>好评度
+											<b>
+																								<img src="http://image1.jmw.com.cn/ydynew/img/star4.png"/>
+											</b>
+										</span>
+									</div>
+																			<div class="move-rightBlock move-infor right-left">
+											<p>4年客户顾问经验</p>
+											<span>总服务人次：<b>16658</b>人</span>
+											<span>擅长<b>汽车、酒水、酒店</b></span>
+											<div class="left-btn">
+												<button style="background: #f5992a;margin-right: 5px;" onclick="_MEIQIA._SHOWPANEL()">在线咨询</button><button style="background: #49c4ac;" class="sever" onclick="dianping('Eason','http://attachment.jmw.com.cn/comp_uploadfile/pic/2016/12/27/57781482821101.jpg','89','565',6)">服务评价</button>
+											</div>
+
+											<!--二维码-->
+											<div class="erweima">
+												<img src="http://attachment.jmw.com.cn/comp_uploadfile/pic/2016/12/26/17841482755438.jpg" / >
+											</div>
+										</div>
+																	</li>
+															<li class="move-left">
+									<div class="englishName tuijian-bg">
+										<p class="logo-p"><img src="http://attachment.jmw.com.cn/comp_uploadfile/pic/2016/12/27/78821482821183.jpg" alt="加盟投资顾问"/></p>
+										<p class="english_name">Carey</p>
+										<span>好评度
+											<b>
+																								<img src="http://image1.jmw.com.cn/ydynew/img/star5.png"/>
+											</b>
+										</span>
+									</div>
+																			<div class="move-Block move-infor">
+											<p>5年客户顾问经验</p>
+											<span>总服务人次：<b>19680</b>人</span>
+											<span>擅长<b>教育、幼儿、环保</b></span>
+											<button style="background: #f5992a;margin-left: 13px;margin-right: 5px;" onclick="_MEIQIA._SHOWPANEL()">在线咨询</button><button style="background: #49c4ac;" class="sever" onclick="dianping('Carey','http://attachment.jmw.com.cn/comp_uploadfile/pic/2016/12/27/78821482821183.jpg','94','637',7)">服务评价</button>
+											<!--二维码-->
+											<div class="erweima">
+												<img src="http://attachment.jmw.com.cn/comp_uploadfile/pic/2016/12/26/84231482755508.jpg" / >
+											</div>
+											<!--二维码-->
+										</div>
+									
+																	</li>
+															<li class="move-left">
+									<div class="englishName tuijian-bg">
+										<p class="logo-p"><img src="http://attachment.jmw.com.cn/comp_uploadfile/pic/2016/12/27/70991482821165.jpg" alt="加盟投资顾问"/></p>
+										<p class="english_name">Felcia</p>
+										<span>好评度
+											<b>
+																								<img src="http://image1.jmw.com.cn/ydynew/img/star5.png"/>
+											</b>
+										</span>
+									</div>
+																			<div class="move-Block move-infor">
+											<p>4年客户顾问经验</p>
+											<span>总服务人次：<b>16895</b>人</span>
+											<span>擅长<b>超市、干洗、餐饮</b></span>
+											<button style="background: #f5992a;margin-left: 13px;margin-right: 5px;" onclick="_MEIQIA._SHOWPANEL()">在线咨询</button><button style="background: #49c4ac;" class="sever" onclick="dianping('Felcia','http://attachment.jmw.com.cn/comp_uploadfile/pic/2016/12/27/70991482821165.jpg','91','316',8)">服务评价</button>
+											<!--二维码-->
+											<div class="erweima">
+												<img src="http://attachment.jmw.com.cn/comp_uploadfile/pic/2016/12/26/54631482755605.jpg" / >
+											</div>
+											<!--二维码-->
+										</div>
+									
+																	</li>
+															<li class="move-left">
+									<div class="englishName tuijian-bg">
+										<p class="logo-p"><img src="http://attachment.jmw.com.cn/comp_uploadfile/pic/2016/12/27/13001482821375.jpg" alt="加盟投资顾问"/></p>
+										<p class="english_name">Alics</p>
+										<span>好评度
+											<b>
+																								<img src="http://image1.jmw.com.cn/ydynew/img/star4.png"/>
+											</b>
+										</span>
+									</div>
+																			<div class="move-Block move-infor">
+											<p>4年客户顾问经验</p>
+											<span>总服务人次：<b>20304</b>人</span>
+											<span>擅长<b>建材、家纺、家居</b></span>
+											<button style="background: #f5992a;margin-left: 13px;margin-right: 5px;" onclick="_MEIQIA._SHOWPANEL()">在线咨询</button><button style="background: #49c4ac;" class="sever" onclick="dianping('Alics','http://attachment.jmw.com.cn/comp_uploadfile/pic/2016/12/27/13001482821375.jpg','89','416',9)">服务评价</button>
+											<!--二维码-->
+											<div class="erweima">
+												<img src="http://attachment.jmw.com.cn/comp_uploadfile/pic/2016/12/26/78221482755791.jpg" / >
+											</div>
+											<!--二维码-->
+										</div>
+									
+																	</li>
+															<li class="move-left">
+									<div class="englishName tuijian-bg">
+										<p class="logo-p"><img src="http://attachment.jmw.com.cn/comp_uploadfile/pic/2016/12/27/70341482821392.jpg" alt="加盟投资顾问"/></p>
+										<p class="english_name">Lilly</p>
+										<span>好评度
+											<b>
+																								<img src="http://image1.jmw.com.cn/ydynew/img/star5.png"/>
+											</b>
+										</span>
+									</div>
+																			<div class="move-Block move-infor">
+											<p>4年客户顾问经验</p>
+											<span>总服务人次：<b>15096</b>人</span>
+											<span>擅长<b>餐饮、服装、家电</b></span>
+											<button style="background: #f5992a;margin-left: 13px;margin-right: 5px;" onclick="_MEIQIA._SHOWPANEL()">在线咨询</button><button style="background: #49c4ac;" class="sever" onclick="dianping('Lilly','http://attachment.jmw.com.cn/comp_uploadfile/pic/2016/12/27/70341482821392.jpg','93','395',10)">服务评价</button>
+											<!--二维码-->
+											<div class="erweima">
+												<img src="http://attachment.jmw.com.cn/comp_uploadfile/pic/2016/12/26/30671482755991.jpg" / >
+											</div>
+											<!--二维码-->
+										</div>
+									
+																	</li>
+															<li class="move-right">
+									<div class="englishName tuijian-bg">
+										<p class="logo-p"><img src="http://attachment.jmw.com.cn/comp_uploadfile/pic/2016/12/27/12841482821653.jpg" alt="加盟投资顾问"/></p>
+										<p class="english_name">Linda</p>
+										<span>好评度
+											<b>
+																								<img src="http://image1.jmw.com.cn/ydynew/img/star5.png"/>
+											</b>
+										</span>
+									</div>
+																			<div class="move-rightBlock move-infor right-left">
+											<p>3年客户顾问经验</p>
+											<span>总服务人次：<b>10643</b>人</span>
+											<span>擅长<b>娱乐、干洗、环保</b></span>
+											<div class="left-btn">
+												<button style="background: #f5992a;margin-right: 5px;" onclick="_MEIQIA._SHOWPANEL()">在线咨询</button><button style="background: #49c4ac;" class="sever" onclick="dianping('Linda','http://attachment.jmw.com.cn/comp_uploadfile/pic/2016/12/27/12841482821653.jpg','90','325',11)">服务评价</button>
+											</div>
+
+											<!--二维码-->
+											<div class="erweima">
+												<img src="http://attachment.jmw.com.cn/comp_uploadfile/pic/2016/12/26/57831482756064.jpg" / >
+											</div>
+										</div>
+																	</li>
+															<li class="two-six move-right">
+									<div class="englishName tuijian-bg">
+										<p class="logo-p"><img src="http://attachment.jmw.com.cn/comp_uploadfile/pic/2016/12/27/20701482821445.jpg" alt="加盟投资顾问"/></p>
+										<p class="english_name">Kevin</p>
+										<span>好评度
+											<b>
+																								<img src="http://image1.jmw.com.cn/ydynew/img/star5.png"/>
+											</b>
+										</span>
+									</div>
+																			<div class="move-rightBlock move-infor right-left">
+											<p>3年客户顾问经验</p>
+											<span>总服务人次：<b>11264</b>人</span>
+											<span>擅长<b>珠宝、饰品、金融</b></span>
+											<div class="left-btn">
+												<button style="background: #f5992a;margin-right: 5px;" onclick="_MEIQIA._SHOWPANEL()">在线咨询</button><button style="background: #49c4ac;" class="sever" onclick="dianping('Kevin','http://attachment.jmw.com.cn/comp_uploadfile/pic/2016/12/27/20701482821445.jpg','92','265',12)">服务评价</button>
+											</div>
+
+											<!--二维码-->
+											<div class="erweima">
+												<img src="http://attachment.jmw.com.cn/comp_uploadfile/pic/2016/12/26/37441482756186.jpg" / >
+											</div>
+										</div>
+																	</li>
+															<li class="move-left">
+									<div class="englishName tuijian-bg">
+										<p class="logo-p"><img src="http://attachment.jmw.com.cn/comp_uploadfile/pic/2016/12/27/69401482821473.jpg" alt="加盟投资顾问"/></p>
+										<p class="english_name">Alisa </p>
+										<span>好评度
+											<b>
+																								<img src="http://image1.jmw.com.cn/ydynew/img/star5.png"/>
+											</b>
+										</span>
+									</div>
+																			<div class="move-Block move-infor">
+											<p>2年客户顾问经验</p>
+											<span>总服务人次：<b>6253</b>人</span>
+											<span>擅长<b>超市、娱乐、美容</b></span>
+											<button style="background: #f5992a;margin-left: 13px;margin-right: 5px;" onclick="_MEIQIA._SHOWPANEL()">在线咨询</button><button style="background: #49c4ac;" class="sever" onclick="dianping('Alisa ','http://attachment.jmw.com.cn/comp_uploadfile/pic/2016/12/27/69401482821473.jpg','91','268',13)">服务评价</button>
+											<!--二维码-->
+											<div class="erweima">
+												<img src="http://attachment.jmw.com.cn/comp_uploadfile/pic/2016/12/26/35771482756299.jpg" / >
+											</div>
+											<!--二维码-->
+										</div>
+									
+																	</li>
+															<li class="move-left">
+									<div class="englishName tuijian-bg">
+										<p class="logo-p"><img src="http://attachment.jmw.com.cn/comp_uploadfile/pic/2016/12/27/74541482821498.jpg" alt="加盟投资顾问"/></p>
+										<p class="english_name">Amy </p>
+										<span>好评度
+											<b>
+																								<img src="http://image1.jmw.com.cn/ydynew/img/star4.png"/>
+											</b>
+										</span>
+									</div>
+																			<div class="move-Block move-infor">
+											<p>2年客户顾问经验</p>
+											<span>总服务人次：<b>5302</b>人</span>
+											<span>擅长<b>建材、干洗、环保</b></span>
+											<button style="background: #f5992a;margin-left: 13px;margin-right: 5px;" onclick="_MEIQIA._SHOWPANEL()">在线咨询</button><button style="background: #49c4ac;" class="sever" onclick="dianping('Amy ','http://attachment.jmw.com.cn/comp_uploadfile/pic/2016/12/27/74541482821498.jpg','88','226',14)">服务评价</button>
+											<!--二维码-->
+											<div class="erweima">
+												<img src="http://attachment.jmw.com.cn/comp_uploadfile/pic/2016/12/26/41521482756413.jpg" / >
+											</div>
+											<!--二维码-->
+										</div>
+									
+																	</li>
+															<li class="move-left">
+									<div class="englishName tuijian-bg">
+										<p class="logo-p"><img src="http://attachment.jmw.com.cn/comp_uploadfile/pic/2016/12/27/36171482821540.jpg" alt="加盟投资顾问"/></p>
+										<p class="english_name">Alma</p>
+										<span>好评度
+											<b>
+																								<img src="http://image1.jmw.com.cn/ydynew/img/star5.png"/>
+											</b>
+										</span>
+									</div>
+																			<div class="move-Block move-infor">
+											<p>2年客户顾问经验</p>
+											<span>总服务人次：<b>4040</b>人</span>
+											<span>擅长<b>餐饮、零售、超市</b></span>
+											<button style="background: #f5992a;margin-left: 13px;margin-right: 5px;" onclick="_MEIQIA._SHOWPANEL()">在线咨询</button><button style="background: #49c4ac;" class="sever" onclick="dianping('Alma','http://attachment.jmw.com.cn/comp_uploadfile/pic/2016/12/27/36171482821540.jpg','96','231',15)">服务评价</button>
+											<!--二维码-->
+											<div class="erweima">
+												<img src="http://attachment.jmw.com.cn/comp_uploadfile/pic/2016/12/26/43511482756504.jpg" / >
+											</div>
+											<!--二维码-->
+										</div>
+									
+																	</li>
+															<li class="move-left">
+									<div class="englishName tuijian-bg">
+										<p class="logo-p"><img src="http://attachment.jmw.com.cn/comp_uploadfile/pic/2016/12/27/43821482821577.jpg" alt="加盟投资顾问"/></p>
+										<p class="english_name">Yogi</p>
+										<span>好评度
+											<b>
+																								<img src="http://image1.jmw.com.cn/ydynew/img/star5.png"/>
+											</b>
+										</span>
+									</div>
+																			<div class="move-Block move-infor">
+											<p>2年客户顾问经验</p>
+											<span>总服务人次：<b>4062</b>人</span>
+											<span>擅长<b>干洗、环保、幼儿</b></span>
+											<button style="background: #f5992a;margin-left: 13px;margin-right: 5px;" onclick="_MEIQIA._SHOWPANEL()">在线咨询</button><button style="background: #49c4ac;" class="sever" onclick="dianping('Yogi','http://attachment.jmw.com.cn/comp_uploadfile/pic/2016/12/27/43821482821577.jpg','90','195',16)">服务评价</button>
+											<!--二维码-->
+											<div class="erweima">
+												<img src="http://attachment.jmw.com.cn/comp_uploadfile/pic/2016/12/26/87051482756591.jpg" / >
+											</div>
+											<!--二维码-->
+										</div>
+									
+																	</li>
+															<li class="move-right">
+									<div class="englishName tuijian-bg">
+										<p class="logo-p"><img src="http://attachment.jmw.com.cn/comp_uploadfile/pic/2016/12/27/22471482821590.jpg" alt="加盟投资顾问"/></p>
+										<p class="english_name">Yentl</p>
+										<span>好评度
+											<b>
+																								<img src="http://image1.jmw.com.cn/ydynew/img/star5.png"/>
+											</b>
+										</span>
+									</div>
+																			<div class="move-rightBlock move-infor right-left">
+											<p>5年客户顾问经验</p>
+											<span>总服务人次：<b>26326</b>人</span>
+											<span>擅长<b>教育、汽车、酒店</b></span>
+											<div class="left-btn">
+												<button style="background: #f5992a;margin-right: 5px;" onclick="_MEIQIA._SHOWPANEL()">在线咨询</button><button style="background: #49c4ac;" class="sever" onclick="dianping('Yentl','http://attachment.jmw.com.cn/comp_uploadfile/pic/2016/12/27/22471482821590.jpg','92','413',17)">服务评价</button>
+											</div>
+
+											<!--二维码-->
+											<div class="erweima">
+												<img src="http://attachment.jmw.com.cn/comp_uploadfile/pic/2016/12/26/17191482757263.jpg" / >
+											</div>
+										</div>
+																	</li>
+															<li class="two-six move-right">
+									<div class="englishName tuijian-bg">
+										<p class="logo-p"><img src="http://attachment.jmw.com.cn/comp_uploadfile/pic/2016/12/27/12421482821604.jpg" alt="加盟投资顾问"/></p>
+										<p class="english_name">Sydni</p>
+										<span>好评度
+											<b>
+																								<img src="http://image1.jmw.com.cn/ydynew/img/star5.png"/>
+											</b>
+										</span>
+									</div>
+																			<div class="move-rightBlock move-infor right-left">
+											<p>8年客户顾问经验</p>
+											<span>总服务人次：<b>66892</b>人</span>
+											<span>擅长<b>金融、餐饮、教育</b></span>
+											<div class="left-btn">
+												<button style="background: #f5992a;margin-right: 5px;" onclick="_MEIQIA._SHOWPANEL()">在线咨询</button><button style="background: #49c4ac;" class="sever" onclick="dianping('Sydni','http://attachment.jmw.com.cn/comp_uploadfile/pic/2016/12/27/12421482821604.jpg','95','862',18)">服务评价</button>
+											</div>
+
+											<!--二维码-->
+											<div class="erweima">
+												<img src="http://attachment.jmw.com.cn/comp_uploadfile/pic/2016/12/26/65631482757628.jpg" / >
+											</div>
+										</div>
+																	</li>
+															<!-- <li class="three-six" id="one-six"> -->
+									<!-- <p>更多创业顾问</p> -->
+								<!-- </li> -->
+							</ul>
+							
+							<!--most-people-->
+
+							<!--2-->
+							<!--产品要求先屏蔽一页客服顾问-->
+							<!-- <ul class="ul-one" id="two-ul"> -->
+															<!-- <li class="two-six move-right"> -->
+									<!-- <div class="englishName tuijian-bg"> -->
+										<!-- <img src="" / class="logo-p"> -->
+										<!-- <p></p> -->
+										<!-- <span>好评度 -->
+											<!-- <b> -->
+																								<!-- <img src="http://image1.jmw.com.cn/ydynew/img/star5.png"/> -->
+											<!-- </b> -->
+										<!-- </span> -->
+									<!-- </div> -->
+																			<!-- <div class="move-rightBlock move-infor right-left"> -->
+											<!-- <p>年客户顾问经验</p> -->
+											<!-- <span>总服务人次：<b></b>人</span> -->
+											<!-- <span>擅长<b></b></span> -->
+											<!-- <div class="left-btn"> -->
+												<!-- <button style="background: #f5992a;margin-right: 5px;" onclick="_MEIQIA._SHOWPANEL()">在线咨询</button><button style="background: #49c4ac;" class="sever" onclick="dianping('','','',18)">服务评价</button> -->
+											<!-- </div> -->
+
+											 <!--二维码-->
+											<!-- <div class="erweima"> -->
+												<!-- <img src="" / > -->
+											<!-- </div> -->
+										<!-- </div> -->
+																			<!-- <div class="move-Block move-infor"> -->
+											<!-- <p>年客户顾问经验</p> -->
+											<!-- <span>总服务人次：<b></b>人</span> -->
+											<!-- <span>擅长<b></b></span> -->
+											<!-- <button style="background: #f5992a;margin-left: 13px;margin-right: 5px;" onclick="_MEIQIA._SHOWPANEL()">在线咨询</button><button style="background: #49c4ac;" class="sever" onclick="dianping('','','',18)">服务评价</button> -->
+											<!--二维码-->
+											<!-- <div class="erweima"> -->
+												<!-- <img src="" / > -->
+											<!-- </div> -->
+											<!--二维码--> 
+										<!-- </div> -->
+									
+																	<!-- </li> -->
+														<!-- </ul> -->
+							<div id="list-Li">
+								<li class="bg-color"></li>
+								<!-- <li style="margin: 0 ;"></li> -->
+							</div>
+						</div>
+						<!--右边-->
+					</div>
+
+					<!--输入框和指导-->
+
+					<!--轮播的信息-->
+					<div class="show-inforn">
+						<div class="title-top">
+							定制记录
+							<span>
+								<b>加盟动态</b>
+								<script type="text/javascript" src="http://www.jmw.com.cn/zhly.html"></script>
+								<div id="mar4">
+									<ul id="jmdts"></ul>
+								</div>
+
+							</span>
+							<script type="text/javascript">
+								var num=aHangyeLiuyan30Num.length;
+								for(var i=0;i<num;i++){
+									var from = aHangyeLiuyan30Num[i]['province']+'的';
+									if(from == '中国加盟网的') from = '';
+									var contentStr = aHangyeLiuyan30Num[i]['content'];
+									contentStr = contentStr.substr(0,6);
+									if(aHangyeLiuyan30Num[i]['ltype'] == 1){
+										document.getElementById("jmdts").innerHTML+='<li class="sel_li4">'+aHangyeLiuyan30Num[i]['time']+'来自<i style="font-style:normal">'+from+aHangyeLiuyan30Num[i]['name']+'</i>通过留言咨询了<i style="font-style:normal"><a href="http://www.jmw.com.cn/xm'+aHangyeLiuyan30Num[i]['cid']+'/" target="_blank">'+aHangyeLiuyan30Num[i]['ppmc']+'</a></i>：'+contentStr+'... <a class="message_more" href="http://www.jmw.com.cn/xm'+aHangyeLiuyan30Num[i]['cid']+'/" target="_blank">'+'更多&gt;&gt;</a>';
+									}else if(aHangyeLiuyan30Num[i]['ltype'] == 2){
+										document.getElementById("jmdts").innerHTML+='<li class="sel_li3">'+aHangyeLiuyan30Num[i]['time']+'来自<i style="font-style:normal">'+from+aHangyeLiuyan30Num[i]['name']+'</i>通过QQ咨询了<i style="font-style:normal"><a href="http://www.jmw.com.cn/xm'+aHangyeLiuyan30Num[i]['cid']+'/" target="_blank">'+aHangyeLiuyan30Num[i]['ppmc']+'</a></i> <a class="message_more" href="http://www.jmw.com.cn/xm'+aHangyeLiuyan30Num[i]['cid']+'/" target="_blank">'+'更多&gt;&gt;</a>';
+									}else if(aHangyeLiuyan30Num[i]['ltype'] == 3){
+										document.getElementById("jmdts").innerHTML+='<li class="sel_li2">'+aHangyeLiuyan30Num[i]['time']+'来自<i style="font-style:normal">'+from+aHangyeLiuyan30Num[i]['name']+'</i>通过400免费热线咨询了<i style="font-style:normal"><a href="http://www.jmw.com.cn/xm'+aHangyeLiuyan30Num[i]['cid']+'/" target="_blank">'+aHangyeLiuyan30Num[i]['ppmc']+'</a></i> <a class="message_more" href="http://www.jmw.com.cn/xm'+aHangyeLiuyan30Num[i]['cid']+'/" target="_blank">'+'更多&gt;&gt;</a>';
+									}else if(aHangyeLiuyan30Num[i]['ltype'] == 4){
+										document.getElementById("jmdts").innerHTML+='<li class="sel_li1" style="width:480px;">'+aHangyeLiuyan30Num[i]['time']+'来自<i style="font-style:normal">'+from+aHangyeLiuyan30Num[i]['name']+'</i>通过电话联系咨询了<i style="font-style:normal"><a href="http://www.jmw.com.cn/xm'+aHangyeLiuyan30Num[i]['cid']+'/" target="_blank">'+aHangyeLiuyan30Num[i]['ppmc']+'</a></i> <a class="message_more" href="http://www.jmw.com.cn/xm'+aHangyeLiuyan30Num[i]['cid']+'/" target="_blank">'+'更多&gt;&gt;</a>';
+									}
+								}
+							</script>
+						</div>
+
+						<!--轮播信息-->
+						<div id="slideBox" class="slideBox">
+							<div class="hd">
+								<ul>
+																		<li ></li>
+																		<li ></li>
+																		<li ></li>
+																		<li ></li>
+																		<li style="margin: 0;"></li>
+																</ul>
+							</div>
+
+							<div class="bd">
+								<ul>
+									<!--1-->
+																		<li>
+										<div class="people-need">
+											<span class="tijiao"><b>何先生</b>提交了个人的定制需求</span>
+											<span class="time">2017-01-14 13:28:48</span>
+											<span class="guwen">服务顾问<img src="http://attachment.jmw.com.cn/comp_uploadfile/pic/2016/12/27/16781482820841.jpg" alt="" />Sunny</span>
+											<span class="good">
+												好评度
+												<u>88%</u>
+												<i>(<em>581</em>条评价)</i>
+											</span>
+										</div>
+
+										<div class="more-need">
+											<dl class="dl-one">
+												<dt>
+													<img src="http://image1.jmw.com.cn/ydynew/img/comment_image/default_image4.png" alt="" />
+													<p>何先生</p>
+												</dt>
+												<dd>
+													<p>关注的行业：餐饮</p>
+													<p>可投资资金额：20万</p>
+													<p>投资商圈：黑龙江哈尔滨</p>
+													<span>IP：219.150.32.* </span>
+												</dd>
+											</dl>
+											
+																						<dl class="dl-two">
+												<dt>
+													<p class="pingjia1"><i>服务评价：</i><span class="position1"></span></p>
+													<span class="xinxi">第一次在中国加盟网咨询加盟项目，提交创业意向后，专业客服妹纸很快打电话了解我详细的需求，分析后，没那么迷茫了，距离我的创业目标又近了一步。</span>
+													<p class="pingjia2">何先生&nbsp;&nbsp;&nbsp;2017-01-14 13:50:48</p>
+												</dt>
+											</dl>
+										</div>
+									</li>
+																		<li>
+										<div class="people-need">
+											<span class="tijiao"><b>王女士</b>提交了个人的定制需求</span>
+											<span class="time">2017-01-14 15:54:56</span>
+											<span class="guwen">服务顾问<img src="http://attachment.jmw.com.cn/comp_uploadfile/pic/2016/12/27/57781482821101.jpg" alt="" />Eason</span>
+											<span class="good">
+												好评度
+												<u>89%</u>
+												<i>(<em>565</em>条评价)</i>
+											</span>
+										</div>
+
+										<div class="more-need">
+											<dl class="dl-one">
+												<dt>
+													<img src="http://image1.jmw.com.cn/ydynew/img/comment_image/default_image24.png" alt="" />
+													<p>王女士</p>
+												</dt>
+												<dd>
+													<p>关注的行业：服装</p>
+													<p>可投资资金额：30-50万</p>
+													<p>投资商圈：河南洛阳</p>
+													<span>IP:202.102.227.* </span>
+												</dd>
+											</dl>
+											
+																						<dl class="dl-two">
+												<dt>
+													<p class="pingjia1"><i>服务评价：</i><span class="position1"></span></p>
+													<span class="xinxi">客服还是很专业的，首先问我说话方便吗，不像有的客服电话直接进来没等你说话嘁哩喀喳一顿说，这点挺让我顿生好感的</span>
+													<p class="pingjia2">王女士&nbsp;&nbsp;&nbsp;2017-01-14 16:16:56</p>
+												</dt>
+											</dl>
+										</div>
+									</li>
+																		<li>
+										<div class="people-need">
+											<span class="tijiao"><b>周先生</b>提交了个人的定制需求</span>
+											<span class="time">2017-01-14 17:42:10</span>
+											<span class="guwen">服务顾问<img src="http://attachment.jmw.com.cn/comp_uploadfile/pic/2016/12/27/70991482821165.jpg" alt="" />Felcia</span>
+											<span class="good">
+												好评度
+												<u>91%</u>
+												<i>(<em>316</em>条评价)</i>
+											</span>
+										</div>
+
+										<div class="more-need">
+											<dl class="dl-one">
+												<dt>
+													<img src="http://image1.jmw.com.cn/ydynew/img/comment_image/default_image14.png" alt="" />
+													<p>周先生</p>
+												</dt>
+												<dd>
+													<p>关注的行业：餐饮</p>
+													<p>可投资资金额：20万左右</p>
+													<p>投资商圈：河南开封</p>
+													<span>IP:202.102.238.* </span>
+												</dd>
+											</dl>
+											
+																						<dl class="dl-two">
+												<dt>
+													<p class="pingjia1"><i>服务评价：</i><span class="position1"></span></p>
+													<span class="xinxi">中国加盟网的客服这一点还是不错的，就是主动核实信息，这让我避免了很多骚扰信息，非常感谢</span>
+													<p class="pingjia2">周先生&nbsp;&nbsp;&nbsp;2017-01-14 18:04:10</p>
+												</dt>
+											</dl>
+										</div>
+									</li>
+																		<li>
+										<div class="people-need">
+											<span class="tijiao"><b>胡先生</b>提交了个人的定制需求</span>
+											<span class="time">2017-01-14 15:39:45</span>
+											<span class="guwen">服务顾问<img src="http://attachment.jmw.com.cn/comp_uploadfile/pic/2016/12/27/70341482821392.jpg" alt="" />Lilly</span>
+											<span class="good">
+												好评度
+												<u>93%</u>
+												<i>(<em>395</em>条评价)</i>
+											</span>
+										</div>
+
+										<div class="more-need">
+											<dl class="dl-one">
+												<dt>
+													<img src="http://image1.jmw.com.cn/ydynew/img/comment_image/default_image18.png" alt="" />
+													<p>胡先生</p>
+												</dt>
+												<dd>
+													<p>关注的行业：餐饮</p>
+													<p>可投资资金额：10-20万</p>
+													<p>投资商圈：广西南宁</p>
+													<span>IP：202.103.225.* </span>
+												</dd>
+											</dl>
+											
+																						<dl class="dl-two">
+												<dt>
+													<p class="pingjia1"><i>服务评价：</i><span class="position2"></span></p>
+													<span class="xinxi">客服小姑娘挺逗的，聊着聊着原来是老乡，然后居然用家乡话给我介绍的，就是感觉挺亲切的，哈哈哈，项目没找到，但也算是有收获</span>
+													<p class="pingjia2">胡先生&nbsp;&nbsp;&nbsp;2017-01-14 16:01:45</p>
+												</dt>
+											</dl>
+										</div>
+									</li>
+																		<li>
+										<div class="people-need">
+											<span class="tijiao"><b>杨先生</b>提交了个人的定制需求</span>
+											<span class="time">2017-01-14 17:37:40</span>
+											<span class="guwen">服务顾问<img src="http://attachment.jmw.com.cn/comp_uploadfile/pic/2016/12/27/20701482821445.jpg" alt="" />Kevin</span>
+											<span class="good">
+												好评度
+												<u>92%</u>
+												<i>(<em>265</em>条评价)</i>
+											</span>
+										</div>
+
+										<div class="more-need">
+											<dl class="dl-one">
+												<dt>
+													<img src="http://image1.jmw.com.cn/ydynew/img/comment_image/default_image30.png" alt="" />
+													<p>杨先生</p>
+												</dt>
+												<dd>
+													<p>关注的行业：快递</p>
+													<p>可投资资金额：10-20万</p>
+													<p>投资商圈：江苏省无锡市</p>
+													<span>IP：211.98.2.* </span>
+												</dd>
+											</dl>
+											
+																						<dl class="dl-two">
+												<dt>
+													<p class="pingjia1"><i>服务评价：</i><span class="position1"></span></p>
+													<span class="xinxi">中国加盟网客服态度很认真也很负责，还推荐了很多其他相关的项目，感觉客服很专业。</span>
+													<p class="pingjia2">杨先生&nbsp;&nbsp;&nbsp;2017-01-14 17:59:40</p>
+												</dt>
+											</dl>
+										</div>
+									</li>
+									
+								</ul>
+							</div>
+						</div>
+					</div>
+					<!--轮播的信息-->
+				</div>
+			</div>
+			<!--差一步-->
+
+			<!--底部-->
+			<div class="bottom">
+				<div class="main-bottom">
+					<div id="left">
+						<ul class="bot-one">
+							<li class="bot-li1" style="text-align: left;">
+								<a rel="nofollow" href="http://about.jmw.com.cn" target="_blank">关于我们</a>
+							</li>
+							<li>
+								<a rel="nofollow" href="http://about.jmw.com.cn/PhotoList_1.shtml" target="_blank">公司文化</a>
+							</li>
+							<li>
+								<a rel="nofollow" href="http://about.jmw.com.cn/Internet.shtml" target="_blank">旗下业务</a>
+							</li>
+							<li>
+								<a rel="nofollow" href="http://about.jmw.com.cn/CorporateCulture.shtml" target="_blank">企业文化</a>
+							</li>
+							<li>
+								<a rel="nofollow" href="http://about.jmw.com.cn/guest.shtml" target="_blank">客户合作</a>
+							</li>
+							<li>
+								<a rel="nofollow" href="http://about.jmw.com.cn/Job_one.shtml" target="_blank">诚聘精英</a>
+							</li>
+							<li>
+								<a rel="nofollow" href="http://about.jmw.com.cn/MediaList_1.shtml" target="_blank">媒体报道</a>
+							</li>
+							<li>
+								<a rel="nofollow" href="http://about.jmw.com.cn/sitemap.shtml" target="_blank">网站地图</a>
+							</li>
+							<li>
+								<a rel="nofollow" href="http://about.jmw.com.cn/Copyright.shtml" target="_blank">法律声明</a>
+							</li>
+							<li class="bot-li1" style="border: none;text-align: right;">
+								<a rel="nofollow" href="http://about.jmw.com.cn/ContactUs.shtml" target="_blank">联系我们</a>
+							</li>
+						</ul>
+
+						<div class="List-project">
+							<ul>
+								<li>
+									<a href="http://www.fz.jmw.com.cn/" target="_blank" title="服装加盟招商">服装</a>
+								</li>
+								<li>
+									<a href="http://www.cy.jmw.com.cn/" target="_blank" title="餐饮加盟招商">餐饮</a>
+								</li>
+								<li>
+									<a href="http://www.mr.jmw.com.cn/" target="_blank" title="美容加盟招商">美容</a>
+								</li>
+								<li>
+									<a href="http://www.ganxi.jmw.com.cn/" target="_blank" title="干洗加盟招商">干洗</a>
+								</li>
+								<li>
+									<a href="http://www.sp.jmw.com.cn/" target="_blank" title="饰品加盟招商">饰品</a>
+								</li>
+								<li>
+									<a href="http://www.jy.jmw.com.cn/" target="_blank" title="教育加盟招商">教育</a>
+								</li>
+								<li>
+									<a href="http://www.yr.jmw.com.cn/" class="pr" target="_blank" title="幼儿加盟招商">幼儿</a>
+								</li>
+								<li>
+									<a href="http://xs.jmw.com.cn/" target="_blank" title="零售加盟招商">零售</a>
+								</li>
+								<li>
+									<a href="http://www.jj.jmw.com.cn/" target="_blank" title="家居加盟招商">家居</a>
+								</li>
+								<li>
+									<a href="http://www.hb.jmw.com.cn/" target="_blank" title="环保加盟招商">环保</a>
+								</li>
+								<li>
+									<a href="http://www.wj.jmw.com.cn/" target="_blank" title="五金加盟招商">五金</a>
+								</li>
+								<li>
+									<a href="http://www.zb.jmw.com.cn/" target="_blank" title="珠宝加盟招商">珠宝</a>
+								</li>
+								<li>
+									<a href="http://jf.jmw.com.cn/" target="_blank" title="家纺加盟招商">家纺</a>
+								</li>
+								<li>
+									<a href="http://www.qc.jmw.com.cn/" target="_blank" title="汽车加盟招商">汽车</a>
+								</li>
+								<li>
+									<a href="http://www.jc.jmw.com.cn/" target="_blank" title="建材加盟招商">建材</a>
+								</li>
+								<li>
+									<a href="http://www.js.jmw.com.cn/" target="_blank" title="酒水加盟招商">酒水</a>
+								</li>
+								<li>
+									<a href="http://jr.jmw.com.cn/" class="pr" target="_blank" title="金融加盟招商">金融</a>
+								</li>
+								<li>
+									<a href="http://search.jmw.com.cn/i236/" target="_blank" title="数码加盟招商">数码</a>
+								</li>
+								<li>
+									<a href="http://search.jmw.com.cn/i235/" target="_blank" title="家电加盟招商">家电</a>
+								</li>
+								<li>
+									<a href="http://search.jmw.com.cn/i234/" target="_blank" title="食品加盟招商">食品</a>
+								</li>
+								<li>
+									<a href="http://search.jmw.com.cn/i233/" target="_blank" title="健身加盟招商">健身</a>
+								</li>
+								<li>
+									<a href="http://search.jmw.com.cn/i232/" target="_blank" title="娱乐加盟招商">娱乐</a>
+								</li>
+								<li>
+									<a href="http://search.jmw.com.cn/i230/" target="_blank" title="服务加盟招商">服务</a>
+								</li>
+								<li>
+									<a href="http://search.jmw.com.cn/i223/" target="_blank" title="超市加盟招商">超市</a>
+								</li>
+								<li>
+									<a href="http://jiudian.jmw.com.cn/" target="_blank" title="酒店加盟招商">酒店</a>
+								</li>
+								<li>
+									<a href="http://search.jmw.com.cn/i308/" target="_blank" title="众筹加盟招商">众筹</a>
+								</li>
+								<li>
+									<a href="http://search.jmw.com.cn/i301/" target="_blank" title="微商加盟招商">微商</a>
+								</li>
+								<li>
+									<a href="http://search.jmw.com.cn/i231/" target="_blank" title="新行业加盟招商">新行业</a>
+								</li>
+								<li>
+									<a href="http://search.jmw.com.cn/i245/" target="_blank" title="宠物店加盟招商">宠物店</a>
+								</li>
+								<li>
+									<a href="http://www.jp.jmw.com.cn/" target="_blank" title="精品加盟招商">精品</a>
+								</li>
+								<li>
+									<a href="http://trade.jmw.com.cn/" target="_blank" title="加盟创业商机">商机</a>
+								</li>
+								<li>
+									<a href="http://dl.jmw.com.cn/" target="_blank" title="加盟创业代理">代理</a>
+								</li>
+								<li>
+									<a href="http://ls.jmw.com.cn/" target="_blank" title="加盟创业连锁">连锁</a>
+								</li>
+								<li>
+									<a href="http://vc.jmw.com.cn/" target="_blank" title="加盟创业招商">创业</a>
+								</li>
+								<li>
+									<a href="http://news.jmw.com.cn/" target="_blank" title="加盟创业资讯">资讯</a>
+								</li>
+								<li>
+									<a href="http://zch.jmw.com.cn/" target="_blank" title="加盟创业展会">展会</a>
+								</li>
+								<li>
+									<a href="http://video.jmw.com.cn/" target="_blank" title="加盟创业视频">视频</a>
+								</li>
+								<li>
+									<a href="http://meiti.jmw.com.cn/" target="_blank" title="加盟创业媒体">媒体</a>
+								</li>
+								<li>
+									<a href="http://top.jmw.com.cn/" target="_blank" title="加盟创业排行榜">排行榜</a>
+								</li>
+								<li>
+									<a href="http://shangpu.jmw.com.cn/" target="_blank" title="加盟创业场地">找场地</a>
+								</li>
+								<li style="width:60px;margin-right:3px">
+									<a href=" http://search.jmw.com.cn/ppjm/index.html" target="_blank" title="加盟创业品牌大全">品牌大全</a>
+								</li>
+								<li style="width:60px;margin-right:3px">
+									<a href="http://bbs.jmw.com.cn/portal.php" target="_blank" title="加盟创业论坛">创业论坛</a>
+								</li>
+								<li style="width:70px;">
+									<a href="http://hao.jmw.com.cn/" target="_blank" title="加盟创业导航">加盟导航</a>
+								</li>
+								
+								<li style="width:87px;">
+									<a href=" http://hao.jmw.com.cn/mydjm-da/" target="_blank" title="母婴店加盟">母婴店加盟</a>
+								</li>
+								<li style="width:87px;">
+									<a href="http://hao.jmw.com.cn/hbdjm-db/" target="_blank" title="汉堡店加盟">汉堡店加盟</a>
+								</li>
+								<li style="width:87px;">
+									<a href="http://hao.jmw.com.cn/gxdjm-da/" target="_blank" title="干洗店加盟">干洗店加盟</a>
+								</li>
+								<li style="width:87px;">
+									<a href="http://hao.jmw.com.cn/ncjmd-da/" target="_blank" title="奶茶加盟店">奶茶加盟店</a>
+								</li>
+								<!--<li style="width:75px;">
+									<a href="http://hao.jmw.com.cn/skdjm-da/" target="_blank" title="烧烤店加盟">烧烤店加盟</a>
+								</li>-->
+							</ul>
+						</div>
+						<div class="New-news">
+							<p>最新加盟项目</p>
+							<ul>
+																<li>
+									<a href="http://www.jmw.com.cn/xm6590259/" target="_blank" title="新启航最强大脑项目加盟招商">新启航最强大脑</a>
+								</li>
+																<li>
+									<a href="http://www.jmw.com.cn/xm6588214/" target="_blank" title="瓦力工厂机器人学校项目加盟招商">瓦力工厂机器人学校</a>
+								</li>
+																<li>
+									<a href="http://www.jmw.com.cn/xm6590260/" target="_blank" title="比比卡汽车养护中心项目加盟招商">比比卡汽车养护中心</a>
+								</li>
+																<li>
+									<a href="http://www.jmw.com.cn/xm12825/" target="_blank" title="阳坊胜利涮羊肉项目加盟招商">阳坊胜利涮羊肉</a>
+								</li>
+																<li>
+									<a href="http://www.jmw.com.cn/xm6589395/" target="_blank" title="金博教育项目加盟招商">金博教育</a>
+								</li>
+																<li>
+									<a href="http://www.jmw.com.cn/xm6589651/" target="_blank" title="麦甜艾斯甜品项目加盟招商">麦甜艾斯甜品</a>
+								</li>
+																<li>
+									<a href="http://www.jmw.com.cn/xm6589449/" target="_blank" title="重庆味蒸老火锅项目加盟招商">重庆味蒸老火锅</a>
+								</li>
+																<li>
+									<a href="http://www.jmw.com.cn/xm6587919/" target="_blank" title="玉尚宫项目加盟招商">玉尚宫</a>
+								</li>
+																<li>
+									<a href="http://www.jmw.com.cn/xm6587916/" target="_blank" title="筑地屋项目加盟招商">筑地屋</a>
+								</li>
+																<li>
+									<a href="http://www.jmw.com.cn/xm57172/" target="_blank" title="大脑地图少儿英语项目加盟招商">大脑地图少儿英语</a>
+								</li>
+																<li>
+									<a href="http://www.jmw.com.cn/xm6589649/" target="_blank" title="空间美贝壳粉生态涂料项目加盟招商">空间美贝壳粉生态涂料</a>
+								</li>
+																<li>
+									<a href="http://www.jmw.com.cn/xm6588018/" target="_blank" title="南苑e家连锁酒店项目加盟招商">南苑e家连锁酒店</a>
+								</li>
+																<li>
+									<a href="http://www.jmw.com.cn/xm6587657/" target="_blank" title="拓天速贷项目加盟招商">拓天速贷</a>
+								</li>
+																<li>
+									<a href="http://www.jmw.com.cn/xm6588161/" target="_blank" title="尚客优精选酒店项目加盟招商">尚客优精选酒店</a>
+								</li>
+																<li>
+									<a href="http://www.jmw.com.cn/xm6588158/" target="_blank" title="兰欧酒店项目加盟招商">兰欧酒店</a>
+								</li>
+																<li>
+									<a href="http://www.jmw.com.cn/xm6588157/" target="_blank" title="花美时美景酒店项目加盟招商">花美时美景酒店</a>
+								</li>
+																<li>
+									<a href="http://www.jmw.com.cn/xm6588125/" target="_blank" title="卡翡亚项目加盟招商">卡翡亚</a>
+								</li>
+																<li>
+									<a href="http://www.jmw.com.cn/xm153237/" target="_blank" title="骏怡连锁酒店项目加盟招商">骏怡连锁酒店</a>
+								</li>
+																<li>
+									<a href="http://www.jmw.com.cn/xm6570471/" target="_blank" title="环球优学项目加盟招商">环球优学</a>
+								</li>
+																<li>
+									<a href="http://www.jmw.com.cn/xm200964/" target="_blank" title="妙趣作文项目加盟招商">妙趣作文</a>
+								</li>
+																<div id="weiBo">
+									<div class="a" style="margin-right: 11px;"><img src="http://image1.jmw.com.cn/ydynew/img/weixin.jpg"/><b id="jieshao">微信公众号</b></div>
+									<div class="a" ><img src="http://image1.jmw.com.cn/ydynew/img/weibo.jpg"/><b id="jieshao">微博公众号</b></div>
+								</div>
+							</ul>
+						</div>
+
+						<p class="foot-p">
+							Copyright©2004-2017 JMW.COM.CN. All Rights Reserved 北京天创时代信息技术有限公司 版权所有 <br />京ICP证：040787号 京ICP备05067717号-5 京公海网安备案编号:1101084667
+						</p>
+
+					</div>
+
+					<div id="right">
+						<img src="http://image1.jmw.com.cn/ydynew/img/phone_03.png" alt="" / class="tell">
+						<img src="http://image1.jmw.com.cn/ydynew/img/join_07.png" alt="" / class="join">
+						<div class="botom">
+							<div class="Android">
+								<div style="width: 108px;height: 108px;background: #fff;overflow: hidden;">
+									<img src="http://image1.jmw.com.cn/ydynew/img/android_10.jpg" />
+								</div>
+								<p>Android</p>
+							</div>
+
+							<div class="iphone">
+								<div style="width: 108px;height: 108px; background: #fff;overflow: hidden;">
+									<img src="http://image1.jmw.com.cn/ydynew/img/iPhone_12.jpg" />
+								</div>
+								<p>iPhone</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--底部-->
+		</div>
+		<!--美恰 s-->
+		<script>
+			(function(m, ei, q, i, a, j, s) {
+				m[a] = m[a] || function() {
+					(m[a].a = m[a].a || []).push(arguments)
+				};
+				j = ei.createElement(q),
+					s = ei.getElementsByTagName(q)[0];
+				j.async = true;
+				j.charset = 'UTF-8';
+				j.src = i + '?v=' + new Date().getUTCDate();
+				s.parentNode.insertBefore(j, s);
+			})(window, document, 'script', '//static.meiqia.com/dist/meiqia.js', '_MEIQIA');
+			_MEIQIA('entId', 18836);
+			_MEIQIA('withoutBtn', true);
+		</script>
+		<!--美恰 e-->
+		
+		<!--guidance-->
+		<script src="http://image1.jmw.com.cn/ydynew/js/jquery.SuperSlide.2.1.1.js" type="text/javascript" charset="utf-8"></script>
+		<script src="http://image1.jmw.com.cn/ydynew/js/Marquee.js" type="text/javascript" charset="utf-8"></script>
+		<script src="http://image1.jmw.com.cn/ydynew/js/index.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+
+</html>

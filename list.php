@@ -25,6 +25,7 @@ foreach ($codeInfos as $code => $config) {
         foreach ($prefixs as $prefix => $title) {
             $str .= "<a href='down.php?code={$code}{$codeExt}{$prefix}' target='_blank'>{$config['name']}{$title}</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
         }
+        $str .= "<a href='asset.php?code={$code}{$codeExt}' target='_blank'>前端资源</a>";
         $str .= "\n<br />";
     }
 }

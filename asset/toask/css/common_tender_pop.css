@@ -1,0 +1,1112 @@
+.tender-pop-main {
+    height: 456px;
+    overflow: hidden;
+}
+.tender-pop .tender-pop-title {
+    padding-top: 60px;
+    font-size: 28px;
+    text-align: center;
+    color: #333;
+    line-height: 36px;
+}
+.tender-pop-applypeople {
+    width: 198px;
+    margin: 10px auto 0;
+    color: #666;
+}
+.num-man {
+    color: #fe5f00;
+    width: 20px;
+}
+.tender-form-list {
+    padding: 10px 40px;
+}
+.tender-form-list .tender-form-item {
+    text-align: left;
+}
+
+.tender-form-item {
+    text-align: center;
+    height: 36px;
+    line-height: 36px;
+    font-size: 14px;
+    position: relative;
+    color: #666;
+    margin-bottom: 17px;
+}
+.tender-form-select {
+    width: 232px;
+    height: 34px;
+    padding-left: 6px;
+    font-size: 14px;
+    color: #666;
+    border: 1px solid #dddddd;
+    vertical-align: middle;
+    padding-bottom: 8px \0;
+    *padding-left: 0px;
+    *padding-top: 9px;
+    *padding-bottom: 9px;
+    *position: relative;
+    *top: 8px;
+}
+.tender-form-select.province {
+    width: 111px;
+}
+.tender-form-select.city {
+    margin-left: 10px;
+}
+.tender-form-input {
+    width: 281px;
+    padding: 8px 9px 7px;
+    border: 1px solid #dddddd;
+    vertical-align: middle;
+}
+.tender-form-font {
+    position: absolute;
+    left: 98px;
+    *left: 96px;
+    top: 2px;
+    color: #999;
+}
+.tender-form-sup {
+    position: absolute;
+    right: 100px;
+    color: #333;
+}
+.tender-pop-buttom {
+    width: 120px;
+    height: 36px;
+    background-color: #ff6000;
+    display: block;
+    margin: 0 auto;
+    color: white;
+    cursor: pointer;
+}
+.tender-form-footer {
+    width: 232px;
+    margin: 0 auto 13px;
+    font-size: 12px;
+    color: #999;
+}
+.tender-form-explain {
+    color: #fe5f00;
+}
+.tender-form-check {
+    height: 24px;
+    color: #999;
+}
+.tender-form-check span {
+    margin-left: 5px;
+}
+.tender-form-item .style-budget-em {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-position: -2px -312px;
+    vertical-align: middle;
+}
+.tender-pop .form_error {
+    position: absolute;
+    left: 85px;
+    top: 27px;
+    color: #ff6666;
+    font-size: 12px;
+}
+.tender-pop .form_error .ico_error {
+    width: 13px;
+    height: 13px;
+    background: url(http://img.to8to.com/to8to_img/global.png?v=20160512) no-repeat;
+    background-position: -51px -165px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+.tender-huxing .select {
+    width: 255px;
+    padding-left: 5px;
+    height: 38px;
+    border-color: rgb(221, 221, 221);
+}
+.tender-huxing .select_s {
+    border: none;
+    margin-right: 0;
+    margin-left: 0;
+    border: 1px solid rgb(221, 221, 221);
+    width: 111px;
+    outline: none;
+}
+.tender-huxing .select_s_s {
+    width: 74px;
+    margin-bottom: 10px;
+}
+.tender-huxing {
+    height: 90px;
+}
+.tender-huxing div {
+    width: 235px;
+    float: right;
+    display: inline-block;
+    position: absolute;
+    top: 3px;
+    left: 86px;
+}
+.tender-pop-buttom, .tender-form-footer {
+    text-align: center;
+}
+.tender-huxing .select-margin {
+    margin-left: 5px;
+}
+.tender-huxing .select-long-margin {
+    margin-left: 10px;
+}
+
+.tender-pop-mfbj .style-budget-title, .tender-pop-mfsj .style-budget-title {
+    font-weight: 900;
+}
+.tender-form-item .worn-font {
+    color: #fe5f00;
+    position: relative;
+    top: 5px;
+    font-size: 24px;
+    vertical-align: middle;
+    margin-right: 6px;
+}
+.tender-pop-tabs {
+    width: 43px;
+    text-align: center;
+    position: absolute;
+    left: -43px;
+    top: 0px;
+    cursor: pointer;
+    font-size: 14px;
+    height: 100%;
+}
+.tender-pop-tabs li {
+    position: relative;
+    display: block;
+    width: 43px;
+    height: 50%;
+    background: #fff;
+}
+.tender-pop-tabs li span {
+    display: block;
+    height: 78px;
+    width: 20px;
+    padding: 76px 10px;
+    padding-right: 17px;
+    border-left: 3px solid #e8e8e8;
+    background: #e8e8e8;
+    vertical-align: middle;
+    line-height: 16px;
+}
+.tender-pop-tabs li.active span {
+    border-left: 3px solid #01af63;
+    background: #fff;
+    color: #01af63;
+}
+.tender-pop-con {
+    display: none;
+}
+.tender-pop-logo {
+    position: absolute;
+    height: 153px;
+    width: 144px;
+    top: -116px;
+    left: 20px;
+    background: url(http://img.to8to.com/to8to_img/xgt/xgt_xqy.png) no-repeat 0 0;
+    _background: url(http://img.to8to.com/to8to_img/xgt/xgt_xqy.gif) no-repeat 0 0;
+}
+.tender-price-result li {
+    height: 40px;
+}
+.tender-price-result {
+    width: 300px;
+    margin: 0 auto;
+    padding: 40px 0;
+    border: 1px solid #ddd;
+}
+.tender-price-result li span {
+    float: left;
+    width: 48%;
+    height: 40px;
+    line-height: 40px;
+    text-align: right;
+    font-size: 14px;
+    color: #666;
+}
+.tender-price-result li strong {
+    float: right;
+    width: 52%;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 0;
+    font-weight: normal;
+    font-size: 12px;
+}
+.tender-price-result em {
+    text-align: center;
+    padding: 0 18px 0 12px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.tender-form-input {
+    width: 212px;
+}
+.tender-form-input {
+    left: 98px;
+}
+.tender-price-ad {
+    margin: 40px 67px 0;
+}
+.tender-price-ad p {
+    width: 310px;
+    margin: 0 auto;
+    color: #999;
+    font-size: 12px;
+}
+
+.tender-price-ad span {
+    color: #fe5f00;
+}
+.tender-price-ad a {
+    display: block;
+    width: 170px;
+    height: 20px;
+    text-align: center;
+    margin-left: 80px;
+    margin-top: 22px;
+    color: #01af63;
+    line-height: 28px;
+}
+.tender-price-ad em {
+    display: inline-block;
+    width: 202px;
+    height: 36px;
+    position: relative;
+    bottom: 45px;
+    right: 16px;
+    top: -32px;
+    cursor: pointer;
+    background: url(http://img.to8to.com/to8to_img/xgt/xgt_xqy.png) no-repeat -2px -163px;
+    _background: url(http://img.to8to.com/to8to_img/xgt/xgt_xqy.gif) no-repeat -2px -163px;
+}
+.tender-form-check a, .zzfw span {
+    color: #01af63;
+}
+.tender-mfsjinit-img {
+    padding: 44px 72px 0;
+}
+.tender-mfsjinit-img em {
+    display: block;
+    width: 349px;
+    height: 322px;
+    background: url(http://img.to8to.com/to8to_img/xgt/xgt_xqy.png) no-repeat -33px -346px;
+    _background: url(http://img.to8to.com/to8to_img/xgt/xgt_xqy.gif) no-repeat -33px -346px;
+}
+.tender-result-text, .tender-result-explain {
+    text-align: center;
+}
+.tender-pop-mfsj .mflf {
+    display: block;
+    width: 131px;
+    height: 118px;
+    margin: 0 auto;
+    background: url(http://img.to8to.com/to8to_img/xgt/xgt_xqy.png) no-repeat -238px -14px;
+    _background: url(http://img.to8to.com/to8to_img/xgt/xgt_xqy.gif) no-repeat -238px -14px;
+}
+.tender-result-explain {
+    margin-top: 50px;
+    color: #fe5f00;
+}
+.tender-form-item.mall em {
+    display: block;
+    height: 92px;
+    width: 357px;
+    margin: 0 auto;
+    cursor: pointer;
+    background: url(http://img.to8to.com/to8to_img/xgt/xgt_xqy.png) no-repeat -2px -215px;
+    _background: url(http://img.to8to.com/to8to_img/xgt/xgt_xqy.gif) no-repeat -2px -215px;
+}
+.tender-result-mfsj .tender-form-item {
+    height: auto;
+}
+.tender-title-count {
+    color: #fe5f00;
+    margin: 0 15px;
+}
+.tender-pop-title.littlefont .tender-title-text {
+    font-size: 14px;
+    color: #333;
+    font-weight: normal;
+}
+.tender-mfsj-btn {
+    position: relative;
+    display: block;
+    margin: 30px auto 20px;
+    width: 120px;
+    height: 40px;
+    color: #fff;
+}
+.tender-mfsj-btn em {
+    display: block;
+    width: 110px;
+    height: 40px;
+    cursor: pointer;
+    text-align: center;
+    background: url(http://img.to8to.com/to8to_img/xgt/xgt_xqy.png) no-repeat -412px -347px;
+    _background: url(http://img.to8to.com/to8to_img/xgt/xgt_xqy.gif) no-repeat -412px -347px;
+}
+.tender-mfsj-btn.no-allow em {
+    background-position: -412px -407px;
+    cursor: not-allowed;
+}
+.tender-pop-right .littlefont {
+    padding-top: 50px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.tender-pop-mfbj .new-init-yusuan {
+    padding-top: 25px;
+    padding-bottom: 30px;
+}
+.tender-pop-mfbj .new-init-yusuan li {
+    height: 26px;
+}
+.tender-pop-left {
+    float: left;
+    width: 490px;
+    border-right: 1px solid #ddd;
+    height: 456px;
+    +height: 460px;
+}
+.tender-pop-right {
+    float: right;
+    width: 470px;
+    height: 456px;
+    +height: 460px;
+}
+.to8to_zj {
+    margin-left: 10px;
+    color: #bbb;
+    font-size: 14px;
+}
+.dn {
+    display: none;
+}
+.tender-calc-btn {
+    background:#fefefe url(http://img.to8to.com/to8to_img/zxbj/active_btn.png) no-repeat 3px -150px;
+    _background:#fefefe url(http://img.to8to.com/to8to_img/zxbj/active_btn.gif) no-repeat 3px -150px;
+}
+.tender-calc-btn.no-allow {
+    cursor: not-allowed;
+}
+.tender-calc-btn:hover {
+    background-position-x:-153px;
+}
+.tender-calc-btn:active {
+    background-position-x:-310px;
+}
+.tender-calc-btn.again{
+    background:#fefefe url(http://img.to8to.com/to8to_img/zxbj/active_btn.png) no-repeat 3px -3px;
+    _background:#fefefe url(http://img.to8to.com/to8to_img/zxbj/active_btn.gif) no-repeat 3px -3px}
+.tender-calc-btn.again:hover {
+    background-position-x:-153px;
+}
+.tender-calc-btn.again:active {
+    background-position-x:-310px
+}
+.tender-recalc {
+    position: absolute;
+    top: 44px;
+    left: 50px;
+    font-size: 16px;
+    width: 39px;
+    color: #fff;
+    cursor: pointer;
+}
+.no-allow .tender-recalc {
+    cursor: not-allowed;
+}
+.tender-calc-btn, .tender-calc-btn.again {
+    position: absolute;
+    top: 162px;
+    left: 422px;
+    display: block;
+    width: 134px;
+    height: 138px;
+}
+/* 免费设计 */
+.tender-init-mfsj .tender-form-list {
+    width: 360px;
+    margin: 30px auto 0;
+}
+.tender-init-mfsj .tender-form-footer {
+    margin: 0 85px 13px;
+}
+.tender-init-mfsj .tender-form-explain {
+    text-align: center;
+}
+.tender-init-mfsj .tender-form-item, .tender-pop-company .tender-form-item {
+    margin-bottom: 20px;
+}
+.tender-init-mfsj .tender-form-select.province {
+    width: 123px;
+}
+.tender-init-mfsj .tender-form-input {
+    width: 236px;
+}
+/* 装修公司 */
+.tender-pop-company .tender-price-result li span {
+    width: 55%;
+}
+.tender-pop-company .tender-price-result li strong {
+    width: 45%;
+}
+.tender-company-result {
+    width: 340px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    display: none;
+}
+.tender-company-result-list {
+    height: 70px;
+    padding: 9px 0 9px 10px;
+    margin-bottom: 5px;
+    border: 1px solid #ddd;
+}
+.tender-company-result-list dt {
+    float: left;
+    width: 70px;
+    height: 70px;
+}
+.tender-company-result-list dd {
+    float: left;
+    width: 258px;
+    height: 70px;
+}
+.tender-company-result-list dt a {
+    display: block;
+    width: 68px;
+    height: 68px;
+    border: 1px solid #ddd;
+}
+.tender-company-result-list dt img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.tender-company-name {
+    float: left;
+    width: 127px;
+    padding: 0 10px;
+}
+.tender-company-name h4 {
+    width: 127px;
+    height: 28px;
+    margin-bottom: 5px;
+    line-height: 28px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: normal;
+}
+.tender-company-name h4 a {
+    font-size: 14px;
+    color: #333;
+}
+.tender-company-name p {
+    height: 20px;
+    line-height: 20px;
+    color: #999;
+    font-size: 12px;
+}
+.tender-company-name p span, .tender-company-detail p span {
+    color: #f36f20;
+}
+.tender-company-detail {
+    float: left;
+    width: 98px;
+    padding-left: 10px;
+    border-left: 1px solid #ddd;
+    font-size: 12px;
+}
+.tender-company-detail p {
+    height: 22px;
+    line-height: 22px;
+    color: #666;
+}
+.tender-pop-company .tender-form-explain {
+    text-align: center;
+}
+/* 装修材料 */
+.tender-material-result {
+    overflow: hidden;
+    width: 348px;
+    height: 248px;
+    margin: 20px auto 0;
+    border: 1px solid #eee;
+}
+.tender-material-table {
+    width: 351px;
+    height: 251px;
+}
+.tender-material-table li {
+    float: left;
+    width: 154px;
+    height: 41px;
+    padding-left: 20px;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    line-height: 41px;
+    font-size: 12px;
+    color: #999;
+}
+.tender-material-table li span {
+    float: left;
+    width: 72px;
+    color: #666;
+}
+.tender-material-table li strong {
+    float: left;
+    padding-right: 5px;
+    color: #333;
+    font-family: 'Arial';
+    font-size: 14px;
+    text-align: center;
+}
+.tender-pop-material .tender-price-ad {
+    margin: 20px auto 0;
+}
+.tender-pop-material .tender-price-ad p {
+    width: 350px;
+}
+/* 楼盘下拉框 */
+.tender-loupan-box {
+    width: 230px;
+    border:1px solid #eee;
+    position: absolute;
+    margin-top: -1px;
+    height: 100px;
+    overflow-y: auto;
+    overflow-x:hidden;
+    display: none;
+    background-color: #FFF;
+    top: 38px;
+    left: 86px;
+    z-index: 10;
+}
+.tender-loupan-box li{
+    padding:0 10px;
+    height: 34px;
+    line-height: 34px;
+    width: 288px; 
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+    cursor: pointer;
+}
+.tender-loupan-box ul li:hover{
+    background-color: #F8F8F8;
+    color: #333;
+}
+/*适配效果图报价页*/
+.tender-pop-showImg{
+    width: 240px;
+    height: 145px;
+    margin: 7px auto;
+    text-align: center;
+    border:5px solid #fff;
+}
+.tender-pop-showImg img{
+    display: inline;
+    max-width: 240px;
+    max-height: 145px;
+}
+.tender-price-newResult{
+    margin:0 auto;
+    height: 51px;
+    width: 298px;
+    background-color: #FFF9F6;
+    border: 1px solid #FFE4DA;
+    text-align: center;
+    padding:12px 3px;
+}
+.tender-price-newResult li{
+    display:inline-block;
+    width:114px;
+    margin:-7px 0px -8px;
+    text-align: left;
+    float:left;
+}
+.tender-price-imgad{
+    margin-top:24px;
+}
+.tender-price-newResult li strong{
+    line-height: 40px;
+    font-weight:normal;
+}
+.tender-price-newResult .to8to_zj{
+    font-size:12px;
+}
+
+/* 弹框视频 */
+
+.tender-video {
+    display: none;
+}
+.tender-video-title {
+    padding-top: 45px;
+    font-size: 22px;
+    text-align: center;
+    line-height: 36px;
+    padding-right: 27px;
+}
+.tender-video-wrapper {
+    width: 360px;
+    height: 200px;
+    margin-left: 45px;
+    margin-top: 21px;
+    margin-bottom: 33px;
+    position: relative;
+}
+.tender-video-tip {
+    line-height: 27px;
+    font-size: 14px;
+    padding-right: 27px;
+    text-align: center;
+}
+.tender-video-num {
+    color: #ff6000;
+}
+.video-first-text {
+    display: block;
+
+}
+.tender-video-wrapper-hand {
+    display: none;
+    position: absolute;
+    right: -8px;
+    bottom: -8px;
+}
+.tender-video-wrapper-btn {
+    position: absolute;
+    right: 8px;
+    bottom: 8px;
+    display: block;
+    width: 35px;
+    height: 35px;
+}
+
+/*新版效果图详情页 by fidermo.hu 2016/11/04*/
+.newbj-select-province{
+    width:155px;
+    height:38px;
+    font-size:14px;
+    border:1px solid #e3e3e3;
+}
+.newbj-province-margin{
+    margin-right:10px;
+}
+.newbj-square,
+.newbj-phone{
+    width:300px;
+    height:21px;
+}
+.newbj-tips-font{
+    left:11px;
+}
+.newbj-form-sup{
+    right:6px;
+}
+.newbj-tender-huxing select{
+    width:60px;
+    height:38px;
+    font-size:14px;
+    border:1px solid #e3e3e3;
+}
+.newbj-right-margin{
+    margin-right:5px;
+}
+.newbj-calcBn{
+    width: 120px;
+    height: 36px;
+    margin: 0 auto;
+    background-color: #F36F20;
+    font-size:14px;
+    color: #fff;
+    text-align: center;
+    line-height: 36px;
+    cursor:pointer;
+    margin-top: -6px;
+}
+.newbj-result-server{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+.newbj-result-design{
+    margin-top: 6px;
+    text-align: center;
+    font-size: 14px;
+    color:red;
+    font-weight:bold;
+}
+.newbj-result-jpg{
+    display: block;
+    width: 299px;
+    height: 115px;
+    margin: 0 auto;
+    margin-top: 17px;
+}
+.newbj-form-item .form_error{
+    left:0px;
+}
+.result-title{
+    margin-top: 35px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: black;
+}
+.slide-container{
+    position: relative;
+    width: 320px;
+    margin: 0 auto;
+    margin-top: 24px;
+}
+.result-bottom{
+    height: 25px;
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+    margin:10px 0px -10px;
+}
+.lastPic,
+.nextPic{
+    width: 24px;
+    height: 30px;
+    position: absolute;
+    background-color: #000;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    top: 56%;
+    margin-top: -25px;
+    z-index: 2;
+}
+.lastPic:hover,
+.nextPic:hover{
+    opacity:0.75;
+}
+.lastPic{
+    left:0px;
+}
+.nextPic{
+    right:0px;
+}
+.lastPic span,
+.nextPic span{
+    display: block;
+    width: 11px;
+    height: 20px;
+    margin: 5px auto;
+    line-height: 99em;
+    overflow: hidden;
+    font-size: 0;
+    background: url(http://img.to8to.com/decorate_gallery/images/png/banner.png?v=1411559744) no-repeat;
+}
+.lastPic span{
+    background-position:0px 0px;
+}
+.nextPic span{
+    background-position:-12px 0px;
+}
+.slider-newBJ{
+    position: relative;
+    bottom: 19px;
+    z-index: 2;
+    width: 56px;
+    margin: 0 auto;
+}
+.slider-newBJ li{
+    width: 10px;
+    height: 10px;
+    float: left;
+    margin: 0 2px;
+}
+.slider-newBJ li a{
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-position: 0 -21px;
+    overflow: hidden;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    background: url(http://img.to8to.com/decorate_gallery/images/png/banner.png?v=1411559745) no-repeat;
+    background-position: 0px -21px;
+}
+.slider-newBJ li a.slider-On{
+    background-position: -17px -21px;
+    opacity: 1;
+}
+/*.tender-price-ad .region-phone{
+    color:red;
+    font-weight: bold;
+}*/
+.tender-price-ad .newBJ-result-text{
+    width: 390px;
+    color: #ff6001;
+    font-size: 12px;
+}
+.Result-newBJ-right{
+    width:320px;
+    height:240px;
+}
+.Result-newBJ-right img{
+    width:320px;
+    height:240px;
+}
+.tender-price-ad .newBJ-result-warn{
+    margin:0;
+}
+/*引导关注微信小号 第三版*/
+.pop-weixin-consult{
+    width: 338px;
+    height: 80px;
+    border: 1px solid #009cff;
+    position: relative;
+    margin: 43px 0 0 26px;
+    display: none;
+}
+.pop-weixin-consult-xgt{
+    margin: 26px 0 0 83px;
+}
+.pop-weixin2-consult{
+    display: none;
+    width: 356px;
+    margin: 74px 0 0 37px;
+}
+.pop-weixin2-consult img{
+    width: 356px;
+    height: 224px;
+}
+.con-bj-new2 .con_bj_res {
+    width: 356px;
+    padding: 45px 40px 0 0;
+    color: #333;
+    font-size: 14px;
+}
+.zxbj-weixin2-point{
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: right;
+}
+.pop-weixin2-consult .attention2{
+    color: #fe4800;
+    text-align: center;
+    margin-bottom: 31px;
+    font-size: 12px;
+}
+.pop-weixin-consult .zxbj-weixin-portrait-left{
+    position: absolute;
+    width: 120px;
+    height: 92px;
+    top: -30px;
+    left: 3px;
+    z-index: 6;
+}
+.pop-weixin-consult .zxbj-weixin-portrait-left img {
+  width: 135px;
+  height: 95px;
+  z-index: 10;
+}
+.pop-weixin-consult .zxbj-weixin-portrait-text{
+    position: absolute;
+    top: 39px;
+    left: 19px;
+    z-index: 6;
+}
+.pop-weixin-consult .zxbj-weixin-portrait-text .zxbj-weixin-point{
+    font-size: 12px;
+    color: #5abcfd;
+    margin: 4px 0 0 -9px;
+}
+.pop-weixin-consult .zxbj-weixin-portrait-text .zxbj-weixin-zxgw{
+    font-size: 12px;
+    color: #fff;
+}
+.pop-weixin-consult .zxbj-weixin-portrait-title{
+    position: absolute;
+    z-index: 6;
+    top: 20px;
+    left: 135px;
+    font-size: 14px;
+    color: #333;
+}
+.pop-weixin-consult .zxbj-weixin-portrait-title .portrait-title2 {
+  margin-top: -3px;
+}
+.pop-weixin-consult .zxbj-weixin-portrait-btn {
+  position: absolute;
+  top: 17px;
+  right: 12px;
+}
+.pop-weixin-consult .zxbj-weixin-portrait-btn img {
+  width: 100px;
+  height: 50px;
+  cursor: pointer;
+}
+.pop-weixin-consult .zxbj-weixin-portrait-text .weixin-zxgw-name{
+    font-size: 12px;
+    color: #fe4800;
+}
+.pop-weixin-consult .zxbj-weixin-portrait-right{
+  display: none;
+  position: absolute;
+  right: 17px;
+  top: -90px;
+  width: 90px;
+  height: 114px;
+  background-color: #fff;
+  z-index: 10;
+}
+.pop-weixin-consult .zxbj-weixin-portrait-right .zxbj-weixin-code {
+  right: 0;
+  top: 0;
+  background: url('http://static.to8to.com/img/to8to_img/wx_xh/zxbj_wxxh.png?v=201612281448') no-repeat;
+  background-position: -523px -306px;
+  width: 74px;
+  height: 74px;
+  border: 1px solid #fff;
+  border-top: 0;
+  border-right: 0;
+  margin: 7px 0 0 7px;
+}
+.pop-weixin-consult .zxbj-weixin-portrait-right .zxbj-wx-icon{
+  position: absolute;
+  background: url('http://static.to8to.com/img/to8to_img/wx_xh/zxbj_wxxh.png?v=201612281448') no-repeat -1px -176px;
+  width: 16px;
+  height: 12px;
+  top: 3px;
+  left: -17px;
+}
+.pop-weixin-consult .zxbj-weixin-portrait-right .zxbj-wx-guide {
+  position: relative;
+  font-size: 12px;
+  color: #333;
+  margin-left: 23px;
+}
+.pop-weixin-consult-dg .zxbj-weixin-portrait-right .zxbj-weixin-code{
+    background-position: -1px -80px;
+}
+.pop-weixin-consult .portrait-right-bg {
+  background: url('http://static.to8to.com/img/to8to_img/wx_xh/zxbj_wxxh.png?v=201612291639') no-repeat -240px -584px;
+  width: 90px;
+  height: 114px;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  padding-top: 1px;
+}
+.pop-weixin2-consult .zxbj-weixin2-fruit-box{
+    position: relative;
+    width: 356px;
+    height: 222px;
+}
+.pop-weixin2-consult .zxbj-weixin2-fruit-box .weixin2-fruit-title1{
+    position: absolute;
+    font-size: 18px;
+    font-weight: bold;
+    color: #01af63;
+    top: -6px;
+    left: 72px;
+}
+.pop-weixin2-consult .zxbj-weixin2-fruit-box .weixin2-fruit-bg{
+    background: url('http://static.to8to.com/img/to8to_img/wx_xh/zxbj_wxxh.png?v=201612281533') no-repeat -244px -78px;
+    width: 356px;
+    height: 222px;
+    z-index: 15;
+}
+.pop-weixin2-consult .zxbj-weixin2-fruit-box .weixin2-fruit-show{
+    position: absolute;
+    top: 43px;
+    left: 60px;
+}
+.pop-weixin2-consult .zxbj-weixin2-fruit-box .fruit-show-left{
+    float: left;
+    margin-right: 35px;
+    position: relative;
+}
+.pop-weixin2-consult .zxbj-weixin2-fruit-box .fruit-show-right{
+    float: left;
+    margin-top: -2px;
+}
+.pop-weixin2-consult .zxbj-weixin2-fruit-box .fruit-show-p1{
+    font-size: 12px;
+    color: #333;    
+    margin: 7px 0 0 -28px;
+}
+.pop-weixin2-consult .zxbj-weixin2-fruit-box .fruit-show-p1-name{
+    font-size: 12px;
+    color: #fe4800;
+}
+.pop-weixin2-consult .zxbj-weixin2-fruit-box .fruit-show-p2{
+    font-size: 12px;
+    color: #333;
+    margin-left: -18px;
+}
+.pop-weixin2-consult .zxbj-weixin2-fruit-box .fruit-show-p3{
+    position: relative;
+    font-size: 12px;
+    font-weight: bold;
+    color: #333;
+    margin: 7px 0 0 15px;
+}
+.pop-weixin2-consult .zxbj-weixin2-fruit-box .fruit-show-p3 .zxbj-wx-icon{
+    position: absolute;
+    background: url('http://static.to8to.com/img/to8to_img/wx_xh/zxbj_wxxh.png?v=201612281533') no-repeat -1px -176px;
+    width: 16px;
+    height: 12px;
+    left: -21px;
+    top: 2px;
+}
+.pop-weixin2-consult .zxbj-weixin2-fruit-box .fruit-show-portrait{
+    background: url('http://static.to8to.com/img/to8to_img/wx_xh/wxxh_portrait.gif?v=201612292110');
+    width: 138px;
+    height: 100px;
+    z-index: 20;
+    margin: -8px 0 0 -39px;
+}
+.pop-weixin2-consult .zxbj-weixin2-fruit-box .fruit-show-code{
+    background: url('http://static.to8to.com/img/to8to_img/wx_xh/zxbj_wxxh.png?v=201612281546') no-repeat;
+    background-position: -1px -584px;
+    width: 110px;
+    height: 110px;
+    z-index: 20;
+}
+.pop-weixin2-consult-dg .zxbj-weixin2-fruit-box .fruit-show-code{
+    background-position: 0 -190px;
+}
+.pop-weixin2-consult .zxbj-weixin2-fruit-box .fruit-show-arrow{
+    position: absolute;
+    background: url('http://static.to8to.com/img/to8to_img/wx_xh/zxbj_wxxh.png?v=201612281533') no-repeat -23px -175px;
+    width: 23px;
+    height: 14px;
+    top: 37px;
+    left: 103px;
+}
+.pop-weixin2-consult .zxbj-weixin2-fruit-box .weixin2-fruit-title2{
+    font-size: 14px;
+    position: absolute;
+    bottom: 2px;
+    left: 10px;
+    color: #fff;
+}
+.pop-weixin2-consult .zxbj-weixin2-fruit-box .fruit-title2-fff000{
+    font-weight: bold;
+    color: #fff000;
+}
+.pop-weixin2-consult .zxbj-weixin2-fruit-box .fruit-title2-b{
+    font-weight: bold;
+}

@@ -1,0 +1,22 @@
+#zong_gray{ width:100%; height:100%; background:#000; opacity:0.5; filter:alpha(opacity=50); position:fixed; top:0; left:0; display:none; z-index:1111; }
+.zong_Pfind{ width:377px; position:fixed; left:50%; top:50%; margin-left:-188px; margin-top:-188px; display:none; z-index:1212; }
+.zong_Pfind .p_title1{ height:26px; }
+.zong_Pfind .p_title1 span{ width:26px; height:26px; display:block; cursor:pointer; }
+.zong_Pfind2{ width:327px; border:1px solid #7f7f7f; background:#fff; padding:14px 25px 20px 25px; }
+.zong_Pfind2 .p_title2{ height:34px; line-height:34px; border-bottom:2px solid #e93c00; color:#e93c00; font-size:16px; }
+.zong_Pfind2 .p_title3{ height:70px; line-height:70px; font-style:italic; text-align:center; }
+.zong_Pfind2 .p_title3 span{ color:#e93c00; }
+.zong_Pfind2 .name_box p{ margin-bottom:15px; font-size:14px; line-height:38px; }
+.zong_Pfind2 .name_box p label{ margin-left:4px; }
+.zong_Pfind2 .p_ul{ padding:22px 0; }
+.zong_Pfind2 .p_ul li{ line-height:25px; text-align:center; font-size:14px; }
+.zong_Pfind2 .p_ul .li2{ font-size:12px; }
+.zong_Pfind2 .p_ul .li2 span{ color:#e93c00; }
+.zong_Pfind .name_box  .em1{ float:left; color:#e10000; margin-right:2px; margin-top:2px; *margin-top:6px; }
+.zong_Pfind .name_box .txt{ width:120px; height:36px; line-height:36px; border:1px solid #cccccc; margin-left:3px; padding-left:8px; box-sizing:border-box; font-family:'微软雅黑'; }
+.zong_Pfind .name_box .w2{letter-spacing:3em; margin-right:-3em;}
+.zong_Pfind .name_box .w4{letter-spacing:0.3em; margin-right:-0.3em;}
+.zong_Pfind .name_box .button{ width:92px; *width:80px; height:36px; background:#eeeae9; border:1px solid #cccccc; color:#333; }
+.zong_Pfind2 .name_box .name{ width:122px; padding-left:10px; height:34px; line-height:34px; border:1px solid #cccccc; margin-right:8px; color:#999; font-family:'微软雅黑'; }
+.zong_Pfind2 .name_box .tel{ width:258px; *width:255px; padding-left:10px; height:34px; line-height:34px; border:1px solid #cccccc; color:#999; font-family:'微软雅黑'; }
+.zong_Pfind2 .name_box .btn{ width:327px; background:#e93c00; height:40px; line-height:40px; text-align:center; color:#fff; border:none; font-family:'微软雅黑'; font-size:14px; }

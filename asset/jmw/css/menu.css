@@ -1,0 +1,106 @@
+@charset "utf-8";.meishi{position:relative;z-index:4;float:left;text-align:left;font-size:12px;font-family:Arial, Helvetica, sans-serif;color:#000000}
+.dingwei{position:absolute;top:18px;left:-25px;_top:18px;_left:-25px;z-index:100;display:none}
+.dingwei_wenzi{width:360px}
+.sanjiao{background:url(../images/dingwei_sanj.gif) no-repeat;height:4px;width:242px;overflow:hidden;margin-left:0px;text-align:left}
+.dingwei_tu1{float:left}
+.dingwei_tu3{float:left}
+.dingwei_ms{position:absolute;top:18px;left:-5px;_top:18px;_left:-5px;z-index:100;display:none}
+.sanjiao_ms{background:url(../images/dingwei_sanj.gif) no-repeat;height:4px;width:242px;overflow:hidden;margin-left:-20px;text-align:left}
+.meishi_tu2{float:left;background:url(../images/dingwei_bg2.jpg);height:56px;width:265px}
+.meishi_tu2 span{color:#c0c0c0;padding:6px 10px;display:block}
+.meishi_tu2 span a{line-height:22px;color:#333333;padding:6px; font-family:"微软雅黑";}
+.meishi_tu2 span a:hover{color:#FF0000}
+/*家纺*/
+.jiafang_tu2{float:left;background:url(../images/dingwei_bg2.jpg);height:56px;width:215px}
+.jiafang_tu2 span{color:#c0c0c0;padding:6px 10px;display:block}
+.jiafang_tu2 span a{line-height:22px;color:#333333;padding:6px; font-family:"微软雅黑";}
+.jiafang_tu2 span a:hover{color:#FF0000}
+/*精品*/
+.jingpin_tu2{float:left;background:url(../images/dingwei_bgduan2.jpg);height:34px;width:215px}
+.jingpin_tu2 span{color:#c0c0c0;padding:6px 10px;display:block}
+.jingpin_tu2 span a{line-height:22px;color:#333333;padding:6px; font-family:"微软雅黑";}
+.jingpin_tu2 span a:hover{color:#FF0000}
+.dingwei_jp{position:absolute;top:18px;left:-150px;_top:18px;_left:-150px;z-index:1;display:none}
+.sanjiao_jp{background:url(../images/dingwei_sanj.gif) no-repeat;height:4px;width:242px;overflow:hidden;margin-left:127px;text-align:left}
+/*服装*/
+.fuzhuang_tu2{float:left;background:url(../images/dingwei_bg2.jpg);height:56px;width:295px}
+.fuzhuang_tu2 span{color:#c0c0c0;padding:6px 10px;display:block}
+.fuzhuang_tu2 span a{line-height:22px;color:#333333;padding:6px; font-family:"微软雅黑";}
+.fuzhuang_tu2 span a:hover{color:#FF0000;}
+.dingwei_jj{position:absolute;top:18px;left:-25px;_top:18px;_left:-25px;z-index:1;display:none}
+.sanjiao_jj{background:url(../images/dingwei_sanj.gif) no-repeat;height:4px;width:242px;overflow:hidden;margin-left:0;text-align:left}
+/*家居*/
+.jiaju_tu2{float:left;background:url(../images/dingwei_bg2.jpg);height:56px;width:215px}
+.jiaju_tu2 span{color:#c0c0c0;padding:6px 10px;display:block}
+.jiaju_tu2 span a{line-height:22px;color:#333333;padding:6px; font-family:"微软雅黑";}
+.jiaju_tu2 span a:hover{color:#FF0000}
+.dingwei_jy{position:absolute;top:18px;left:-65px;_top:18px;_left:-65px;z-index:1;display:none}
+.sanjiao_jy{background:url(../images/dingwei_sanj.gif) no-repeat;height:4px;width:242px;overflow:hidden;margin-left:42px;text-align:left}
+/*教育*/
+.jiaoyu_tu2{float:left;background:url(../images/dingwei_bg2.jpg);height:56px;width:210px}
+.jiaoyu_tu2 span{color:#c0c0c0;padding:6px 10px;display:block}
+.jiaoyu_tu2 span a{line-height:22px;color:#333333;padding:6px; font-family:"微软雅黑";}
+.jiaoyu_tu2 span a:hover{color:#FF0000}
+.dingwei_ye{position:absolute;top:18px;left:-150px;_top:18px;_left:-150px;z-index:1;display:none}
+.sanjiao_ye{background:url(../images/dingwei_sanj.gif) no-repeat;height:4px;width:242px;overflow:hidden;margin-left:127px;text-align:left}
+/*育儿*/
+.youer_tu2{float:left;background:url(../images/dingwei_bg2.jpg);height:56px;width:250px}
+.youer_tu2 span{color:#c0c0c0;padding:6px 10px;display:block}
+.youer_tu2 span a{line-height:22px;color:#333333;padding:6px; font-family:"微软雅黑";}
+.youer_tu2 span a:hover{color:#FF0000}
+.dingwei_mr{position:absolute;top:18px;left:-125px;_top:18px;_left:-125px;z-index:1;display:none}
+.sanjiao_mr{background:url(../images/dingwei_sanj.gif) no-repeat;height:4px;width:242px;overflow:hidden;margin-left:102px;text-align:left}
+/*美容*/
+.meirong_tu2{float:left;background:url(../images/dingwei_bg2.jpg);height:56px;width:236px}
+.meirong_tu2 span{color:#c0c0c0;padding:6px 10px;display:block}
+.meirong_tu2 span a{line-height:22px;color:#333333;padding:6px; font-family:"微软雅黑";}
+.meirong_tu2 span a:hover{color:#FF0000}
+.jiangcai_tu2{float:left;background:url(../images/dingwei_bg2.jpg);height:56px;width:255px;display:none}
+.jiangcai_tu2 span{color:#c0c0c0;padding:6px 10px;display:block}
+.jiangcai_tu2 span a{line-height:22px;color:#333333;padding:6px; font-family:"微软雅黑";}
+.jiangcai_tu2 span a:hover{color:#FF0000}
+.difang_tu2{float:left;background:url(../images/dingwei_bg2.jpg);height:56px;width:220px;display:none}
+.difang_tu2 span{color:#c0c0c0;padding:6px 10px;display:block}
+.difang_tu2 span a{line-height:22px;color:#333333;padding:6px; font-family:"微软雅黑";}
+.difang_tu2 span a:hover{color:#FF0000}
+.difang_tu2 span a span{color:#0d4fb1;display:inline;padding:0}
+.dingwei_wj{position:absolute;top:18px;left:-155px;_top:18px;_left:-155px;z-index:1;display:none}
+.sanjiao_wj{background:url(../images/dingwei_sanj.gif) no-repeat;height:4px;width:242px;overflow:hidden;margin-left:130px;text-align:left}
+.wujin_tu2{float:left;background:url(../images/dingwei_bg2.jpg);height:56px;width:210px}
+.wujin_tu2 span{color:#c0c0c0;padding:6px 10px;display:block}
+.wujin_tu2 span a{line-height:22px;color:#333333;padding:6px; font-family:"微软雅黑";}
+.wujin_tu2 span a:hover{color:#FF0000}
+.wujin_f{position:absolute;top:72px;left:897px;_left:883px;*left:883px;background:#f00}
+/*李洪涛添加*/
+.active_cat{z-index:99;background-position:0 -25px;cursor:pointer}
+.active_cat div{display:block}
+/*把页面的东西添加到CSS文件中*/
+.new_headtitle{width:943px;height:38px;_overflow:hidden;background:url(../images/new_head_img_bg.jpg) repeat-x;border:1px solid #bdbcbd;padding:10px 5px 10px 10px;font-size:12px;color:#464646}
+.new_headtitle a{text-decoration:none;}
+.new_headtitle a:hover{text-decoration:underline}
+.new_headone{overflow:hidden;height:40px;width:210px;background:url(../images/top_img002.jpg) no-repeat;padding-left:65px;float:left;position:relative}
+.new_headone a{width:24px;height:20px;display:block;padding-left:6px;padding-right:6px;text-decoration:none;color:#464646;float:left;line-height:20px}
+.new_headone a.teshu{width:36px}
+.position_text{width:16px;font-size:16px;position:absolute;font-family:"黑体";left:36px;top:1px;*font-family:15/30 黑体;*font-weight:600}
+.position_text2{width:16px;font-size:16px;position:absolute;font-family:"黑体";left:45px;top:1px;*font-family:15/30 黑体;*font-weight:600}
+.new_headtwo{height:40px;width:335px;background:url(../images/top_img003.jpg) no-repeat;padding-left:75px;float:left;position:relative}
+.new_headtwo ul li{float:left}
+.new_headtwo ul li p a{width:24px;height:20px;display:block;padding-left:6px;padding-right:6px;text-decoration:none;color:#464646;float:left;line-height:20px}
+.new_headtwo ul li a:hover{color:#b00000}
+.new_headthree{height:40px;width:183px;background:url(../images/top_img004.jpg) no-repeat;padding-left:67px;float:right;position:relative;z-index:2}
+.new_headthree a{width:24px;height:20px;display:block;padding-left:6px;padding-right:6px;text-decoration:none;color:#464646;float:left;line-height:20px}
+a.more_color{color:#0d4fb1}
+.dazi_title b{display:block;width:125px;*width:110px}
+/*.dingwei_ye{left:-250px}
+.dingwei_ye .sanjiao_ye{margin-left:228px}
+*/
+/*新导航样式2012.3.15*/
+.new_head{height:40px;float:left;position:relative}
+.new_head ul li{float:left}
+.new_head ul li p{margin:0;padding:0;}
+.new_head ul li p a{width:25px;height:20px;display:block;padding-left:5px;padding-right:5px;text-decoration:none;color:#464646;float:left; font-family:"微软雅黑";}
+.new_head ul li p a.teshu{width:36px}
+.new_head ul li a:hover{color:#b00000}
+.new_head.one{width:263px;padding-left:65px;background:url(../images/top_img002.jpg) no-repeat;}
+.new_head.two{width:249px;padding:0 0 0 75px;border-right:1px solid #ddd;background:url(../images/top_img003.jpg) no-repeat;}
+.new_head.three{width:283px;padding-left:0;float:right;z-index:1}

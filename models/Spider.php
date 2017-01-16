@@ -32,10 +32,9 @@ class Spider
                 $existStr .= $i . 'yes-' . $basefile . '-' .  $remoteStr . '===to===' . $localStr . '<br />';
                 $i++;
             } else {
-                $noStr .= $i . 'no-' . $basefile . '-' .  $remoteStr . '===to===' . $localStr . '<br />';
+                $noStr .= $j . 'no-' . $basefile . '-' .  $remoteStr . '===to===' . $localStr . '<br />';
                 $j++;
             }
-            $i++;
         }
         echo '<h1>no file</h1>';
         echo $noStr;
@@ -72,6 +71,8 @@ class Spider
         if (!$this->configs['down'] || $exist || empty($url)) {
             return $data;
         }
+        //echo "wget -O {$localFile} {$url}\n<br />";
+        //return ;
         
         //$fileInfos = pathinfo($url);
         $remoteContent = file_get_contents($url);

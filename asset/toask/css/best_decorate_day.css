@@ -1,0 +1,201 @@
+/**************************************************************
+ *    by hank.lan 深圳城市报价页则增加类名，改变接下来的样式 
+ **************************************************************/
+ .quoted-outside{
+    z-index: 10;
+ }
+.clear:after{
+    display:block;
+    clear:both;
+    content:"\0020";
+    visibility:hidden;
+    height:0;
+}
+.show-wechat{
+    margin-top:-9px;
+}
+.wechat-ad{
+    display:none;
+    margin-top: 25px;
+    width:230px;
+}
+.show-wechat .wechat-ad{
+    display:block;
+    margin-left: 30px;
+    position: relative;
+}
+.show-wechat .budget-list{
+    margin-top:-1px;
+}
+.show-wechat .budget-list ul{
+   height:73px;
+}
+.show-wechat .budget-list ul li{
+    float:left;
+    width:50%;
+}
+.show-wechat .budget-list ul li.budget-list-right{
+    float:right;
+}
+.wechat-contain{
+    width:230px;
+    height:62px;
+    background: none;
+    border: 1px solid #449bf8;
+}
+.wechat-contain .wechatname{
+    position: absolute;
+    width: 110px;
+    font-weight: bold;
+    color: #fff;
+    bottom: 9px;
+    left: 8px;
+}
+.wechat-contain .wechatname .to8tonama{
+    color:#fff;
+    font-weight: normal;
+}
+.wechat-contain div.wechat-code{
+    display: none;
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    background: url(http://static.to8to.com/img/to8to_img/wx_xh/wx_code_bg.png?v=201701031037) no-repeat;
+    top: 75px;
+    left: 135px;
+    width: 90px;
+    height: 114px;
+    z-index: 10;
+}
+.wechat-contain div.wechat-code i{
+    display: block;
+    background: url(http://static.to8to.com/img/to8to_img/wx_xh/zxbj_wxxh.png?v=201612281448) no-repeat -523px -306px;
+    width: 74px;
+    height: 74px;
+    margin: 16px 0 0 8px;
+}
+.wechat-contain div.wechat-code-dg i{
+    background: url(http://static.to8to.com/img/to8to_img/wx_xh/zxbj_wxxh.png?v=201612281448) no-repeat -1px -80px;
+    
+}
+.wechat-contain div.wechat-code p{
+   padding-left: 20px; 
+}
+.wechat-contain div.wechat-code p .zxbj-wx-icon{
+    background: url(http://static.to8to.com/img/to8to_img/wx_xh/zxbj_wxxh.png?v=201612281448) no-repeat -1px -176px ;
+    width: 16px;
+    height: 12px;
+    margin: 2px 4px 0 -15px;
+}
+.result-contain-ndg{
+    position: absolute;
+    top: 96px;
+    right: 54px;
+    display: none;
+    background: url('http://static.to8to.com/img/to8to_img/wx_xh/zxbj_wxxh.png?v=201612281553') no-repeat -447px -304px;
+    width: 65px;
+    height: 65px;
+}
+.wechat-contain em{
+    display: block;
+    float: left;
+    width:60px;
+    height:60px;
+    margin-left: 10px;
+    margin-top: 2px;
+    background: url(http://img.to8to.com/to8to_img/show_wechat.png?v=201701031959) no-repeat -35px -31px;
+}
+.wechat-result{
+    width:260px;
+}
+.result-head{
+    margin-top: 17px;
+    text-align: right;
+    font-size: 14px;
+    color: #333;
+}
+.result-head .recall{
+    padding-right: 16px;
+    color: #eb5628;
+    font-size: 12px;
+}
+.result-contain{
+    position: relative;
+    width: 260px;
+    height: 144px;
+    right: -9px;
+    top: 0;
+    background: url(http://img.to8to.com/to8to_img/show_wechat.png?v=201701031959) no-repeat 7px 10px;
+}
+.result-contain .result-head{
+    position:absolute;
+    left: 40px;
+    top: -10px;
+    font-size: 14px;
+    color: #4eac6a;
+    text-align: center;
+}
+.result-contain .left{
+    position: absolute;
+    bottom: 6px;
+    left: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+}
+.result-contain .left .kfname{
+    font-weight: normal;
+    color:#333;
+    margin-left: -2px;
+}
+.result-contain .right{
+    position: absolute;
+    bottom: 5px;
+    right: 50px;
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+}
+.wechat-contain-title{
+    position: absolute;
+    top: 3px;
+    right: 0;
+    font-size: 12px;
+    color: #73baf7;
+}
+.wechat-contain .wechat-contain-p{
+    position: absolute;
+    bottom: -2px;
+    left: -1px;
+}
+.wechat-contain .wechat-contain-btn{
+    position: absolute;
+    top: 24px;
+    right: -1px;
+}
+.result-contain .left .kfname .kfn-name{
+    color: #eb5628;
+}
+.result-contain .left .kfn-p{
+    margin-left: -34px;
+}
+.result-contain-strategy{
+    position: absolute;
+    background: url('http://static.to8to.com/img/to8to_img/wx_xh/zxbj_wxxh.png?v=201701031257') no-repeat -58px -176px;
+    width: 18px;
+    height: 12px;
+    top: 60px;
+    left: 100px;
+}
+.result-head,
+.result-contain,
+.show-wechat.wechat-result .quoted-point,
+.show-wechat.wechat-result .budget-price,
+.show-wechat.wechat-result .budget-list,
+.show-wechat.wechat-result .wechat-ad{
+    display: none;
+}
+.show-wechat.wechat-result .result-head,
+.show-wechat.wechat-result .result-contain{
+    display: block;
+}

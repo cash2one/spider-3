@@ -1,5 +1,5 @@
 <?php
 return [
-    'name' => '土巴兔关于我们',
-    'urlpre' => 'http://www.to8to.com/about/',
+    'name' => '土巴兔文答',
+    'urlpre' => 'http://www.to8to.com/ask/',
 ];

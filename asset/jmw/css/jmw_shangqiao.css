@@ -1,0 +1,233 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*重置样式*/
+html{_background:url(about:blank);}
+.jmw_shangqiao_pop,.jmw_shangqiao_bar{font-family:'微软雅黑',黑体;font-size:12px;color:#555;line-height:1.5em;}
+.jmw_shangqiao_pop a{color:#555;text-decoration:none;}
+.jmw_shangqiao_pop a:hover{color:#e90101;text-decoration:underline;}
+.jmw_shangqiao_pop img{border:0;}
+.jmw_shangqiao_pop ul,.jmw_shangqiao_pop dl,.jmw_shangqiao_bar ul,.jmw_shangqiao_bar dl{list-style:none;padding:0;margin:0;}
+.jmw_shangqiao_pop input,.jmw_shangqiao_bar input,.jmw_shangqiao_pop textarea,.jmw_shangqiao_pop font{font-size:12px;color:#c8c8c8;outline:none;}
+em,i{font-style:normal;}
+
+/*在线咨询 屏幕中间*/
+.jmw_shangqiao_pop_wrap,.sq_pop_iframe{width:404px;height:184px;}
+.jmw_shangqiao_pop_wrap{left:50%;top:50%;margin-left:-202px !important;margin-top:-150px !important;margin-top:0px;z-index:2997;}
+.jmw_shangqiao_pop_wrap .sq_pop_iframe{position:absolute;left:0;top:0;z-index:-1;filter:alpha(opacity=0);opacity:0;}
+
+.jmw_shangqiao_pop{width:404px;height:184px;border-radius:10px;-moz-box-shadow:0 0 20px #555;-webkit-box-shadow:0 0 20 #555;box-shadow:0 0 20px #555;background:url(http://image1.jmw.com.cn/public/images/online_service/img_4_1.gif) no-repeat;}
+
+.sq_form_pop,.sq_form_pop .sq_pop_iframe,.sq_form_pop .jmw_shangqiao_pop{width:405px;height:248px;}
+.sq_pop_bg,.sq_pop_bg .sq_pop_iframe,.sq_pop_bg .jmw_shangqiao_pop{width:405px;height:248px;}
+
+.sq_form_pop .jmw_shangqiao_pop{background:url(http://image1.jmw.com.cn/public/images/online_service/img_4_2.gif) no-repeat;}
+.sq_pop_bg .jmw_shangqiao_pop{background:url(http://image1.jmw.com.cn/public/images/online_service/img_4_3.gif) no-repeat;}
+
+.sq_pop_tit{height:36px;line-height:36px;padding:0 10px;overflow:hidden;color:#fff;}
+.sq_pop_tit em{float:left;}
+.sq_pop_tit span{float:right;text-align:right;color:#f3b7b7;}
+.sq_pop_tit span a{float:right;width:15px;height:15px;margin:10px 0 0 10px;*margin:9px 0 0 10px;outline:none;background:url(http://image1.jmw.com.cn/public/images/online_service/img_6_1.jpg) no-repeat;}
+.sq_pop_tit span a:hover{background:url(http://image1.jmw.com.cn/public/images/online_service/img_6_2.jpg) no-repeat;}
+
+.sq_pop_box{width:100%;}
+.sq_pop_box:after{content:"";display:block;height:0;clear:both;visibility:hidden;}
+
+.pop_icon{float:left;display:inline;width:102px;height:131px;margin:8px 15px 0 10px;background:url(http://image1.jmw.com.cn/public/images/online_service/img_5.jpg) no-repeat;}
+.pop_icon.sub2{background:url(../images/online_service/img_5_4.jpg) 10px 10px no-repeat;}
+.sq_pop_con{float:left;width:265px;margin-top:15px;}
+.pop_text_con{height:75px;line-height:2em;overflow:hidden;}
+.pop_text_con p{margin-bottom:5px;}
+
+.sq_btn_box{height:37px;line-height:37px;}
+.sq_btn_box a{float:left;width:106px;height:37px;margin-right:25px;text-align:center;font-size:14px;color:#fff;outline:none;}
+.sq_btn_box a:hover{color:#fff;text-decoration:none;}
+.sq_btn_box a.sq_consult_btn{background:url(http://image1.jmw.com.cn/public/images/online_service/img_7_1.jpg) no-repeat;}
+.sq_btn_box a.sq_consult_btn:hover{background:url(http://image1.jmw.com.cn/public/images/online_service/img_7_2.jpg) no-repeat;}
+.sq_btn_box a.sq_later_btn{color:#555;background:url(http://image1.jmw.com.cn/public/images/online_service/img_7_3.jpg) no-repeat;}
+.sq_btn_box a.sq_later_btn:hover{color:#fff;background:url(http://image1.jmw.com.cn/public/images/online_service/img_7_4.jpg) no-repeat;}
+
+.jmw_shangqiao_pop_wrap{
+	 display:none;
+	 position:fixed !important;/*FF IE7*/
+     position:absolute;/*IE6*/
+    _top:expression(eval(document.compatMode &&
+         document.compatMode=='CSS1Compat') ?
+         documentElement.scrollTop + (document.documentElement.clientHeight-this.offsetHeight)/2 :/*IE6*/
+         document.body.scrollTop + (document.body.clientHeight - this.clientHeight)/2);/*IE5 IE5.5*/
+}
+
+/*通用快捷留言*/
+.secMsg{width:360px;position:absolute;z-index:1008;background:#fff; left:0; top:96px;}
+.secMsg p{/*height:27px;line-height:27px;padding:0 10px;overflow:hidden;color:#fff;background:#0080C0;*/}
+.secMsg p strong{float:left;}
+.secMsg p a{float:right;width:13px;height:13px;margin-top:12px;outline:none;}
+.secMsg p a:hover{filter:alpha(opacity=85);opacity:0.85;}
+.secMsg ul{padding:5px 10px;/*border:1px solid #0080C0;*/border-top:0;}
+.secMsg ul li{height:25px;line-height:25px;padding-left:11px;overflow:hidden;white-space:nowrap;border-bottom:1px dashed #ccc;background:url(../images/sec_black.jpg) no-repeat 3px center;}
+.secMsg ul li.noLine{border-bottom:none;}
+.secMsg ul li a{color:#333;}
+.secMsg ul li a:hover{color:#666;}
+.secMsg .msgIframe{width:360px;height:228px;position:absolute;left:0;top:0;z-index:-1;filter:alpha(opacity=0);opacity:0;}
+
+/*表单类*/
+.sq_form dl{width:100%;overflow:hidden;margin-bottom:10px;}
+.sq_form dt,.sq_form dd{float:left;line-height:26px;}
+.sq_form dt{height:26px;margin-right:5px;text-align:right;}
+.sq_form dd{height:auto !important;height:26px;min-height:26px;}
+.sq_form dd:after{content:"";display:block;height:0;clear:both;visibility:hidden;}
+
+.sq_form input,.sq_form font,.sq_form label,.sq_form textarea,.sq_form em,.sq_form select{float:left;margin-right:5px;}
+.sq_form .txt_input{width:115px;height:24px;line-height:24px;padding:0 5px;margin-right:15px;border:1px solid #ddd;background:#fff url(http://image1.jmw.com.cn/public/images/online_service/s_05.gif) repeat-x;}
+.sq_form textarea{width:245px;height:70px;padding-left:5px;line-height:1.5em;resize:none;border:1px solid #ddd;background:#fff url(http://image1.jmw.com.cn/public/images/online_service/s_05.gif) repeat-x;}
+.sq_form select{width:127px;height:26px;padding:3px;margin-right:15px;}
+.sq_form label{margin-right:10px;}
+.sq_form label input{margin:6px 5px 0 0;*margin:2px 0 0 0;}
+.sq_form font{font-weight:normal;color:#f00;}
+
+.sq_form .msg_submit_btn{width:110px;height:26px;font-family:'微软雅黑',黑体;color:#fff;border:0;cursor:pointer;background:url(http://image1.jmw.com.cn/public/images/online_service/img_7_5.jpg) no-repeat;}
+
+.sq_form dl.first{height:26px;overflow:visible;margin-bottom:2px;background:none;}
+.sq_form dl.first dd{position:relative;}
+.sq_form .show_secMsg{float:left;padding-right:25px;background:url(http://image1.jmw.com.cn/public/images/online_service/img_8.jpg) 100px center no-repeat;}
+.sq_form .show_secMsg.s_s_nobg{background:none;}
+.sq_form .secMsg{right:5px;top:22px;}
+.sq_form .secMsg p{height:35px;line-height:35px;padding:0 10px;margin:0;overflow:hidden;color:#fff;background:#D4000E;}
+.sq_form .secMsg p img{float:none;display:block;margin:0;}
+.sq_form .secMsg ul{border:1px solid #d8000f;}
+
+/*操作灰色按钮*/
+.sq_gray_btn_box{padding:10px 0 0 18px;}
+.sq_gray_btn_box em{float:left;width:280px;line-height:27px;}
+.sq_gray_btn{float:left;height:27px;line-height:27px;margin-right:10px;padding-left:20px;overflow:hidden;outline:none;white-space:nowrap;cursor:pointer;filter:alpha(opacity=60);opacity:0.6;background:url(../images/online_service/img_11.gif) no-repeat;}
+.sq_gray_btn.current{cursor:text;filter:alpha(opacity=30);opacity:0.3;}
+.sq_gray_btn span{float:left;padding-right:20px;background:url(../images/online_service/img_11.gif) right top no-repeat;}
+.sq_gray_btn i{float:left;width:15px;height:18px;margin:4px 5px 0 0;background:url(../images/online_service/img_11_2.gif) no-repeat;}
+
+.jmw_shangqiao_pop a.sq_gray_btn{color:#555;}
+.jmw_shangqiao_pop a.sq_gray_btn:hover{color:#555;text-decoration:none;filter:alpha(opacity=100);opacity:1;}
+.jmw_shangqiao_pop a.sq_gray_btn.current:hover{filter:alpha(opacity=30);opacity:0.3;}
+
+/*中加网联系方式*/
+.jmw_contact_con{padding:15px 20px 0 20px;line-height:22px;}
+.jmw_contact_con strong{font-size:14px;color:#333;}
+.jmw_contact_con .m_line{display:block;height:1px;margin:5px 0;overflow:hidden;border-bottom:1px dashed #ddd;}
+
+/*没人接听*/
+.contact_sq_form{padding:15px 15px 0 15px;}
+.warm_tips{height:50px;line-height:22px;padding:5px 10px 5px 70px;margin-bottom:10px;overflow:hidden;border-radius:5px;border:1px solid #ddd;background:#f5f5f5 url(../images/online_service/img_5_3.jpg) 10px 3px no-repeat;}
+
+/*查看联系方式*/
+.view_contact p{margin-bottom:12px;}
+.view_contact p strong{font-weight:normal;font-size:16px;}
+.view_contact p em{font-weight:bold;font-size:16px;color:#e90101;}
+.view_contact p .sq_gray_btn{padding-left:10px;}
+.view_contact p .sq_gray_btn span{padding-right:10px;}
+
+/*发送到手机*/
+.mobile_msg{padding:15px 0 0 15px;}
+.m_m_left{float:left;width:215px;}
+.m_m_left p{margin-bottom:5px;}
+.m_m_left span{height:100px;display:block;padding:5px 10px;word-wrap: break-word;overflow:hidden;border-radius:5px;border:1px solid #ddd;background:#f5f5f5;}
+.m_m_right{float:left;width:170px;}
+.m_m_right p{height:26px;line-height:26px;margin-bottom:10px;overflow:hidden;}
+.m_m_right p em{float:left;width:78px;height:26px;text-align:right;}
+.m_m_right p span input{width:65px;height:23px;line-height:23px;padding:0 5px;color:#666;border:1px solid #ddd;background:#fff url(../images/online_service/s_05.gif) repeat-x;}
+.m_m_right p .msg_send_btn{float:right;display:inline;width:86px;height:26px;margin-right:14px;font-family:'微软雅黑',黑体;color:#fff;border:0;cursor:pointer;background:url(../images/online_service/img_7_6.jpg) no-repeat;}
+
+/*成功提示层*/
+.sq_pop_alert{height:122px;padding:45px 10px 0 130px;background:url(http://image1.jmw.com.cn/public/images/online_service/img_5_2.jpg) 40px 25px no-repeat;}
+.sq_pop_alert.mobile_alert{background:url(../images/online_service/img_5_5.jpg) 25px 25px no-repeat;}
+.sq_pop_alert p{margin-bottom:25px;font-size:14px;}
+.sq_pop_alert p strong{font-size:26px;color:#333;}
+
+/*侧边工具栏*/
+.jmw_shangqiao_bar{display:none;width:25px;height:175px;overflow:hidden;color:#777;position:fixed;z-index:2998;bottom:30px;_position:absolute;_top:expression(documentElement.scrollTop+documentElement.clientHeight-this.offsetHeight-30);background:url(../images/online_service/img_9_1.png) right top no-repeat;}
+.jmw_shangqiao_bar iframe{width:25px;height:175px;position:absolute;top:0;z-index:-1;filter:alpha(opacity=0);opacity:0;}
+.jmw_shangqiao_bar.big_bar iframe{width:122px;}
+
+.sq_bar{width:122px;}
+.sq_bar li{height:35px;line-height:35px;padding-left:3px;margin-right:1px;overflow:hidden;cursor:pointer;border-bottom:1px solid #eaeaea;}
+.sq_bar li.bar_first{height:25px;line-height:25px;cursor:text;}
+.sq_bar li.bar_first i{margin:2px 8px 0 0;}
+.sq_bar li i,.sq_bar li strong{float:left;}
+.sq_bar li i{width:18px;height:18px;margin:8px 8px 0 0;}
+
+.sq_bar li i.toolbar_icon{background:url(../images/online_service/img_10_1.jpg) center center no-repeat;}
+.sq_bar li i.gotop_icon{background:url(../images/online_service/img_10_1.gif) center center no-repeat;}
+.sq_bar li i.phone_icon{background:url(../images/online_service/img_10_2.gif) center center no-repeat;}
+.sq_bar li i.service_icon{background:url(../images/online_service/img_10_3.gif) center center no-repeat;}
+.sq_bar li i.fold_icon{background:url(../images/online_service/img_10_4.gif) center center no-repeat;}
+
+.sq_bar li.current{color:#fff;filter:alpha(opacity=100);opacity:1;background:#999;}
+.sq_bar li.current i.gotop_icon{background:url(../images/online_service/img_10_1b.gif) center center no-repeat;}
+.sq_bar li.current i.phone_icon{background:url(../images/online_service/img_10_2b.gif) center center no-repeat;}
+.sq_bar li.current i.service_icon{background:url(../images/online_service/img_10_3b.gif) center center no-repeat;}
+.sq_bar li.current i.fold_icon{background:url(../images/online_service/img_10_4b.gif) center center no-repeat;}
+
+.jmw_shangqiao_bar.rev{background:url(../images/online_service/img_9_2.png) left top no-repeat;}
+.sq_bar li i.fold_icon.i_rev{background:url(../images/online_service/img_10_5.gif) center center no-repeat;}
+.sq_bar li.current i.fold_icon.i_rev{background:url(../images/online_service/img_10_5b.gif) center center no-repeat;}
+
+.sq_bar.big_bar li{padding-left:8px;}
+
+.close_sq_bar{float:right;display:inline;width:13px;height:13px;margin:6px 5px 0 0;outline:none;background:url(../images/online_service/img_6_3.jpg) no-repeat;}
+.close_sq_bar:hover{background:url(../images/online_service/img_6_4.jpg) no-repeat;}
+
+/*索要资料开始*/
+/*通用弹出层*/
+.popWrap,.popWrap_sub,.popIframe{width:515px;}
+.popWrap{left:50%;top:50%;margin-left:-257px !important;margin-top:-220px !important;margin-top:0px;z-index:3000;}
+.popWrap_sub,.popIframe{position:absolute;left:0;top:0;}
+.popWrap_sub{border-radius:5px;background:#333;filter:alpha(opacity=50);opacity:0.5;}
+.popIframe{filter:alpha(opacity=0);opacity:0;}
+
+.popBox{ width:503px; overflow:hidden; position:absolute; left:6px; top:5px; background:#fff; }
+.popBox h3{height:40px;line-height:40px;padding:0 20px;margin-bottom:20px;font-size:14px;color:#fff;background:url(../images/s_07.jpg) repeat-x;}
+.popClose{width:9px;height:9px;display:block;position:absolute;right:14px;top:17px;background:url(../images/s_04.gif) no-repeat;}
+.popClose:hover{filter:alpha(opacity=70);opacity:0.7;}
+
+.bgDiv,.bgIframe{width:100%;height:100%;display:none;position:absolute;left:0;top:0;filter:alpha(opacity=50);opacity:0.5;z-index:2999;background:#000;} 
+.bgIframe,.popIframe{filter:alpha(opacity=0);opacity:0;}
+
+.popWrap,.bgDiv,.bgIframe{
+	 display:none;
+	 position:fixed !important;/*FF IE7*/
+     position:absolute;/*IE6*/
+    _top:expression(eval(document.compatMode &&
+         document.compatMode=='CSS1Compat') ?
+         documentElement.scrollTop + (document.documentElement.clientHeight-this.offsetHeight)/2 :/*IE6*/
+         document.body.scrollTop + (document.body.clientHeight - this.clientHeight)/2);/*IE5 IE5.5*/
+}
+
+/*修改信息*/
+.popWrap.changeInfo,.changeInfo .popWrap_sub,.changeInfo .popIframe{width:370px;height:278px;}
+.popWrap.changeInfo{margin-left:-185px !important;margin-top:-139px !important;margin-top:0px;}
+.popWrap.changeInfo .popBox{width:358px;height:266px;}
+.popWrap.changeInfo .popClose{background:url(../images/s_04b.gif) no-repeat;}
+
+.infoTable{width:80%;border-collapse:collapse;margin:0 auto;}
+.infoTable th,.infoTable td{padding:5px 0;line-height:26px;white-space:nowrap;text-align:left; color:#000;}
+.infoTable th i{float:left;width:8px;height:8px;line-height:8px;overflow1:hidden;margin-top:10px;font-style:normal;color:#f00;}
+.infoTable th font{margin-left:26px; color:#000;}
+.infoTable td{color:#666;}
+.infoTable td.c_submitBtn{line-height:33px;}
+
+.infoTable.c_sub th,.infoTable.c_sub td{border-bottom:1px dotted #ddd;}
+.infoTable th.noLine,.infoTable td.noLine{border-bottom:0;}
+
+.infoTable span,.infoTable input,.infoTable label{float:left;margin-right:5px;}
+.c_inp1{width:165px;height:24px;line-height:24px;padding:0 5px;color:#666;outline:none;border:1px solid #ddd;background:#fff url(../images/s_05.gif) repeat-x;}
+
+.infoTable label{margin-right:25px;}
+.infoTable label input{margin:6px 5px 0 0;*margin:2px 0 0 0;}
+
+.tipsIcon{width:16px;height:16px;padding:5px 0 0 5px;display:none;}
+.tipsIcon.c_ok,.tipsIcon.c_error{display:block;}
+.tipsIcon.c_ok{background:url(../images/s_09a.gif) right bottom no-repeat;}
+.tipsIcon.c_error{background:url(../images/s_09b.gif) right bottom no-repeat;}
+
+.c_submitBtn input{width:100px;height:33px;cursor:pointer;border:0;background:url(../images/s_08.jpg) no-repeat;}
+.c_submitBtn a{margin-left:10px;color:#999;}
+.c_submitBtn a:hover{color:#e90101;}
+/*索要资料结束*/

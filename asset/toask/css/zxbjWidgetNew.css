@@ -1,0 +1,439 @@
+@charset "utf-8";
+/* base common style */      
+html,body{padding:0; margin:0;}
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin: 0; padding: 0 }
+body, button, input, select, textarea { font: 12px/1.5 "Microsoft YaHei", 微软雅黑,\9ed1\4f53,\5b8b\4f53, "Microsoft JhengHei", 华文细黑, STHeiti, MingLiu; color:#666 }
+h1, h2, h3, h4, h5, h6 { font-size: 100% }
+address, cite, dfn, em, var { font-style: normal }
+ul, ol, dl { list-style: none }
+a { text-decoration: none !important; outline: none ;font-family:"Microsoft YaHei", 微软雅黑,\9ed1\4f53,\5b8b\4f53, "Microsoft JhengHei", 华文细黑, STHeiti, MingLiu;cursor: pointer;}
+img { border: 0 }
+button, input, select, textarea { font-size: 100% ;font-family:"Microsoft YaHei", 微软雅黑,\9ed1\4f53,\5b8b\4f53, "Microsoft JhengHei", 华文细黑, STHeiti, MingLiu;outline: none;}
+table { border-collapse: collapse; border-spacing: 0 }
+.clearfix {*zoom:1;}
+.clearfix:after{display:block;clear:both;content:"\0020";visibility:hidden;height:0;}
+.global_wrap{position: relative;min-height:100%; clear: both; content: ""; }
+.ielt7 .global_wrap{height:100%; }
+#clsIframe,#LR_Flash{position: absolute;}
+.col_l{float: left;*display: inline;}
+.col_r{float: right;*display: inline;}
+.ect{text-overflow:ellipsis; overflow: hidden; white-space: nowrap;}
+.erro{
+	position: absolute;
+	top: 36px;
+	left: 0;
+	font-size:12px;
+	color: #c7c7c7;
+}
+.zxbj-calc-wrap .erro em {
+ 	position: static;
+ 	background: url(http://img.to8to.com/to8to_img/zxbj/sjybj_global.png?20150724) no-repeat;
+ 	_background: url(http://img.to8to.com/to8to_img/zxbj/sjybj_global.gif?20150724) no-repeat;
+    background-position: 0 -892px;
+    width: 18px;
+    height: 12px;
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.zxbj-calc-wrap {
+	overflow: hidden;;
+    width: 244px;
+    border: none;
+    background: #464857 url('http://img.to8to.com/to8to_img/zxbj/zxbj_widget_bg.jpg') no-repeat center bottom;
+    _background: #464857;
+    border-radius: 4px;
+}
+.zxbj-calc-header {
+	height: 112px;
+	background: url('http://img.to8to.com/to8to_img/zxbj/zxbj_calc_header.png') no-repeat;
+}
+.zxbj-calc-header h3 {
+	height: 38px;
+	line-height: 38px;
+	color: #f26f2f;
+	font-size: 16px;
+	text-align: center;
+	font-weight: normal;
+}
+.calc-header-total {
+	width: 210px;
+	height: 42px;
+	margin: 8px auto;
+	_margin-left:15px;
+}
+.calc-header-total em {
+	float: right;
+	height: 58px;
+	padding: 0 10px;
+	line-height: 80px;
+}
+.calc-header-total span {
+	float: right;
+	padding-left: 12px;
+	line-height: 70px;
+	font-weight: bold;
+	color: #f26f2f;
+	font-size: 30px;
+}
+.zxbj-calc-con {
+	width: 215px;
+	margin: 0 15px;
+	padding-top: 15px;
+	padding-bottom: 8px;
+}
+.zxbj-calc-con .element {
+	position: relative;
+	margin-bottom: 12px;
+	width: 215px;
+}
+.zxbj-calc-con .element select {
+	width: 105px;
+	height: 36px;
+	padding: 0 5px;
+	border: 1px solid #ccc;
+	font-size: 12px;
+	color: #333;
+}
+.zxbj-calc-con .element select.province {
+	float: left;
+}
+.zxbj-calc-con .element select.city {
+	float: right;
+}
+.zxbj-calc-con .text {
+    -webkit-box-sizing: inherit;
+	width: 193px;
+	height: 34px;
+	padding: 0 10px;
+	border: 1px solid #ccc;
+	line-height: 34px;
+	outline: none; 
+}
+.zxbj-calc-con .element b {
+	position: absolute;
+	top: 1px;
+	left: 1px;
+	height: 34px;
+	padding: 0 10px;
+	line-height: 34px;
+	color: #999;
+	font-weight: normal;
+}
+.zxbj-calc-con .element .unit {
+	position: absolute;
+	top: 0;
+	right: 8px;
+	height: 34px;
+	line-height: 34px;
+	font-style: normal;
+}
+.zxbj-calc-con .submit-btn {
+	display: block;
+	width: 215px;
+	height: 40px;
+	background: #f25618;
+	line-height: 36px;
+	text-align: center;
+	color: #fff;
+	font-size: 16px;
+}
+.calc-explain {
+	line-height: 18px;
+	color: #0eaf63;
+	font-size: 12px;
+}
+.zxbj-calc-result {
+	width: 218px;
+	margin: -8px 16px;
+	margin-bottom:20px;
+}
+.calc-code {
+	width: 100px;
+	height: 100px;
+	margin: 10px 54px 5px;
+	padding: 5px;
+	background: url("http://img.to8to.com/to8to_img/zxbj/calc_code.png") no-repeat;
+}
+.calc-code img {
+	display: block;
+	width: 100px;
+	height: 100px;
+	background: #fff;
+}
+.calc-code-tips p {
+	height: 24px;
+	line-height: 24px;
+	color: #fff;
+	text-align: center;
+}
+.calc-code-tips p a {
+	color: #f26f2f;
+}
+/* 修改右侧发标文案 */
+}
+.new-calc-header-total .new-calc-header-home{
+	float: left;
+	padding-right: 0;
+  	color: #999;
+}
+.new-calc-header-total .new-calc-header-money{
+	padding-left: 0;
+	color: #333;
+}
+.new-calc-header-total .new-calc-header-number{
+	padding-left: 0;
+}
+.new-num-tab{
+	overflow: hidden;
+	position: relative;
+	top:26px;
+}
+.new-num-tab .new-calc-header-money{
+	font-size: 16px;
+	line-height: 66px;
+}
+.new-calc-header-total .new-tab-num1{
+	float: none;
+	position: absolute;
+	top: 0px;
+	right: 45px;
+	line-height: 58px;
+}
+.new-calc-header-total .new-tab-num2{
+	float: none;
+	position: absolute;
+	top: 50px;
+	right: 45px;	
+	line-height: 58px;
+}
+.stochastic-price-p1,.stochastic-price-p2{
+	height: 58px;
+}
+.stochastic-price-p1 span{
+	float: none;
+	position: absolute;
+	top: 0px;
+	right: 45px;
+	line-height: 58px;
+}
+.stochastic-price-p2 span{
+	float: none;
+	position: absolute;
+	top: 50px;
+	right: 45px;
+	line-height: 58px;
+}
+.stochastic-price-p1 .new-tab-num11,.stochastic-price-p2 .new-tab-num21{
+	right: 92px;
+}
+.stochastic-price-p1 .new-tab-num12,.stochastic-price-p2 .new-tab-num22{
+	right: 73px;
+}
+.stochastic-price-p1 .new-tab-num13,.stochastic-price-p2 .new-tab-num23{
+	right: 64px;
+}
+.stochastic-price-p1 .new-tab-num14,.stochastic-price-p2 .new-tab-num24{
+	right: 45px;
+}
+.stochastic-price-p2 .new-tab-num25{
+	display: none;
+	right: 45px;
+}
+/*****************************************************************
+ *modify by fidermo.hu 2016/10/13装修日记及装修论坛右侧添加计算器
+ *****************************************************************/
+.new-container{
+	border-radius:4px;
+	-o-border-radius:4px;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	background:#464857 url('http://img.to8to.com/to8to_img/zxbj/zxbj_widget_bg.jpg') no-repeat center bottom;
+	_background:#464857 url('http://img.to8to.com/to8to_img/zxbj/zxbj_widget_bg.jpg') no-repeat center bottom;
+}
+.zxbj-calc-con .element .second-line{
+	width:68px;
+	height:36px;
+	margin-top:4px;
+}
+.zxbj-calc-con .element .line-chu{
+	margin-right:1px;
+}
+.zxbj-calc-con .element .line-wei{
+	margin-right:2px;
+}
+.zxbj-calc-con .szxbj-type{
+	height:76px;
+	_height:50px;
+	margin-bottom:12px;
+}
+.zxbj-calc-con .glideimg{
+	text-align:center;
+	height:11px;
+}
+.glideimg img{
+	margin-top:-2px;
+}
+.glide-text{
+	color:#fff;
+	font-size:16px;
+	text-align: center;
+	margin-bottom:1px;
+}
+.glide-text-left{
+	float:left;
+}
+.glide-text-right{
+	float:right;
+}
+.glide-unit{
+	text-align:center;
+	color:#fff;
+	margin-bottom: 20px;
+}
+.glide-unit span{
+	font-size:24px;
+	display:inline-block;
+	color:#f25618;
+	margin-right:10px;
+}
+.glide-yqbj{
+	background-color: #fff;
+  	height: 160px;
+  	margin:0 15px;
+  	padding-top: 18px;
+  	font-size: 14px;
+  	padding-left: 30px;
+  	margin-top: 20px;}
+.glide-yqbj li{
+	margin-bottom:12px;
+}
+.glide-yqbj strong{
+	font-size: 16px;
+  	color: #333;
+  	margin: 0 7px;
+}
+.glide-yqbj span{
+	font-size:12px;
+}
+.zxbj-clac-yqbj{
+	margin:36px 0;
+}
+.zxbj-calc-wrap h4{
+	color:#fff;
+	font-weight:normal;
+	text-align: center;
+  	margin-top: 11px;
+}
+.zxbj-clac-new{
+	padding-top:7px;
+}
+.calc-explain{
+	color:#7c7f9a;
+}
+.calc-call{
+	color:#ff5a00;
+	margin-top: 6px;
+	line-height: 18px;
+	font-size:12px;
+}
+.zxbj-calc-con .element .accept-price{
+	width:215px;
+}
+.new-container .erro{
+	position:relative;
+	height:16px;
+	top:0px;
+	margin-bottom:-10px;
+	clear:both;
+}
+.glide-yqbj .old_fees{
+	color:#bbb;
+	font-size:12px;
+	text-decoration:line-through;
+}
+.glide-yqbj .old_fees span{
+	margin:0 5px;
+}
+.zxbj-clac-new .element .cx-loupan-box{
+	color:#fff;
+}
+.text_lbl{
+	cursor:text;
+	position: absolute;
+  	top: 1px;
+  	left: 1px;
+  	height: 34px;
+  	padding: 0 10px;
+  	line-height: 34px;
+  	color: #999;
+  	font-weight: normal;
+}
+.notserver{
+	text-align: center;
+  	color: #000;
+  	height: 38px;
+  	background-color: #fff;
+}
+@-webkit-keyframes bounce-down{
+	25%{
+		-webkit-transform:translateY(-3px);
+	}
+	50%,100%{
+		-webkit-transform:translateY(0);
+	}
+	75%{
+		-webkit-transform:translateY(3px);
+	}
+}
+@-ms-keyframes bounce-down{
+	25%{
+		-ms-transform:translateY(-3px);
+	}
+	50%,100%{
+		-ms-transform:translateY(0);
+	}
+	75%{
+		-ms-transform:translateY(3px);
+	}
+}
+@-o-keyframes bounce-down{
+	25%{
+		-o-transform:translateY(-3px);
+	}
+	50%,100%{
+		-o-transform:translateY(0);
+	}
+	75%{
+		-o-transform:translateY(3px);
+	}
+}
+@-moz-keyframes bounce-down{
+	25%{
+		-moz-transform:translateY(-3px);
+	}
+	50%,100%{
+		-moz-transform:translateY(0);
+	}
+	75%{
+		-moz-transform:translateY(3px);
+	}
+}
+@keyframes bounce-down{
+	25%{
+		transform:translateY(-4px);
+	}
+	50%,100%{
+		transform:translateY(0);
+	}
+	75%{
+		transform:translateY(4px);
+	}
+}
+.glideimg img{
+	-webkit-animation:bounce-down 1s linear infinite;
+	-o-animation:bounce-down 1s linear infinite;
+	-moz-animation:bounce-down 1s linear infinite;
+	-ms-animation:bounce-down 1s linear infinite;
+	animation:bounce-down 1s linear infinite;
+}
