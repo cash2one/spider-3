@@ -59,6 +59,7 @@ class Spider
 
     function downFile($url, $basefile,  $isForce = false)
     {
+        $url = strpos($url, '//') === 0 ? 'http:' . $url : $url;
         $cssPrefix = $this->configs['isCss'] ? '/images/' : '/img/';
         $path = $this->configs['rootPath'] . '/asset/' . $this->configs['code'] . $cssPrefix;
         if (!is_dir($path)) {

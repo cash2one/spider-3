@@ -1,0 +1,244 @@
+.m2-unit i {
+    vertical-align: super;
+    font-size: 1rem;
+}
+
+.mycom-ellipsis {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.new-message {
+    position: absolute;
+    bottom: 3px;
+    right: 5px;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    background: #f60000;
+    border: 2px solid #fff;
+}
+
+.mask-layer1 {
+    display: none;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    background: rgba(255, 255, 255, 0.5);
+    z-index: 100;
+}
+
+.mask-layer2 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    background: rgba(255, 255, 255, 0);
+}
+
+.bar-nav {
+    font-size: 1.6rem;
+    height: 3.5rem;
+    line-height: 3.5rem;
+    background-color: #fafafa;
+    border-top: 1px solid #ececec;
+    border-bottom: 1px solid #ececec;
+}
+
+.bar-nav .iconfont {
+    margin-top: 0;
+    margin-left: 4px;
+}
+
+.bar-nav .title {
+    position: absolute;
+    left: 15%;
+    display: block;
+    width: 70%;
+    font-weight: normal;
+    text-align: center;
+}
+
+.msg-title {
+    padding: 4% 0;
+}
+
+.msg-list > li span {
+    width: 50%;
+    text-align: right;
+}
+
+.msg-list > li .w-25 {
+    display: inline-block;
+    width: 24%;
+    text-align: center;
+}
+
+.msg-list .btn-ckmx {
+    margin: 3% 0;
+    line-height: 1.8;
+}
+
+.msg-list .btn-orange {
+    color: #fff;
+}
+
+.msg-list .last {
+    border-bottom: none;
+    padding-bottom: 1%;
+}
+
+.msg-list > li,
+dt,
+dd {
+    position: relative;
+    line-height: 50px;
+    min-height: 50px;
+    border-bottom: 1px solid #ececec;
+    clear: both;
+}
+
+.msg-list > li > a {
+    display: block;
+    overflow: hidden;
+}
+
+ul.msg-list-icon > li .media-object {
+    margin: 0 4% 0 2%;
+    font-size: 1.6rem;
+    color: #ddd;
+    font-size: 1.8rem;
+}
+
+ul.msg-list-icon > li label.title {
+    display: inline-block;
+    width: 28%;
+    color: #333;
+    text-align: left;
+}
+
+ul.msg-list-icon > li .input-left {
+    padding: 0;
+    width: 50%;
+    color: #333;
+    border: none;
+    line-height: normal;
+}
+
+ul.msg-list-icon > li .span-right {
+    float: right;
+    margin-right: 2%;
+    width: auto;
+    text-align: right;
+    color: #333;
+}
+
+ul.msg-list-icon > li .icone60c {
+    color: #ccc;
+    line-height: 48px;
+}
+
+ul.msg-list-icon > li .r-select {
+    padding: 0;
+    width: 50%;
+    border: none;
+    padding-left: 34%;
+}
+
+ul.msg-list-icon > li .yanzhengma {
+    padding: 0 0.2rem;
+    margin-top: 10px;
+    width: 90px;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    background: #00a0ea;
+    font-size: 1.2rem;
+    text-align: center;
+    border-radius: 4px;
+}
+
+ul.msg-list-icon > li .list-center {
+    position: absolute;
+    left: 0;
+    display: block;
+    width: 100%;
+    text-align: center;
+    line-height: 4.6rem;
+}
+
+ul.msg-list-icon > li .list-input-box {
+    float: right;
+    margin-right: 2%;
+    width: 50%;
+    text-align: right;
+    color: #333;
+}
+
+ul.msg-list-icon > li .list-input-box input {
+    width: 50%;
+    text-align: right;
+    color: #333;
+    border: none;
+    line-height: normal;
+}
+
+ul.msg-list-icon > li .list-input-box .input-hasunit {
+    margin-bottom: 0.2rem;
+    margin-right: -0.5rem;
+    padding-right: 5px;
+}
+
+ul.msg-list-icon > li .list-input-box .input-nounit {
+    margin-bottom: 0.2rem;
+    width: 100%;
+    padding-right: 0;
+}
+
+ul.mycom-disinput > li .title {
+    width: auto !important;
+    float: left;
+}
+
+ul.mycom-disinput > li .list-input-box {
+    float: left !important;
+    display: inline-block !important;
+    height: 50px !important;
+    width: 17% !important;
+    color: #333 !important;
+    text-align: left !important;
+    line-height: 40px !important;
+}
+
+ul.mycom-disinput > li .span-right {
+    float: right;
+    width: auto;
+    font-size: 1.5rem;
+    text-align: right;
+    color: #ff7200;
+}
+
+ul.mycom-disinput > li .span-right i {
+    line-height: 50px;
+    margin-right: 2px;
+    font-size: 1rem;
+}
+@media screen and (min-width: 320px) and (max-width: 375px) {
+  .msg-list > li .w-25 {
+      display: inline-block;
+      width: 22%;
+      text-align: center;
+  }
+}
+
+/*# sourceMappingURL=mycom_part.css.map */

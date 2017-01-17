@@ -1,0 +1,546 @@
+/*
+ * Swiper 2.7.0
+ * Mobile touch slider and framework with hardware accelerated transitions
+ *
+ * http://www.idangero.us/sliders/swiper/
+ *
+ * Copyright 2010-2014, Vladimir Kharlampidi
+ * The iDangero.us
+ * http://www.idangero.us/
+ *
+ * Licensed under GPL & MIT
+ *
+ * Released on: August 30, 2014
+*/
+/* ===============================================================
+Basic Swiper Styles 
+================================================================*/
+.swiper-container {
+  margin:0 auto;
+  position:relative;
+  overflow:hidden;
+  -webkit-backface-visibility:hidden;
+  -moz-backface-visibility:hidden;
+  -ms-backface-visibility:hidden;
+  -o-backface-visibility:hidden;
+  backface-visibility:hidden;
+  /* Fix of Webkit flickering */
+  z-index:1;
+}
+.swiper-wrapper {
+  position:relative;
+  width:100%;
+  -webkit-transition-property:-webkit-transform, left, top;
+  -webkit-transition-duration:0s;
+  -webkit-transform:translate3d(0px,0,0);
+  -webkit-transition-timing-function:ease;
+  
+  -moz-transition-property:-moz-transform, left, top;
+  -moz-transition-duration:0s;
+  -moz-transform:translate3d(0px,0,0);
+  -moz-transition-timing-function:ease;
+  
+  -o-transition-property:-o-transform, left, top;
+  -o-transition-duration:0s;
+  -o-transform:translate3d(0px,0,0);
+  -o-transition-timing-function:ease;
+  -o-transform:translate(0px,0px);
+  
+  -ms-transition-property:-ms-transform, left, top;
+  -ms-transition-duration:0s;
+  -ms-transform:translate3d(0px,0,0);
+  -ms-transition-timing-function:ease;
+  
+  transition-property:transform, left, top;
+  transition-duration:0s;
+  transform:translate3d(0px,0,0);
+  transition-timing-function:ease;
+
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+.swiper-free-mode > .swiper-wrapper {
+  -webkit-transition-timing-function: ease-out;
+  -moz-transition-timing-function: ease-out;
+  -ms-transition-timing-function: ease-out;
+  -o-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+  margin: 0 auto;
+}
+.swiper-slide {
+  float: left;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+/* IE10 Windows Phone 8 Fixes */
+.swiper-wp8-horizontal {
+  -ms-touch-action: pan-y;
+}
+.swiper-wp8-vertical {
+  -ms-touch-action: pan-x;
+}
+
+/* ===============================================================
+Your custom styles, here you need to specify container's and slide's
+sizes, pagination, etc.
+================================================================*/
+.swiper-container {
+  /* Specify Swiper's Size: */
+
+  /*width:200px;
+  height: 100px;*/
+}
+.swiper-slide {
+  /* Specify Slides's Size: */
+  
+  /*width: 100%;
+  height: 100%;*/
+}
+.swiper-slide-active {
+  /* Specific active slide styling: */
+  
+}
+.swiper-slide-visible {
+  /* Specific visible slide styling: */ 
+
+}
+/* ===============================================================
+Pagination Styles
+================================================================*/
+.swiper-pagination-switch {
+  /* Stylize pagination button: */  
+
+}
+.swiper-active-switch {
+  /* Specific active button style: */ 
+  
+}
+.swiper-visible-switch {
+  /* Specific visible button style: */  
+  
+}
+/*  end swipe css */
+html {
+  -webkit-text-size-adjust: none;
+  background: #333;
+}
+
+body {
+  -moz-user-select: none;
+  font-family: "Microsoft Yahei", Tahoma, Arial, sans-serif;
+  -webkit-user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  background: #333;
+}
+
+img {
+  border: 0
+}
+
+.show-img-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: none;
+  overflow: hidden;
+  background-color: #000;
+}
+
+.img-detail {
+  margin: 0 auto;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: left 400ms;
+  -webkit-transition: left 400ms
+}
+
+.xgt_apply_box {
+  height: 44px;
+  width: 100%;
+  display: block;
+  line-height: 44px;
+  background: #000;
+  /*transition: bottom .5s;
+  -webkit-transition: bottom .5s*/
+   display:block;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  border-top: 1px solid #333333;
+}
+.xgt_apply_box.showpop {
+  border: 2px dashed #ea4505;
+}
+.xgt_apply_box:visited{
+  color: #fff;
+}
+.xgt_apply_box i{
+	vertical-align: middle;
+	margin-right: 6px;
+}
+
+
+.xgt-save-notice-cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #000;
+  -moz-opacity: .5;
+  -khtml-opacity: .5;
+  opacity: .5;
+  z-index: 99;
+  width: 100%;
+  height: 120%;
+  display: none
+}
+
+.xgt-save-notice-img-box {
+  position: absolute;
+  z-index: 100;
+  width: 188px;
+  height: 103px;
+  display: none
+}
+
+.xgt-save-notice-txt {
+  font-size: 17px;
+  color: #FFF;
+  height: 35px
+}
+
+.xgt-save-notice-img {
+  width: 34px;
+  margin: 0 auto
+}
+
+.show-img-info{
+  /*position: fixed;
+  left: 0;
+  right: 0;
+  display: block;
+  bottom: 44px;*/
+  position:relative;
+  height:30px;
+  line-height:30px;
+  color:#fff;
+  font-size:12px;
+  /*background-color:rgba(0,0,0,.5);*/
+  font-weight:400;
+  /*padding:0 15px;*/
+  margin:0px 4%;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+  /*transition: bottom .5s;
+  -webkit-transition: bottom .5s;*/
+}
+.xgt-detail-aside{
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: block;
+  z-index: 9;
+  transition: bottom .5s;
+  -webkit-transition: bottom .5s;
+  width:100%;
+}
+
+
+html, body, .xgt-detail-wrap, .swiper-container, .swiper-slide,#xgtDetailPage {
+  width: 100%;
+  height: 100%;
+}
+
+/*
+导航头
+*/
+#dt-hd.navstyle4 {
+  position: absolute !important;
+  top: 0 !important;
+  right: 0 !important;
+  left: 0 !important;
+  background-color: rgba(0, 0, 0, 0.1) !important;
+  -webkit-transition: margin-top .5s;
+  -o-transition: margin-top .5s;
+  transition: margin-top .5s;
+}
+
+.xgt-detail-wrap {
+  background-color: #000;
+}
+
+.swiper-wrapper {
+  position: relative;
+}
+
+.swiper-slide {
+  position: relative;
+}
+
+.xgt-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: url(http://img.to8to.com/wap/v2/loadinghourglass.gif?v=20141218) no-repeat center;
+  background-size: 24px 24px;
+}
+
+
+.app-ad{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 197px;
+    background-color: rgba(0,0,0,0.8);
+    z-index: 9;
+    display: none;
+}
+.app-ad-wrap{
+    width: 320px;
+    position: relative;
+    height: 100%;
+    margin: auto;
+}
+.icon-xgtdetail-left,
+.icon-xgtdetail-right,
+.icon-xgtdetail-close,
+.icon-xgtdetail-apply,
+.icon-xgtdetail-download{
+    background: url('http://img.to8to.com/wap/v2/xgt-detail-sprite.png?v=20150729') no-repeat;
+    background-size: 190px 332px;
+    display: inline-block;
+}
+.icon-xgtdetail-left{
+    background-position:  0 -49px;
+    width: 134px;
+    height: 123px;
+}
+.icon-xgtdetail-right{
+    background-position:  0 -185px;
+    width: 170px;
+    height: 64px;
+}
+.icon-xgtdetail-close{
+    background-position:  0 0;
+    width: 28px;
+    height: 28px;
+}
+.icon-xgtdetail-download{
+    background-position:0 -292px;
+    width: 190px;
+    height: 40px;
+}
+.icon-xgtdetail-apply{
+    background-position: -151px 0px;
+    width: 24px;
+    height: 24px;
+    margin-top:-2px;
+}
+.app-ad .icon-xgtdetail-left{
+    position: absolute;
+    top: 3px;
+    left: 1px;
+}
+.app-ad .icon-xgtdetail-right{
+    position: absolute;
+    right: 15px;
+    top: 39px;
+}
+.app-ad .icon-xgtdetail-close{
+    position: absolute;
+    right: 0;
+    top:-28px;
+}
+.app-ad .icon-xgtdetail-download-link{
+    position: absolute;
+    display: block;
+    bottom: 15px;
+    left: 50%;
+    margin-left: -95px;
+}
+
+.fullScreen .show-img-info{
+    bottom: -44px;
+    display: none;
+}
+.fullScreen #dt-hd{
+    margin-top: -44px;
+}
+
+.pinch-zoom-container,
+.pinch-zoom{
+    width: 100%!important;
+    height: 100%!important;
+}
+
+#dt-hd-navs-wrap{
+  z-index: 10000;
+}
+/*************************************
+  *m by fidermo.hu 效果图详情页优化
+  *2016/11/16
+**************************************/
+.xgt-bottom-bgc{
+  position:fixed;
+  bottom:0;
+  height:12.6%;
+  width:100%;
+  z-index:1;
+  opacity:0.3;
+  background-color:#111;
+}
+.show-shoucang-ad{
+  padding:2px 4% 0 4%;
+  margin-bottom:5px;
+  font-size:1.1rem;
+  border-top: 1px solid #555;
+}
+.show-shoucang-ad a{
+  width:84%;
+  color: #fff;
+  float:left; 
+  background-color:#34c083;
+  text-align:center;
+  display:inline-block;
+  height:45px;
+  line-height:45px;
+  -ms-border-radius:4px;
+  -o-border-radius:4px;
+  -moz-border-radius:4px;
+  -webkit-border-radius:4px;
+  border-radius:4px;
+}
+.clear:after{
+  content:'';
+  clear:both;
+  display:block;
+  visibility:hidden;
+}
+.img-count{
+    font-size:1rem;
+    color:#fff !important;
+    z-index: 1001;
+    position: absolute;
+    top:2px;
+    left: 44%;
+}
+.show-shoucang-ad .dn{
+  display:none;
+}
+.show-img-info span,.atag{
+  display:inline-block;
+  color:#ddd;
+  max-width: 222px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.atag{
+  position:absolute;
+  right:0px;
+}
+.atag a{
+  text-decoration:underline;
+  display:inline-block;
+  margin-left:15px;
+  color:#18e58c;
+}
+.show-shoucang-ad .yellow{
+  background-color:#ff9822;
+}
+.show-shoucang-ad .orange{
+  background-color:#f25618;
+}
+.show-shoucang-ad .blue{
+  background-color:#46C6E4;
+}
+.show-shoucang-ad p{
+  position: relative;
+  display:block;
+  float:right;
+  width:13%;
+  height:45px;
+  background-color:#fff;
+  -ms-border-radius:4px;
+  -o-border-radius:4px;
+  -moz-border-radius:4px;
+  -webkit-border-radius:4px;
+  border-radius:4px;
+}
+.show-shoucang-ad p em{
+    display: block;
+    width: 25px;
+    height: 39px;
+    margin: 0 auto;
+    background: url("http://img.to8to.com/wap/v2/icon-se174a62dfa.png?20161119") no-repeat -223px -501px;
+}
+/*
+ *下载弹框
+*/
+.pop-mainbody .pop-body-img{
+  padding:7px 7px;
+  max-height: 130px;
+  overflow: hidden;
+}
+.pop-mainbody .pop-body-text{
+  position: relative;
+  height: 50px;
+  bottom: 24px;
+}
+.pop-body-text img{
+  position: absolute;
+  z-index:1;
+  left: 0px;
+  bottom: -17px;
+  width: 100%;
+}
+.pop-mainbody .pop-body-text p:nth-child(2){
+  position: relative;
+  z-index: 2;
+  bottom: -13px;
+  font-size: 12px;
+  color:#999;
+}
+.pop-mainbody .pop-body-text p:nth-child(3){
+  position: relative;
+  z-index: 2;
+  top: 7px;
+  color:#999;
+}
+.pop-mainbody .pop-body-text p:nth-child(3) span{
+  color:#34c083;
+}
+.pop-mainbody .pop-button{
+  display: block;
+  position: relative;
+  z-index: 3;
+  width: 89%;
+  height: 34px;
+  margin: 0 auto;
+  bottom: 15px;
+  line-height: 34px;
+  background-color: #34C083;
+  color: #fff;
+  -ms-border-radius:18px;
+  -o-border-radius:18px;
+  -moz-border-radius:18px;
+  -webkit-border-radius:18px;
+  border-radius:18px;
+}
+.pop-mainbody .pop-button em{
+  display: block;
+  position: absolute;
+  height: 14px;
+  width: 18px;
+  right: 18px;
+  bottom: 10px;
+  background: url("http://img.to8to.com/wap/v2/icon-se174a62dfa.png?20161119") no-repeat -316px -518px;  
+}

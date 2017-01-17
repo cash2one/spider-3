@@ -1,0 +1,24 @@
+/*新改版留言弹框样式，非验证不留言*/
+.Pline_consult{ background:#fff; width:88%; position:fixed; left:6%; top:20%; border-radius:10px; z-index:1000; }
+		.Pline_consult .P_title1{ height:55px; line-height:55px; text-align:center; border-bottom:1px solid #e8e8e8; font-size:1rem; color:#000; }
+		.Pline_consult ul li{padding:0 4%; border-bottom:1px solid #e8e8e8; }
+		.Pline_consult ul li span{ display:inline-block; font-size:0.95rem; color:#666; }
+		.Pline_consult ul li span .em1{ float:left; color:#e10000; margin-right:5px;}
+		.Pline_consult ul li span .em2{ margin-left:6px; }
+		.Pline_consult ul li .text{ width:30%; font-size:0.85rem; color:#999; box-sizing:border-box; padding-left:3px; margin-left:3px; border:medium none; padding: 15px 0 15px 3px; font-family: '微软雅黑';margin: 0;}
+		.Pline_consult ul li textarea{ height:40px; width:72%; font-size:0.85rem; font-family:'微软雅黑'; margin-left:8px; line-height:20px; color:#999; border:medium none; padding:13px 0;}
+		.Pline_consult ul .li5{ height:50px; line-height:50px; border-bottom:none;}
+		.Pline_consult ul li a{ text-align:center; width:50%; display:inline-block; font-size:0.95rem; }
+		.Pline_consult ul .a1{ border-right:1px solid #e8e8e8; box-sizing:border-box; color:#cdcdcd; }
+		.Pline_consult ul .a2{ color:#4283e4; }
+		.Pline_consult .ZJ_title1{ padding:20px 0; text-align:center; border-bottom:1px solid #e8e8e8; font-size:0.95rem; }
+		.Pline_consult .ZJ_title1 .span1{ font-size:1rem;color:#000; }
+		.Pline_consult .ZJ_title1 .span2{ font-size:0.8rem; color:#999999; margin-top:11px; }
+		.Pline_consult .w4{letter-spacing:0.333em; margin-right:-0.333em;}
+		.Pline_consult ul li .button{ width:26%; height:28px; border:1px solid #e10000; color:#e10000; line-height:28px; text-align:center; background:#fff; margin-top:8px; padding:0; border-radius:2px; }
+		.Pline_consult .li_sex{height: 30px;line-height: 52px;font-size: 0.8rem!important; }
+		.Pline_consult .ZJ_title2{ font-size:0.8rem; color:#4a87e2; padding:12px 4% 0 4%; line-height:20px; }
+		.miao_tanBox ul li .text_m{ width:77%; height:35px; line-height:35px; color:#c3c3c3; box-sizing:border-box; padding-left:3px; border:1px solid #e8e8e8; margin-left:6px; }
+		.miao_tanBox ul li{ height:auto; line-height:1; margin-top:20px; border-bottom:none; }
+		.miao_tanBox .li5{  border-top:1px solid #e8e8e8; }
+		.gray_mask{ background:rgba(50,50,50,0.5); position:fixed; top:0; left:0; width:100%; height:100%; z-index:990; display:none; }

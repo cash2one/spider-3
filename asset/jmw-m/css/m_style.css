@@ -1,0 +1,644 @@
+@charset "utf-8";
+body{ background: #f3f4f7; }
+img{ width:100%; height:100%; }
+.wrap { width: 92%; margin: 0 auto; overflow: hidden; }
+.icon{background: url(../images/icon_1_11.png) no-repeat; display: inline-block; background-size: 250px 250px; vertical-align: middle;}
+.b_header{ width: 100%; height:48px; background:#e44b46; line-height:48px; overflow:hidden; position:relative;}
+.header_1{ width:2%; }
+.header_1 .icon1{ background-position:0 0; width:9px; height:17px; }
+.header_2{ width:5%; }
+.header_2 h2 { width: 100%; color: #fff; font-size: 0.96rem; font-weight: normal; }
+.header_2 .icon2{ background-position:0 -53px; width:18px; height:18px; position:absolute; right:4%; top:18px; }
+.header_2 .icon3{ background-position:0 -24px; width:16px; height:14px; position:absolute; right:13%; top:18px; }
+/*首页轮播图*/
+#slides{ height:306px; overflow:hidden;}
+#slides .slidesjs-container{ height:280px;}
+.scrollPic_box_main{width:100%;overflow:hidden;position:relative;}
+.chengeBtn{background:url("../images/lunbo-jianbian.png") no-repeat;background-size: 100%; width:100%;height: 100px;line-height:22px;text-align:center;position:absolute;left:0;bottom:0px;z-index:11;}
+.chengeBtn li{margin:0px 3px; }
+.chengeBtn li a{background:#fff; width:10px; height:10px; overflow:hidden; border-radius:10px;}
+.chengeBtn li a.active{background:#e44b46; width:10px; height:10px; overflow:hidden; border-radius:10px; z-index:110;}
+.chengeBtn li, .chengeBtn li a {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    line-height: 166px;
+    position: static;
+    cursor: pointer;
+    z-index: 99;
+}
+.many_pic{ position:absolute; width:72px; height:20px; line-height:20px; text-indent:5px; background:rgba(0,0,0,.5); border-radius:2px; right:6px; bottom:7px; z-index:110; font-size:0.75rem; color:#fff; }
+.many_pic span { display: block; background: url('../images/img_tm.png') no-repeat right center; background-size: 13px 10px; width: 64px; margin: 0 auto; }
+.scrollPic_box_main h1{ position:absolute; left:15px; bottom:30px; font-size:1rem; z-index:999; color:#fff; }
+/* 冰火菠萝旺加盟 */
+.section1_top {background: #f3f4f7;padding: 0 0 0 3%;height:36px;-webkit-appearance:none;}
+.section1_top1 {width: 100%;height: 36px;overflow: hidden;}
+.section1_top1 h1{font-size:0.95rem; color:#e44b46; line-height:36px;}
+.b_section1{ background:#fff; border-bottom:1px solid #e8eaee; }
+.section1_1 h1{ font-size:0.95rem; color:#e44b46; }
+.section1_1 p{ font-size:0.75rem; color:#e1e1e2; margin-top:4px; }
+.section1_2 {font-size: 0.75rem;color: #b0b0b0;line-height:36px;}
+.zhaoshang {font-size: 0.75rem;color: #f3f4f7;height:0;}
+.content_phone{ background: #fff; padding: 0 0 10px 0; }
+.content_phone .ul1{ border-bottom:1px solid #e8eaee; padding:15px 0; }
+.content_phone .ul1 li { width:50%; line-height: 36px; font-size: 0.9em; color: #333; }
+.content_phone .ul1 li.icons1{ background: url("../images/icons_1.png") no-repeat left center; background-size: 15px 15px; text-indent: 22px; }
+.content_phone .ul1 li.icons2{ background: url("../images/icons_3.png") no-repeat left center; background-size: 15px 15px; text-indent: 22px; }
+.content_phone .ul1 li.icons3{ background: url("../images/icons_2.png") no-repeat left center; background-size: 15px 15px; text-indent: 22px; }
+.content_phone .ul1 li.icons4{ background: #78b613; text-align: center; border-radius: 5px; }
+.content_phone .ul1 li.icons4 a{ color:#fff; }
+.icon5{ background-position:-61px 0; width:12px; height:12px; margin-right:6px; }
+.tellphone li{ color:#b4b4b4; font-size:0.75rem; line-height:26px; margin-right:10px;}
+.icon6 { background: url('../images/phone1.png') no-repeat; width: 10px; height: 14px; display: inline-block; background-size: 10px 14px; margin-top: 8px;margin-right: 4px; float: left; }
+.tellphone li a{ text-decoration:underline; }
+.tellphone .li1{ width:44%;}
+.tellphone .li2{ width:22%; text-align:center; }
+.tellphone .li3{ width:23%; text-align:center; }
+/* 询加盟底价 */
+.diJia{ width:92%; margin:12px auto; }
+.diJia li{ width: 47%; background:#fe500b; height:34px; text-align:center; line-height:34px; color:#fff; font-size:0.85rem; border-radius:20px; }
+.icon7 {
+    background: rgba(0, 0, 0, 0) url("http://m.jmw.com.cn/images/hot_2.gif") repeat scroll 0 0 / 14px 13px;
+    height: 13px;
+    margin-right: 6px;
+    width: 14px;}
+.icon8 {
+    background: rgba(0, 0, 0, 0) url("http://m.jmw.com.cn/images/hot_1.gif") no-repeat scroll 0 0 / 14px 13px;
+    height: 13px;
+    margin-right: 6px;
+    width: 14px;
+}
+/* 在线咨询 */
+.main-title{
+    background: #ffffff;
+    width: 100%;
+    overflow: hidden;
+	margin-top:7px;
+	border-top:1px solid #e8eaee;
+}
+.main-title li{
+    float: left;
+    width: 25%;
+    height: 49px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 49px;
+    border-bottom: 1px solid #E8EAEE;
+}
+.main-title li a{
+    color:#666666;
+
+}
+.main-title li:hover{
+    border-bottom: 2px solid #E44B46;
+    height: 48px;
+    color: #E44B46;
+}
+/*成功案例页面*/
+.anlixiangqing{padding: 20px 3%; background: #ffffff;overflow: hidden;border-bottom:1px solid #E8EAEE; }
+.anlixiangqing .anlipic{height: 34%;width: 44%;margin-right: 15px;}
+.anlipic img{width: 100%;height: 100%;}
+.anliwenzi{ width: 51%;}
+.anliwenzi li{line-height:18px;height:18px; font-size: 0.76rem;border-bottom: 1px solid #F3F4F7;}
+
+/* 项目介绍 start */
+.xiangmujieshao,.jiamengfeiyong,.jiamengyoushi,.jiamengdianpu,.zaixianzixun{
+	background:#fff;
+    padding:0 4%;
+
+}
+
+.xiangmujieshao{
+    position: relative;
+}
+.xiangmujieshao #toggle{
+    position: absolute;
+    right: 5%;
+    bottom: 12px;
+    color: #666666;
+    font-size: 13px;
+}
+.xiangmujieshao-title{
+    height: 35px;
+    line-height: 35px;
+    border-bottom: 1px solid #E8EAEE;
+}
+.xiangmujieshao-title h2 a{
+    color: #333;
+    font-size: 13px;
+}
+.xiangmujieshao-title a{
+    color: #B0B0B0;
+    font-size: 10px;
+}
+.xiangmujieshao-title a img{
+	width: 12px;
+    margin-left: 10px;
+	height: 6px;
+}
+.xiangmujieshao-article{
+    padding:0.625em 0;
+    font-size: 13px;
+    line-height: 23px;
+    color: #333333;
+}
+.xiangmujieshao-article img{
+    border: 0;
+    width: 100%;
+    display: block;
+}
+/* 项目介绍 stop */
+/* kongbai start */
+.blank{
+    width: 100%;
+    height: 7px;
+    border-bottom: 1px solid #E8EAEE;
+    border-top: 1px solid #E8EAEE;
+    background: #F3F4F7;
+}
+/* kongbai stop */
+
+/* 加盟费用 start */
+.jiamengfeiyong-explainin li{
+    padding: 0.96em 0;
+    font-size:0.8125em;
+}
+.feiyongshuoming p{
+    margin-bottom: 12px;
+}
+.feiyongshuoming p span{
+    color: #E44B46;
+}
+/* 加盟费用 stop */
+/* 加盟优势 start */
+.jiamengyoushi .pres li{
+    font-size: 13px;
+    line-height: 2em;
+}
+/* 加盟优势 stop */
+/* 在线咨询 start */
+.zaixianzixun{ border-bottom:1px solid #E8EAEE; }
+.zaixianzixun-title{
+    padding: 1.25em 0;
+    border-bottom: 1px solid #E8EAEE;
+}
+.zaixianzixun-title h2{
+    color: #E44B46;
+}
+.zaixianzixun-title .zaixianzixun-people{
+    color: #B0B0B0;
+    font-size: 0.625em;
+}
+.zaixianzixun-example{
+    padding: 1em 0;
+    box-sizing: border-box;
+}
+.zaixianzixun-example>li{
+    margin-bottom: 1em;
+    overflow: hidden;
+}
+.mass-1{
+    width: 19%;
+    text-align: center;
+    color: #999;
+    font-size: 0.5em;
+}
+.mass-1 img{
+    margin-bottom: 0.8em;
+	height:47px;
+	width:47px;
+}
+.mass-2{
+    width: 74%;
+    padding: 2%;
+    border: 1px solid #E4E4E4;
+    position: relative;
+}
+.mass-2 i{
+	background:url('../images/mass-left_03.png') no-repeat ;
+    position: absolute;
+    left: -8px;
+	top: 20px;
+	width: 9px;
+	height: 12px;
+	background-size: 8px 12px;
+}
+.mass-2-1{
+    font-size: 9px;
+    color: #999;
+    padding-bottom: 11px;
+    border-bottom: 1px dashed #DBDDE3;
+    line-height: 1.2rem;
+	position:relative;
+}
+.mass-2-2{
+    font-size: 12px;
+    color: #333333;
+    margin-top: 10px;
+	line-height: 20px;
+}
+.mass-2-3{
+    background:#F7F7F7;
+    padding: 1px 0;
+}
+.mass-2-3 p{
+    margin: 9px;
+    color: #999999;
+    font-size:0.625em;
+    line-height: 16px;
+}
+/* 在线咨询 stop */
+/* 我要咨询冰火菠萝旺加盟项目 */
+.ziXun{ background: #fff; margin-top: 7px; border-top: 1px solid #e3e4e9; border-bottom: 1px solid #e3e4e9; }
+.ziXun h2{ color:#e44b46; border-bottom:1px solid #e8eaee; line-height:50px; }
+.Iwant{ padding: 20px 0; }
+.Iwant p { margin-bottom: 10px; padding-left: 44px; box-sizing: border-box; position: relative; }
+.Iwant p.current6 { width: 55%; }
+.Iwant p label { position: absolute; left: 0; top: 12px; z-index: 10; width: 34px; font-size: 0.85rem; color: #444; padding-left: 10px; background: url('../images/five_red.png') no-repeat left center; background-size: 6px 6px; }
+.Iwant p input {
+border: 1px solid #cdcbcb;
+border-radius: 2px;
+box-shadow: 0 1px 1px 1px #efefef inset;
+box-sizing: border-box;
+color: #d4d4d4;
+font-family: "微软雅黑";
+font-size: 0.73em;
+height: 40px;
+line-height: 40px;
+overflow: hidden;
+text-indent: 4px;
+width: 100%;
+color:#999;
+}
+.you_a { width: 45%; padding-left: 10px; box-sizing: border-box; line-height: 36px; }
+.you_a label{ font-size:0.85rem; color:#c0c0c0; }
+.you_a label.current8 { padding-right: 6px; }
+.you_a input{ margin-top:12px; }
+.Iwant p.current9{ margin-bottom:0; }
+.Iwant p.current9 a {display:block; background: #e44b46 ; border: none; border-radius: 2px; color: #fff; font-size: 0.85em; text-align: center; cursor: pointer;width:100%;height:40px;line-height:40px; }
+.Iwant p.liuY span{ width:12px; height:12px; display:block; position:absolute; right:3px; top:1px; }
+/* 冰火菠萝旺官网活动 */
+.guanWang{ background: #fff; margin-top: 7px; border-top: 1px solid #e3e4e9; border-bottom: 1px solid #e3e4e9; }
+.hongBao{ padding:10px 3%; width:92%; margin: auto; }
+.hongBao_l{ display: block; width:47%; border:1px solid #fa9e3b; border-radius:3px; }
+.hongBao_l dl{ background:#fa9e3b; padding:5px 0; }
+.hongBao_l dl dt{ width:24%; margin-left:3%; }
+.hongBao_l dl dd{ width:70%; margin-left:3%; font-size:0.85rem; color:#fef5d5; }
+.hongBao_l dl dd p{ font-weight:bold; margin-top:4px;color:#fff; }
+.hongBao_l dl p span{ font-weight:normal; font-size:0.75rem; }
+.hongBao_l .red_p{ font-size:0.75rem; color:#999999; padding:3px 0 3px 3%; }
+/* 冰火菠萝旺创业问答 */
+.ziXun .wen_p{ border-bottom:1px solid #e8eaee; line-height:50px; }
+.ziXun .wen_p a{ font-size:0.75rem; color:#b5b5b5; }
+.icon9{ background:url('http://m.jmw.com.cn/images/xia_j.png') no-repeat right center; width:15px; height:15px; display:inline-block; background-size:15px 15px;  }
+.answer{ padding-bottom:20px; }
+.answer li{ font-size:0.85rem; line-height:30px; background:url('http://m.jmw.com.cn/images/wen_07.png') no-repeat left center; background-size:14px 14px; padding-left:18px; }
+.answer li span{ float:right; font-size:0.75rem; color:#b0b0b0; }
+/* 冰火菠萝旺网友点评 */
+.ziXun .wen_p span{ font-size:0.75rem; color:#b5b5b5; }
+.pingjia{ padding:20px 0; }
+.img-scroll { position: relative; width: 100%; }
+.img-scroll .prev { position: absolute; display: block; width: 10px; height: 19px; background: url('../images/prev_22.png') no-repeat; background-size: 10px 19px; top: 50px; left: 0px; cursor: pointer; z-index: 2; }
+.img-scroll .next { position: absolute; display: block; width: 10px; height: 19px; background: url('../images/next_22.png') no-repeat; background-size: 10px 19px; top: 50px; right: 0px; cursor: pointer; z-index: 2; }
+.img-list { position: relative; width: 310px; margin: 0px auto; overflow: hidden; }
+.img-list ul { width: 9999px; }
+.img-list li { float: left; width: 310px; }
+.pingjia_list { width: 96%; margin: 0 auto; }
+.pingjia_dl dt { display: inline-block; vertical-align: middle; width: 18%; margin-right: 3%; }
+.pingjia_dl dt a { display: block; }
+.pingjia_dl dt a img { max-width: 117px; border-radius:50%; }
+.pingjia_dl dd { display: inline-block; vertical-align: middle; width: 76%; }
+.pingjia_dl dd em { display: block; color: #444; font-size: 0.95rem; width: 100%; }
+.pingjia_dl dd span { display: block; color: #bcbcbc; font-size: 0.8rem; width: 100%; }
+.my_fee1 { background: url("../images/five_xs.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0); display: inline-block; height: 12px; margin-top: 6px; overflow: hidden; width: 70px; background-position: -1px -53px; margin-left: 8px; }
+.my_fee2 { background: url("../images/five_xs.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0); display: inline-block; height: 12px; margin-top: 6px; overflow: hidden; width: 70px; background-position: -1px -40px; margin-left: 8px; }
+.my_fee3 { background: url("../images/five_xs.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0); display: inline-block; height: 12px; margin-top: 6px; overflow: hidden; width: 70px; background-position: -1px -27px; margin-left: 8px; }
+.my_fee4 { background: url("../images/five_xs.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0); display: inline-block; height: 12px; margin-top: 6px; overflow: hidden; width: 70px; background-position: -1px -13px; margin-left: 8px; }
+.my_fee5 { background: url("../images/five_xs.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0); display: inline-block; height: 12px; margin-top: 6px; overflow: hidden; width: 70px; background-position: -1px 0px; margin-left: 8px; }
+.pingjia_1 { color: #444; font-size: 0.85em; padding: 1em 0; border-bottom: 1px solid #e9e9e9; line-height:22px; }
+.pingjia_2 { padding-top: 1.2em; }
+.pingjia_2 p a { display: inline-block; vertical-align: middle; }
+.pingjia_2 p a img { width: 20px; height: 16px; }
+.pingjia_2 p em { display: inline-block; vertical-align: middle; color: #cb0000; font-size: 0.87em; }
+.pingjia_2 p span { display: inline-block; vertical-align: middle; color: #999; font-size: 0.87em; }
+/* 冰火菠萝旺加盟资讯 */
+/*.ziXun_ul{ padding:20px 0 5px; }
+.ziXun_ul .li_p{ width: 300px; font-size: 0.9rem;white-space: nowrap;overflow: hidden;  text-overflow: ellipsis;}
+.ziXun_ul li{ margin-bottom:15px; }*/
+.ziXun_ul{ padding-bottom:20px; }
+.ziXun_ul li{ font-size:0.85rem; line-height:30px; background-size:14px 14px; }
+.ziXun_ul li span{ float:right; font-size:0.75rem; color:#b0b0b0; }
+/* 中国加盟网创业指导 */
+.zhiDao{ padding:15px 0; border-bottom:1px solid #e8eaee; }
+.zhiDao dl{ width:58%; }
+.zhiDao dt { display: inline-block; vertical-align: middle; width: 22%; margin-right: 3%; }
+.zhiDao dt a { display: block; }
+.zhiDao dt a img { max-width: 117px; border-radius:50%; }
+.zhiDao dd .p1{ color:#333; font-size:0.9rem; margin-top:6px; }
+.zhiDao dd .p2{ color:#d0cfcf; font-size:0.75rem; margin-top:8px; }
+.zhiDao .phone{ width:40%; margin-top:3px; }
+.zhiDao .phone li{ float:right; width:86%; height:32px; border:1px solid #78b613; display:block; border-radius:5px; margin-left:6px; }
+@media screen and (min-width:375px){
+	.zhiDao .phone li{width:70%;}
+}
+.zhiDao .phone .a1{ background:url('../images/telephone.png') no-repeat; width:20px; height:20px; background-size:20px 20px; display:block; margin:4px auto; }
+.zhiDao .phone .a2{ background:url('../images/message.png') no-repeat; width:22px; height:20px; background-size:22px 20px; display:block; margin:7px 8px; }
+@media screen and (min-width:350px){
+	.zhiDao .phone{ margin-top:8px; }
+}
+/* 冰火菠萝旺官网 */
+.pr{ position:relative; }
+.ziXun_a{ display:block; background: #fff; margin-top: 7px; height:50px; line-height:50px; color:#e44b46; }
+.icon10{ width:22px; height:22px; background:url('../images/right_j.png') no-repeat; display:inline-block; position:absolute; right:0; top:0; bottom:0; margin:auto 0; background-size:22px 22px; }
+/* 相关信息 */
+.returntop {
+    bottom: 60px;
+    display: block;
+    position: fixed;
+    right: 8px;
+    z-index: 988;
+	width: 1.7066rem;
+    height: 1.7066rem;
+}
+.message_list{ background:#fff; border-bottom:1px solid #e8eaee;position: relative; }
+.zi_message li{ float:left; line-height:50px; color:#e44b46; margin-left:4%; }
+.zi_message h2{ border-bottom:none; }
+.jiaMeng_ul{ margin-left:4%; box-sizing:border-box; padding:20px 0 10px 0; display:none; }
+.jiaMeng_ul ul{float:left; width:21%; margin-right:4%; }
+.jiaMeng_ul ul li{height:14px; line-height:14px; overflow:hidden; font-size:0.75rem; margin-bottom:10px; }
+.jiaMeng_ul ul li a{ color:#b0b0b0; }
+/* footer */
+.copyRight{ padding:25px 0; background:#f3f4f7; }
+.copyRight p{ text-align:center; }
+.copyRight p.copy-1 a { display: inline-block; vertical-align: middle; margin: 0 2%; color: #444; font-size: 0.85em; }
+.copyRight p.copy-1 i { display: inline-block; vertical-align: middle; background: #444; width: 1px; height: 10px; }
+.copyRight p.copy-2{ margin-top:10px; }
+.copyRight p.copy-2 span { font-size: 0.62em; color: #c1c1c1; }
+
+/* 官网页 */
+/* 官网页 */
+/* 廖排骨官网 */
+.guanWang2{ background:#f3f4f7; padding:10px 3%; }
+.guanWang2 dl dt{ width:25%; }
+.guanWang2 dl dt img{ border-radius:6px; max-width:130px; }
+.guanWang2 dl dd{ width:69%; margin-left:3%; }
+.guanWang2 dl dd h2{ font-size:0.95rem; color:#e44b46; margin-top:6px; }
+.guanWang2 dl dd p{ font-size:0.75rem; color:#b0b0b0; margin-top:8px; line-height:15px; }
+.guanWang2 dl dd p a{ color:#b0b0b0; }
+.maoDian{ position:relative; }
+.nav{ width:98.6%; background:#ffda73; position:absolute; height:23px; top:6px; left:0.7%; border-radius:12px; }
+.nav li{ float:left; width:16.6%; font-size:0.75rem; line-height:23px; text-align:center; }
+.nav li a{color: #3e160d; }
+.company{ padding:10px 2%; background:#fff; box-sizing:border-box; }
+.company dl{ width:60%; font-size:0.625rem; line-height:0.85rem; }
+.company dl dd{ line-height:17px; }
+.company dl dd font{ color:#3e160d; font-weight:bold; }
+.company .dt1{ font-size:1.2rem; font-weight:bold; margin-bottom:7px; color:#3e160d; }
+.company .comp_tu{ width:40%; margin-top:22px; }
+/* 荣誉 */
+.rongYu{ background:url('../images/rongYu_bg_40.png'); border-bottom:1px dashed #b2b2b2; padding:0 1%; box-sizing:border-box; }
+.rongYu_top{ padding:10px 1%; box-sizing:border-box; }
+.rongYu_top dl{ width:60%; font-size:0.625rem; line-height:0.85rem; }
+.rongYu_top dl dd{ line-height:17px; }
+.rongYu_top .dt1{ font-size:1.2rem; font-weight:bold; margin-bottom:7px; color:#3e160d; }
+.rongYu_top .comp_tu{ width:40%; margin-top:22px; }
+.rongYu_top .dd1{ color:#f7b300; margin-bottom:5px; font-size:0.7rem; }
+.rongYu .jiangB{ width:84%; margin:6px auto; }
+/* 产品展示 */
+.chanPin_pic{ margin-top:10px; width:100%; overflow:hidden; }
+.chanPin_pic a{ margin:4px 0 0 1.2%; display:block; float:left; height:74px; overflow:hidden; }
+.chanPin_pic .a1{ width:17.6%; }
+.chanPin_pic .a1 img{ max-width:72px; }
+.chanPin_pic .a2{ width:19.8%; }
+.chanPin_pic .a2 img{ max-width:82px; }
+.chanPin_pic .a3{ width:16.6%; }
+.chanPin_pic .a3 img{ max-width:68px; }
+.chanPin_pic .a4{ width:20.8%; }
+.chanPin_pic .a4 img{ max-width:86px; }
+.chanPin_pic .a5{ width:17.6%; }
+.chanPin_pic .a5 img{ max-width:73px; }
+/* 投资问答 */
+.touZi{ background:#fff; }
+.wenDa{ color:#3e160d; font-size:1.3rem; font-weight:bold; text-align:center; padding-top:18px; margin-bottom:6px; }
+.touzi_dl{ background: #fff; padding:10px 1.8%; }
+.touzi_dl dt{ width:22%; }
+.touzi_dl dt a{ display:block; width:64px; height:64px; border:3px solid #f7b500; border-radius:50%; overflow:hidden; }
+.touzi_dl dt img{ border-radius:50%; }
+.touzi_dl:nth-of-type(even){background: #ededed; }
+.touzi_dl dd{ width:73%; color:#454545; margin-right:2%; }
+.touzi_dl dd .p1{ font-size:0.85rem; margin-bottom:8px; margin-top:10px; }
+.touzi_dl dd .p2{ font-size:0.75rem; line-height:20px; }
+@media screen and (min-width:375px){
+	.touzi_dl dt a{ display:block; width:80px; height:80px; }
+} 
+@media screen and (max-width:320px){
+	.touzi_dl dt a{ display:block; width:64px; height:64px; }
+} 
+/* 店面展示 */
+.dianMian_ul{ margin: auto 0; }
+.dianMian_ul li{ width:33%; float:left; padding:0 1% 10px; box-sizing: border-box;}
+.dianMian_ul li a{ display:block; height:94px; }
+.dianMian_ul li img{ border-radius:10px; }
+@media screen and (min-width:350px){
+	.dianMian_ul li a{ display:block; height:105px; }
+}
+@media screen and (min-width:415px){
+	.dianMian_ul li a{ display:block; height:200px; overflow:hidden; }
+}
+/* 联系我们 */
+/* footer */
+.footer{ width:100%; background:#f6f6f6; padding:10px 0; border-bottom:1px solid #e8eaee; }
+.footer .p1{ width:175px; height:36px; margin:auto; }
+.footer .button{ width:318px; height:49px; margin:13px auto 7px; }
+.footer_font{ width:94%; margin:auto; }
+.footer_font dl{ width:62%; }
+.footer_font dl dt{ font-size:0.95rem; margin:10px 0 6px 0; }
+.footer_font dl dd{ font-size:0.75rem; line-height:17px; }
+.footer_font .erweiMa{ width:37%; }
+.erweiMa a{ width:49%; display:block; }
+@media screen and (max-width:320px){
+	.footer_font .erweiMa{ margin-top:20px; }
+} 
+/* 廖排骨相关信息项目 */
+.xiangMu_ul{ padding:20px 0 10px; }
+.xiangMu_ul ul{ width:29%; }
+.xiangMu_ul ul li{ font-size: 0.75rem; height: 16px; line-height: 16px; overflow: hidden; margin-bottom: 10px;}
+.xiangMu_ul ul li a{ color:#b0b0b0; }
+/* 廖排骨加盟资讯 */
+/* 廖排骨加盟资讯 */
+.zixUN_sec{ background:#fff; border-bottom:1px solid #e8eaee; border-top:1px solid #e8eaee; margin-bottom:7px; padding:20px 4%; }
+.zixUN_sec ul{ border-bottom:1px dashed #dddddd; }
+.zixUN_sec ul li{ margin-bottom:12px; }
+.zixUN_sec ul li a{line-height:20px;color:#333;}
+.zixUN_sec p{ padding-top:15px; width:100%; font-size:0.8rem; line-height:20px; }
+.zixUN_sec .li2{ font-size:0.75rem; color:#d0cfcf; }
+.zixUN_sec .li2 font{ color:#e80000; margin-right:6px; }
+/* 廖排骨项目介绍 */
+/* 廖排骨项目介绍 */
+.introduce{ background:#fff; padding:20px 4% 25px; font-size:0.8rem; border-bottom:1px solid #e8eaee; border-top:1px solid #e8eaee; }
+.introduce .p1{ line-height:24px; margin-bottom:10px; }
+.introduce dl dt{ margin:20px 0 8px; }
+.introduce dl dd{ line-height:24px; text-indent:2em; }
+.introduce ul{ margin-top:20px; }
+.introduce ul li{ line-height:24px; }
+/* 图库 */
+/* 图库 */
+.picture_sect{ background:#fff; padding:8px 0; border-bottom:1px solid #e8eaee; border-top:1px solid #e8eaee; }
+.picture_sect ul{ width:96%; margin:0 auto; }
+.picture_sect ul li{ width:33.3%; float:left; }
+.picture_sect ul li a{ display:block; margin:8px; text-align:center; overflow:hidden; }
+/* 廖排骨网友点评 */
+/* 廖排骨网友点评 */
+.dianP_p{ background:#f3f4f7; padding-left:4%; font-size:0.8rem; overflow:hidden; line-height:25px; color:#b0b0b0; }
+.dianP_p a{ color:#b0b0b0; }
+.Mr_wang{ background:#fff; border-bottom:1px solid #e8eaee; border-top:1px solid #e8eaee; margin-bottom:7px; }
+/* 创业问答 */
+/* 创业问答 */
+.zhiFu_s{ border-bottom:1px solid #e8eaee; border-top:1px solid #e8eaee; background:#fff; padding:20px 4%; margin-bottom:7px; }
+.zhiFu_s .p_wen{ background:url('http://m.jmw.com.cn/images/wen_07.png') no-repeat left center; background-size:14px 14px; padding-left:18px; font-size:0.85rem; margin-bottom:12px; }
+.p_panda{ font-size:0.75rem; color:#b0b0b0; }
+.p_panda font{ color:#3990e6; margin-right:12px; }
+.luWei{ border:1px dashed #d5d6d8; margin:12px 0; padding:20px 4%;}
+.p_da{ background:url('http://m.jmw.com.cn/images/p_da_03.png') no-repeat left top; background-size:14px 14px; text-indent:2em; font-size:0.8rem; line-height:18px; }
+.p_ruHua{ font-size:0.75rem; margin-top:10px; }
+.p_ruHua .i1{ background:url('http://m.jmw.com.cn/images/zan_i1_11.png') no-repeat center left; background-size:12px 12px; padding-left:12px; }
+.p_ruHua .i2{ background:url('http://m.jmw.com.cn/images/zan_i2_11.png') no-repeat center left; background-size:12px 12px; padding-left:14px; }
+.p_zhanKai{ font-size:0.8rem; text-align:center; }
+.zK_i{ background:url('http://m.jmw.com.cn/images/xia_j.png') no-repeat center right; width:15px; height:15px; background-size:17px 16px; display:inline-block; margin-left:3px; }
+.zKshang_i{ background:url('http://m.jmw.com.cn/images/shang_j.png') no-repeat center right; width:15px; height:15px; background-size:17px 16px; display:inline-block; margin-left:3px;margin-bottom: -6px;}
+/*弹框开始*/
+.black-all{
+    display: none;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.5);
+    position: fixed;
+    z-index: 1000;
+    top:0;
+    left:0;
+}
+.consult{
+    width: 270px;
+    height: 250px;
+    border-radius: 20px;
+    background: #ffffff;
+    position: absolute;
+    top:50%;
+    left:50%;
+    margin-top: -125px;
+    margin-left: -135px;
+}
+.consult-title{
+    width: 100%;
+    text-align: center;
+    height: 38px;
+    line-height: 38px;
+    border-bottom: 1px solid #E8E8E8;
+    font-size: 17px;
+    color: #333333;
+}
+.consult-name{
+    height: 33px;
+    width: 100%;
+    line-height: 33px;
+    border-bottom: 1px solid #E8E8E8;
+}
+.consult-liuyan,.consult-name label{
+    margin-left: 21px;
+    margin-right: 6px;
+	color:#333;
+	font-size:0.8125em;
+}
+.consult-name input{
+    height: 23px;
+    width: 180px;
+    border: none;
+	color:#999;
+}
+.consult-liuyan{
+    height: 51px;
+    margin-top: 15px;
+
+}
+.consult-liuyan textarea {
+    margin-top: -4px;
+    vertical-align: middle;
+    width: 170px;
+    height: 50px;
+    line-height: 20px;
+    color: #999;
+    border: none;
+    font-size: 0.6875rem;
+    font-family: "Microsoft YaHei";
+}
+.consult-button{
+    border-top: 1px solid #E8E8E8;
+}
+.consult-button a{
+    display: block;
+    float: left;
+    width: 134px;
+    color: #347AE2;
+    line-height: 40px;
+    text-align: center;
+}
+/*弹框结束*/
+
+@media screen and (max-width:320px){
+    .mianboxie{
+        width:22px;
+        height: 12px;
+        white-space:nowrap;
+        overflow:hidden;
+        text-overflow:ellipsis;
+    }
+    .icon6{
+        margin-top: 8px;
+    }
+    .tellphone li{
+        line-height: 26px;
+    }
+}
+
+/*留言咨询弹出层 start*/
+.tm_bg{ background: rgba(0,0,0,0.4); position:fixed; z-index:1000; top:0px; left:0px; display: none;}
+.J-clothe{ width: 272px; height: 132px; background: rgba(255,255,255,0.2); border-radius: 4px; padding: 4px; position: fixed; left: 50%; top: 50%; margin-left: -140px; margin-top: -100px; z-index: 1002;}
+.clothe_child{ background: #fff url(http://m.jmw.com.cn/images/tcbg.png) no-repeat center center; background-size: 207px 132px; width: 272px; height: 132px; text-align: center; position: relative;}
+.clothe-1{ color: #5b5b5b; font-size: 1.45em; font-weight: bold; padding-top: 1em;}
+.clothe-1 span{ color: #e44b46;}
+.clothe-2{ color: #cac9c9; font-size: 0.85em; padding: 0.4em 0 0.6em;}
+.clothe-3 a{ display: inline-block; background: #e44b46; width: 100px; height: 30px; line-height: 30px; text-align: center; color: #fff; font-size: 1.05em; border-radius: 15px;}
+.clothe-4{ position: absolute; top: -5px; right: 2px; z-index: 10; color: #848484; font-size: 1.4em; cursor: pointer;}
+
+.J-extent{ width: 272px; height: 362px; background: rgba(255,255,255,0.2); border-radius: 4px; padding: 4px; position: fixed; left: 50%; top: 50%; margin-left: -140px; margin-top: -185px; z-index: 1200; display: none;}
+.extent_child{ background: #f3f4f7; background-size: 207px 132px; width: 272px; height: 362px; position: relative; border-radius: 3px 3px 0 0;}
+.extentTop{ height: 30px; line-height: 30px; background: #e44b46; border-radius: 2px 2px 0 0; padding: 0 7px 0 10px;}
+.extentTop span{ float: left; color: #fff; font-size: 0.85em;}
+.extentTop a{ float: right; font-size: 1.4em; color: #fff; position: relative; top: -2px;}
+.extentBtn{ padding: 0 10px;}
+.extent-1{ color: #999; font-size: 0.7em; padding: 1em 0;}
+.extent-2{ margin-bottom: 8px;}
+.extent-2 label,.extent-3 label{ display: inline-block; vertical-align: middle; color: #444; font-size: 0.8em; padding-right: 3px;}
+.extent-2 input{ vertical-align: middle; background: #fff; border: 1px solid #d8d9dd; border-radius: 3px; width: 200px; height: 28px; line-height: 28px; padding: 0 3px; color: #333;}
+.extent-3 textarea{ vertical-align: middle; background: #fff; border: 1px solid #d8d9dd; border-radius: 3px; width: 200px; height: 150px; line-height: 20px; padding: 3px; color: #333;}
+.extent-4{ margin-top: 12px;}
+.extent-4 input{ background: #e44b46 url(http://m.jmw.com.cn/images/button_bg.png) repeat; height: 30px; line-height: 30px; overflow: hidden; text-align: center; color: #fff; border: none; border-radius: 4px; width: 100px; cursor: pointer; margin-left: 85px;}
+/*头部的h2*/
+.header_1{ width:2%; }   
+.header_2{ width:5%; }
+/*加盟店铺页*/
+.jiamengdian{border-bottom: 1px dashed #DDDDDD;margin: 0 3%;padding:10px 0 }
+.jiamengdian li{padding: 0.6em 3%;  font-size: 0.8125em;}
+
+
+
+
+
+
+
+
+
+
+
+
+
